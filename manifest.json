@@ -1,0 +1,1293 @@
+{
+  "bundled": [
+    "bundled:ambient_02",
+    "bundled:chillout_05",
+    "bundled:cinematic_06",
+    "bundled:deephouse_09",
+    "bundled:dnb_08",
+    "bundled:edm_08",
+    "bundled:epic_03",
+    "bundled:futuregarage_04",
+    "bundled:house_02",
+    "bundled:lofi_08",
+    "bundled:reggaeton_06",
+    "bundled:sportrock_01",
+    "bundled:synthwave_05",
+    "bundled:trap_07",
+    "bundled:worldchill_01",
+    "bundled:house_07__first-cut"
+  ],
+  "downloadBase": "https://raw.githubusercontent.com/neuratim/frameosu_music/main",
+  "licence": "CC0 1.0 Universal (public domain). Composed for NeuraTiM with Fable AI. No attribution required.",
+  "tracks": [
+    {
+      "bytes": 7681297,
+      "category": "calmAndFocus",
+      "genre": "ambient",
+      "id": "bundled:ambient_01",
+      "path": "tracks/ambient/ambient_01.mp3",
+      "seconds": 320,
+      "title": "Ambient 01"
+    },
+    {
+      "bytes": 4888912,
+      "category": "calmAndFocus",
+      "genre": "ambient",
+      "id": "bundled:ambient_02",
+      "path": "tracks/ambient/ambient_02.mp3",
+      "seconds": 204,
+      "title": "Ambient 02"
+    },
+    {
+      "bytes": 5487012,
+      "category": "calmAndFocus",
+      "genre": "ambient",
+      "id": "bundled:ambient_03",
+      "path": "tracks/ambient/ambient_03.mp3",
+      "seconds": 229,
+      "title": "Ambient 03"
+    },
+    {
+      "bytes": 6481337,
+      "category": "calmAndFocus",
+      "genre": "ambient",
+      "id": "bundled:ambient_04",
+      "path": "tracks/ambient/ambient_04.mp3",
+      "seconds": 270,
+      "title": "Ambient 04"
+    },
+    {
+      "bytes": 8412935,
+      "category": "calmAndFocus",
+      "genre": "ambient",
+      "id": "bundled:ambient_05",
+      "path": "tracks/ambient/ambient_05.mp3",
+      "seconds": 351,
+      "title": "Ambient 05"
+    },
+    {
+      "bytes": 7681297,
+      "category": "calmAndFocus",
+      "genre": "ambient",
+      "id": "bundled:ambient_06",
+      "path": "tracks/ambient/ambient_06.mp3",
+      "seconds": 320,
+      "title": "Ambient 06"
+    },
+    {
+      "bytes": 6950287,
+      "category": "calmAndFocus",
+      "genre": "ambient",
+      "id": "bundled:ambient_07",
+      "path": "tracks/ambient/ambient_07.mp3",
+      "seconds": 290,
+      "title": "Ambient 07"
+    },
+    {
+      "bytes": 6736501,
+      "category": "highVelocity",
+      "genre": "bigbeat",
+      "id": "bundled:bigbeat_01",
+      "path": "tracks/bigbeat/bigbeat_01.mp3",
+      "seconds": 281,
+      "title": "Big Beat 01"
+    },
+    {
+      "bytes": 7970316,
+      "category": "highVelocity",
+      "genre": "bigbeat",
+      "id": "bundled:bigbeat_02",
+      "path": "tracks/bigbeat/bigbeat_02.mp3",
+      "seconds": 332,
+      "title": "Big Beat 02"
+    },
+    {
+      "bytes": 6913297,
+      "category": "highVelocity",
+      "genre": "bigbeat",
+      "id": "bundled:bigbeat_03",
+      "path": "tracks/bigbeat/bigbeat_03.mp3",
+      "seconds": 288,
+      "title": "Big Beat 03"
+    },
+    {
+      "bytes": 5646254,
+      "category": "brandAndJourney",
+      "genre": "chillout",
+      "id": "bundled:chillout_01",
+      "path": "tracks/chillout/chillout_01.mp3",
+      "seconds": 235,
+      "title": "Chillout 01"
+    },
+    {
+      "bytes": 8609794,
+      "category": "brandAndJourney",
+      "genre": "chillout",
+      "id": "bundled:chillout_02",
+      "path": "tracks/chillout/chillout_02.mp3",
+      "seconds": 359,
+      "title": "Chillout 02"
+    },
+    {
+      "bytes": 6011760,
+      "category": "brandAndJourney",
+      "genre": "chillout",
+      "id": "bundled:chillout_03",
+      "path": "tracks/chillout/chillout_03.mp3",
+      "seconds": 250,
+      "title": "Chillout 03"
+    },
+    {
+      "bytes": 7890068,
+      "category": "brandAndJourney",
+      "genre": "chillout",
+      "id": "bundled:chillout_04",
+      "path": "tracks/chillout/chillout_04.mp3",
+      "seconds": 329,
+      "title": "Chillout 04"
+    },
+    {
+      "bytes": 4703338,
+      "category": "brandAndJourney",
+      "genre": "chillout",
+      "id": "bundled:chillout_05",
+      "path": "tracks/chillout/chillout_05.mp3",
+      "seconds": 196,
+      "title": "Chillout 05"
+    },
+    {
+      "bytes": 6841826,
+      "category": "brandAndJourney",
+      "genre": "chillout",
+      "id": "bundled:chillout_06",
+      "path": "tracks/chillout/chillout_06.mp3",
+      "seconds": 285,
+      "title": "Chillout 06"
+    },
+    {
+      "bytes": 6058780,
+      "category": "brandAndJourney",
+      "genre": "chillout",
+      "id": "bundled:chillout_07",
+      "path": "tracks/chillout/chillout_07.mp3",
+      "seconds": 252,
+      "title": "Chillout 07"
+    },
+    {
+      "bytes": 7127084,
+      "category": "brandAndJourney",
+      "genre": "chillout",
+      "id": "bundled:chillout_08",
+      "path": "tracks/chillout/chillout_08.mp3",
+      "seconds": 297,
+      "title": "Chillout 08"
+    },
+    {
+      "bytes": 7054359,
+      "category": "brandAndJourney",
+      "genre": "chillout",
+      "id": "bundled:chillout_09",
+      "path": "tracks/chillout/chillout_09.mp3",
+      "seconds": 294,
+      "title": "Chillout 09"
+    },
+    {
+      "bytes": 6941510,
+      "category": "screenAndScore",
+      "genre": "cinematic",
+      "id": "bundled:cinematic_01",
+      "path": "tracks/cinematic/cinematic_01.mp3",
+      "seconds": 289,
+      "title": "Cinematic 01"
+    },
+    {
+      "bytes": 5633715,
+      "category": "screenAndScore",
+      "genre": "cinematic",
+      "id": "bundled:cinematic_02",
+      "path": "tracks/cinematic/cinematic_02.mp3",
+      "seconds": 235,
+      "title": "Cinematic 02"
+    },
+    {
+      "bytes": 6145297,
+      "category": "screenAndScore",
+      "genre": "cinematic",
+      "id": "bundled:cinematic_03",
+      "path": "tracks/cinematic/cinematic_03.mp3",
+      "seconds": 256,
+      "title": "Cinematic 03"
+    },
+    {
+      "bytes": 6431182,
+      "category": "screenAndScore",
+      "genre": "cinematic",
+      "id": "bundled:cinematic_04",
+      "path": "tracks/cinematic/cinematic_04.mp3",
+      "seconds": 268,
+      "title": "Cinematic 04"
+    },
+    {
+      "bytes": 7770950,
+      "category": "screenAndScore",
+      "genre": "cinematic",
+      "id": "bundled:cinematic_05",
+      "path": "tracks/cinematic/cinematic_05.mp3",
+      "seconds": 324,
+      "title": "Cinematic 05"
+    },
+    {
+      "bytes": 5223697,
+      "category": "screenAndScore",
+      "genre": "cinematic",
+      "id": "bundled:cinematic_06",
+      "path": "tracks/cinematic/cinematic_06.mp3",
+      "seconds": 218,
+      "title": "Cinematic 06"
+    },
+    {
+      "bytes": 8379707,
+      "category": "screenAndScore",
+      "genre": "cinematic",
+      "id": "bundled:cinematic_07",
+      "path": "tracks/cinematic/cinematic_07.mp3",
+      "seconds": 349,
+      "title": "Cinematic 07"
+    },
+    {
+      "bytes": 7681297,
+      "category": "screenAndScore",
+      "genre": "cinematic",
+      "id": "bundled:cinematic_08",
+      "path": "tracks/cinematic/cinematic_08.mp3",
+      "seconds": 320,
+      "title": "Cinematic 08"
+    },
+    {
+      "bytes": 8272501,
+      "category": "screenAndScore",
+      "genre": "cinematic",
+      "id": "bundled:cinematic_09",
+      "path": "tracks/cinematic/cinematic_09.mp3",
+      "seconds": 345,
+      "title": "Cinematic 09"
+    },
+    {
+      "bytes": 4819322,
+      "category": "modernSongs",
+      "genre": "darksynth",
+      "id": "bundled:darksynth_01",
+      "path": "tracks/darksynth/darksynth_01.mp3",
+      "seconds": 201,
+      "title": "Darksynth 01"
+    },
+    {
+      "bytes": 6075707,
+      "category": "modernSongs",
+      "genre": "darksynth",
+      "id": "bundled:darksynth_02",
+      "path": "tracks/darksynth/darksynth_02.mp3",
+      "seconds": 253,
+      "title": "Darksynth 02"
+    },
+    {
+      "bytes": 6145297,
+      "category": "modernSongs",
+      "genre": "darksynth",
+      "id": "bundled:darksynth_03",
+      "path": "tracks/darksynth/darksynth_03.mp3",
+      "seconds": 256,
+      "title": "Darksynth 03"
+    },
+    {
+      "bytes": 8295697,
+      "category": "modernSongs",
+      "genre": "darksynth",
+      "id": "bundled:darksynth_04",
+      "path": "tracks/darksynth/darksynth_04.mp3",
+      "seconds": 346,
+      "title": "Darksynth 04"
+    },
+    {
+      "bytes": 7494470,
+      "category": "modernSongs",
+      "genre": "darksynth",
+      "id": "bundled:darksynth_05",
+      "path": "tracks/darksynth/darksynth_05.mp3",
+      "seconds": 312,
+      "title": "Darksynth 05"
+    },
+    {
+      "bytes": 5761611,
+      "category": "electronicMotion",
+      "genre": "deephouse",
+      "id": "bundled:deephouse_01",
+      "path": "tracks/deephouse/deephouse_01.mp3",
+      "seconds": 240,
+      "title": "Deep House 01"
+    },
+    {
+      "bytes": 4871985,
+      "category": "electronicMotion",
+      "genre": "deephouse",
+      "id": "bundled:deephouse_02",
+      "path": "tracks/deephouse/deephouse_02.mp3",
+      "seconds": 203,
+      "title": "Deep House 02"
+    },
+    {
+      "bytes": 8065611,
+      "category": "electronicMotion",
+      "genre": "deephouse",
+      "id": "bundled:deephouse_03",
+      "path": "tracks/deephouse/deephouse_03.mp3",
+      "seconds": 336,
+      "title": "Deep House 03"
+    },
+    {
+      "bytes": 5616161,
+      "category": "electronicMotion",
+      "genre": "deephouse",
+      "id": "bundled:deephouse_04",
+      "path": "tracks/deephouse/deephouse_04.mp3",
+      "seconds": 234,
+      "title": "Deep House 04"
+    },
+    {
+      "bytes": 7005457,
+      "category": "electronicMotion",
+      "genre": "deephouse",
+      "id": "bundled:deephouse_05",
+      "path": "tracks/deephouse/deephouse_05.mp3",
+      "seconds": 292,
+      "title": "Deep House 05"
+    },
+    {
+      "bytes": 8065611,
+      "category": "electronicMotion",
+      "genre": "deephouse",
+      "id": "bundled:deephouse_06",
+      "path": "tracks/deephouse/deephouse_06.mp3",
+      "seconds": 336,
+      "title": "Deep House 06"
+    },
+    {
+      "bytes": 7494470,
+      "category": "electronicMotion",
+      "genre": "deephouse",
+      "id": "bundled:deephouse_07",
+      "path": "tracks/deephouse/deephouse_07.mp3",
+      "seconds": 312,
+      "title": "Deep House 07"
+    },
+    {
+      "bytes": 7742737,
+      "category": "electronicMotion",
+      "genre": "deephouse",
+      "id": "bundled:deephouse_08",
+      "path": "tracks/deephouse/deephouse_08.mp3",
+      "seconds": 323,
+      "title": "Deep House 08"
+    },
+    {
+      "bytes": 4424977,
+      "category": "electronicMotion",
+      "genre": "deephouse",
+      "id": "bundled:deephouse_09",
+      "path": "tracks/deephouse/deephouse_09.mp3",
+      "seconds": 184,
+      "title": "Deep House 09"
+    },
+    {
+      "bytes": 7374097,
+      "category": "highVelocity",
+      "genre": "dnb",
+      "id": "bundled:dnb_01",
+      "path": "tracks/dnb/dnb_01.mp3",
+      "seconds": 307,
+      "title": "Drum & Bass 01"
+    },
+    {
+      "bytes": 5298303,
+      "category": "highVelocity",
+      "genre": "dnb",
+      "id": "bundled:dnb_02",
+      "path": "tracks/dnb/dnb_02.mp3",
+      "seconds": 221,
+      "title": "Drum & Bass 02"
+    },
+    {
+      "bytes": 5695155,
+      "category": "highVelocity",
+      "genre": "dnb",
+      "id": "bundled:dnb_03",
+      "path": "tracks/dnb/dnb_03.mp3",
+      "seconds": 237,
+      "title": "Drum & Bass 03"
+    },
+    {
+      "bytes": 8493183,
+      "category": "highVelocity",
+      "genre": "dnb",
+      "id": "bundled:dnb_04",
+      "path": "tracks/dnb/dnb_04.mp3",
+      "seconds": 354,
+      "title": "Drum & Bass 04"
+    },
+    {
+      "bytes": 5829320,
+      "category": "highVelocity",
+      "genre": "dnb",
+      "id": "bundled:dnb_05",
+      "path": "tracks/dnb/dnb_05.mp3",
+      "seconds": 243,
+      "title": "Drum & Bass 05"
+    },
+    {
+      "bytes": 7500112,
+      "category": "highVelocity",
+      "genre": "dnb",
+      "id": "bundled:dnb_06",
+      "path": "tracks/dnb/dnb_06.mp3",
+      "seconds": 313,
+      "title": "Drum & Bass 06"
+    },
+    {
+      "bytes": 8559012,
+      "category": "highVelocity",
+      "genre": "dnb",
+      "id": "bundled:dnb_07",
+      "path": "tracks/dnb/dnb_07.mp3",
+      "seconds": 357,
+      "title": "Drum & Bass 07"
+    },
+    {
+      "bytes": 4364164,
+      "category": "highVelocity",
+      "genre": "dnb",
+      "id": "bundled:dnb_08",
+      "path": "tracks/dnb/dnb_08.mp3",
+      "seconds": 182,
+      "title": "Drum & Bass 08"
+    },
+    {
+      "bytes": 5596726,
+      "category": "highVelocity",
+      "genre": "dubstep",
+      "id": "bundled:dubstep_01",
+      "path": "tracks/dubstep/dubstep_01.mp3",
+      "seconds": 233,
+      "title": "Dubstep 01"
+    },
+    {
+      "bytes": 8065611,
+      "category": "highVelocity",
+      "genre": "dubstep",
+      "id": "bundled:dubstep_02",
+      "path": "tracks/dubstep/dubstep_02.mp3",
+      "seconds": 336,
+      "title": "Dubstep 02"
+    },
+    {
+      "bytes": 7900726,
+      "category": "highVelocity",
+      "genre": "dubstep",
+      "id": "bundled:dubstep_03",
+      "path": "tracks/dubstep/dubstep_03.mp3",
+      "seconds": 329,
+      "title": "Dubstep 03"
+    },
+    {
+      "bytes": 4718385,
+      "category": "electronicMotion",
+      "genre": "edm",
+      "id": "bundled:edm_01",
+      "path": "tracks/edm/edm_01.mp3",
+      "seconds": 197,
+      "title": "EDM 01"
+    },
+    {
+      "bytes": 8961506,
+      "category": "electronicMotion",
+      "genre": "edm",
+      "id": "bundled:edm_02",
+      "path": "tracks/edm/edm_02.mp3",
+      "seconds": 373,
+      "title": "EDM 02"
+    },
+    {
+      "bytes": 5181066,
+      "category": "electronicMotion",
+      "genre": "edm",
+      "id": "bundled:edm_03",
+      "path": "tracks/edm/edm_03.mp3",
+      "seconds": 216,
+      "title": "EDM 03"
+    },
+    {
+      "bytes": 6301405,
+      "category": "electronicMotion",
+      "genre": "edm",
+      "id": "bundled:edm_04",
+      "path": "tracks/edm/edm_04.mp3",
+      "seconds": 263,
+      "title": "EDM 04"
+    },
+    {
+      "bytes": 6532746,
+      "category": "electronicMotion",
+      "genre": "edm",
+      "id": "bundled:edm_05",
+      "path": "tracks/edm/edm_05.mp3",
+      "seconds": 272,
+      "title": "EDM 05"
+    },
+    {
+      "bytes": 5495789,
+      "category": "electronicMotion",
+      "genre": "edm",
+      "id": "bundled:edm_06",
+      "path": "tracks/edm/edm_06.mp3",
+      "seconds": 229,
+      "title": "EDM 06"
+    },
+    {
+      "bytes": 7258114,
+      "category": "electronicMotion",
+      "genre": "edm",
+      "id": "bundled:edm_07",
+      "path": "tracks/edm/edm_07.mp3",
+      "seconds": 302,
+      "title": "EDM 07"
+    },
+    {
+      "bytes": 4389869,
+      "category": "electronicMotion",
+      "genre": "edm",
+      "id": "bundled:edm_08",
+      "path": "tracks/edm/edm_08.mp3",
+      "seconds": 183,
+      "title": "EDM 08"
+    },
+    {
+      "bytes": 5318365,
+      "category": "electronicMotion",
+      "genre": "edm",
+      "id": "bundled:edm_09",
+      "path": "tracks/edm/edm_09.mp3",
+      "seconds": 222,
+      "title": "EDM 09"
+    },
+    {
+      "bytes": 5141569,
+      "category": "electronicMotion",
+      "genre": "edm",
+      "id": "bundled:edm_10",
+      "path": "tracks/edm/edm_10.mp3",
+      "seconds": 214,
+      "title": "EDM 10"
+    },
+    {
+      "bytes": 5581680,
+      "category": "electronicMotion",
+      "genre": "edm",
+      "id": "bundled:edm_11",
+      "path": "tracks/edm/edm_11.mp3",
+      "seconds": 233,
+      "title": "EDM 11"
+    },
+    {
+      "bytes": 7090721,
+      "category": "screenAndScore",
+      "genre": "epic",
+      "id": "bundled:epic_01",
+      "path": "tracks/epic/epic_01.mp3",
+      "seconds": 295,
+      "title": "Epic 01"
+    },
+    {
+      "bytes": 4759763,
+      "category": "screenAndScore",
+      "genre": "epic",
+      "id": "bundled:epic_02",
+      "path": "tracks/epic/epic_02.mp3",
+      "seconds": 198,
+      "title": "Epic 02"
+    },
+    {
+      "bytes": 4367299,
+      "category": "screenAndScore",
+      "genre": "epic",
+      "id": "bundled:epic_03",
+      "path": "tracks/epic/epic_03.mp3",
+      "seconds": 182,
+      "title": "Epic 03"
+    },
+    {
+      "bytes": 5121506,
+      "category": "screenAndScore",
+      "genre": "epic",
+      "id": "bundled:epic_04",
+      "path": "tracks/epic/epic_04.mp3",
+      "seconds": 213,
+      "title": "Epic 04"
+    },
+    {
+      "bytes": 7681297,
+      "category": "screenAndScore",
+      "genre": "epic",
+      "id": "bundled:epic_05",
+      "path": "tracks/epic/epic_05.mp3",
+      "seconds": 320,
+      "title": "Epic 05"
+    },
+    {
+      "bytes": 7448703,
+      "category": "screenAndScore",
+      "genre": "epic",
+      "id": "bundled:epic_06",
+      "path": "tracks/epic/epic_06.mp3",
+      "seconds": 310,
+      "title": "Epic 06"
+    },
+    {
+      "bytes": 6486979,
+      "category": "modernSongs",
+      "genre": "futuregarage",
+      "id": "bundled:futuregarage_01",
+      "path": "tracks/futuregarage/futuregarage_01.mp3",
+      "seconds": 270,
+      "title": "Future Garage 01"
+    },
+    {
+      "bytes": 6983515,
+      "category": "modernSongs",
+      "genre": "futuregarage",
+      "id": "bundled:futuregarage_02",
+      "path": "tracks/futuregarage/futuregarage_02.mp3",
+      "seconds": 291,
+      "title": "Future Garage 02"
+    },
+    {
+      "bytes": 8254946,
+      "category": "modernSongs",
+      "genre": "futuregarage",
+      "id": "bundled:futuregarage_03",
+      "path": "tracks/futuregarage/futuregarage_03.mp3",
+      "seconds": 344,
+      "title": "Future Garage 03"
+    },
+    {
+      "bytes": 6392311,
+      "category": "modernSongs",
+      "genre": "futuregarage",
+      "id": "bundled:futuregarage_04",
+      "path": "tracks/futuregarage/futuregarage_04.mp3",
+      "seconds": 266,
+      "title": "Future Garage 04"
+    },
+    {
+      "bytes": 7737722,
+      "category": "modernSongs",
+      "genre": "futuregarage",
+      "id": "bundled:futuregarage_05",
+      "path": "tracks/futuregarage/futuregarage_05.mp3",
+      "seconds": 322,
+      "title": "Future Garage 05"
+    },
+    {
+      "bytes": 8022979,
+      "category": "modernSongs",
+      "genre": "futuregarage",
+      "id": "bundled:futuregarage_06",
+      "path": "tracks/futuregarage/futuregarage_06.mp3",
+      "seconds": 334,
+      "title": "Future Garage 06"
+    },
+    {
+      "bytes": 8218584,
+      "category": "highVelocity",
+      "genre": "hardtechno",
+      "id": "bundled:hardtechno_01",
+      "path": "tracks/hardtechno/hardtechno_01.mp3",
+      "seconds": 342,
+      "title": "Hard Techno 01"
+    },
+    {
+      "bytes": 6680076,
+      "category": "highVelocity",
+      "genre": "hardtechno",
+      "id": "bundled:hardtechno_02",
+      "path": "tracks/hardtechno/hardtechno_02.mp3",
+      "seconds": 278,
+      "title": "Hard Techno 02"
+    },
+    {
+      "bytes": 5925869,
+      "category": "highVelocity",
+      "genre": "hardtechno",
+      "id": "bundled:hardtechno_03",
+      "path": "tracks/hardtechno/hardtechno_03.mp3",
+      "seconds": 247,
+      "title": "Hard Techno 03"
+    },
+    {
+      "bytes": 6636817,
+      "category": "electronicMotion",
+      "genre": "house",
+      "id": "bundled:house_01",
+      "path": "tracks/house/house_01.mp3",
+      "seconds": 277,
+      "title": "House 01"
+    },
+    {
+      "bytes": 4627479,
+      "category": "electronicMotion",
+      "genre": "house",
+      "id": "bundled:house_02",
+      "path": "tracks/house/house_02.mp3",
+      "seconds": 193,
+      "title": "House 02"
+    },
+    {
+      "bytes": 7374097,
+      "category": "electronicMotion",
+      "genre": "house",
+      "id": "bundled:house_03",
+      "path": "tracks/house/house_03.mp3",
+      "seconds": 307,
+      "title": "House 03"
+    },
+    {
+      "bytes": 7555910,
+      "category": "electronicMotion",
+      "genre": "house",
+      "id": "bundled:house_04",
+      "path": "tracks/house/house_04.mp3",
+      "seconds": 315,
+      "title": "House 04"
+    },
+    {
+      "bytes": 7201689,
+      "category": "electronicMotion",
+      "genre": "house",
+      "id": "bundled:house_05",
+      "path": "tracks/house/house_05.mp3",
+      "seconds": 300,
+      "title": "House 05"
+    },
+    {
+      "bytes": 5853144,
+      "category": "electronicMotion",
+      "genre": "house",
+      "id": "bundled:house_06",
+      "path": "tracks/house/house_06.mp3",
+      "seconds": 244,
+      "title": "House 06"
+    },
+    {
+      "bytes": 4321533,
+      "category": "electronicMotion",
+      "genre": "house",
+      "id": "bundled:house_07__first-cut",
+      "path": "tracks/house/house_07__first-cut.mp3",
+      "seconds": 180,
+      "title": "First Cut"
+    },
+    {
+      "bytes": 5487012,
+      "category": "calmAndFocus",
+      "genre": "lofi",
+      "id": "bundled:lofi_01",
+      "path": "tracks/lofi/lofi_01.mp3",
+      "seconds": 229,
+      "title": "Lo-Fi 01"
+    },
+    {
+      "bytes": 5690767,
+      "category": "calmAndFocus",
+      "genre": "lofi",
+      "id": "bundled:lofi_02",
+      "path": "tracks/lofi/lofi_02.mp3",
+      "seconds": 237,
+      "title": "Lo-Fi 02"
+    },
+    {
+      "bytes": 5251283,
+      "category": "calmAndFocus",
+      "genre": "lofi",
+      "id": "bundled:lofi_03",
+      "path": "tracks/lofi/lofi_03.mp3",
+      "seconds": 219,
+      "title": "Lo-Fi 03"
+    },
+    {
+      "bytes": 5359743,
+      "category": "calmAndFocus",
+      "genre": "lofi",
+      "id": "bundled:lofi_04",
+      "path": "tracks/lofi/lofi_04.mp3",
+      "seconds": 223,
+      "title": "Lo-Fi 04"
+    },
+    {
+      "bytes": 5238117,
+      "category": "calmAndFocus",
+      "genre": "lofi",
+      "id": "bundled:lofi_05",
+      "path": "tracks/lofi/lofi_05.mp3",
+      "seconds": 218,
+      "title": "Lo-Fi 05"
+    },
+    {
+      "bytes": 5359743,
+      "category": "calmAndFocus",
+      "genre": "lofi",
+      "id": "bundled:lofi_06",
+      "path": "tracks/lofi/lofi_06.mp3",
+      "seconds": 223,
+      "title": "Lo-Fi 06"
+    },
+    {
+      "bytes": 5606130,
+      "category": "calmAndFocus",
+      "genre": "lofi",
+      "id": "bundled:lofi_07",
+      "path": "tracks/lofi/lofi_07.mp3",
+      "seconds": 234,
+      "title": "Lo-Fi 07"
+    },
+    {
+      "bytes": 4893928,
+      "category": "calmAndFocus",
+      "genre": "lofi",
+      "id": "bundled:lofi_08",
+      "path": "tracks/lofi/lofi_08.mp3",
+      "seconds": 204,
+      "title": "Lo-Fi 08"
+    },
+    {
+      "bytes": 9327012,
+      "category": "calmAndFocus",
+      "genre": "lofi",
+      "id": "bundled:lofi_09",
+      "path": "tracks/lofi/lofi_09.mp3",
+      "seconds": 389,
+      "title": "Lo-Fi 09"
+    },
+    {
+      "bytes": 4345356,
+      "category": "electronicMotion",
+      "genre": "melodictechno",
+      "id": "bundled:melodictechno_01",
+      "path": "tracks/melodictechno/melodictechno_01.mp3",
+      "seconds": 181,
+      "title": "Melodic Techno 01"
+    },
+    {
+      "bytes": 5018689,
+      "category": "electronicMotion",
+      "genre": "melodictechno",
+      "id": "bundled:melodictechno_02",
+      "path": "tracks/melodictechno/melodictechno_02.mp3",
+      "seconds": 209,
+      "title": "Melodic Techno 02"
+    },
+    {
+      "bytes": 6800449,
+      "category": "electronicMotion",
+      "genre": "melodictechno",
+      "id": "bundled:melodictechno_03",
+      "path": "tracks/melodictechno/melodictechno_03.mp3",
+      "seconds": 283,
+      "title": "Melodic Techno 03"
+    },
+    {
+      "bytes": 8243662,
+      "category": "electronicMotion",
+      "genre": "melodictechno",
+      "id": "bundled:melodictechno_04",
+      "path": "tracks/melodictechno/melodictechno_04.mp3",
+      "seconds": 343,
+      "title": "Melodic Techno 04"
+    },
+    {
+      "bytes": 7555910,
+      "category": "electronicMotion",
+      "genre": "melodictechno",
+      "id": "bundled:melodictechno_05",
+      "path": "tracks/melodictechno/melodictechno_05.mp3",
+      "seconds": 315,
+      "title": "Melodic Techno 05"
+    },
+    {
+      "bytes": 7119560,
+      "category": "electronicMotion",
+      "genre": "melodictechno",
+      "id": "bundled:melodictechno_06",
+      "path": "tracks/melodictechno/melodictechno_06.mp3",
+      "seconds": 297,
+      "title": "Melodic Techno 06"
+    },
+    {
+      "bytes": 7561552,
+      "category": "urbanRhythm",
+      "genre": "phonk",
+      "id": "bundled:phonk_01",
+      "path": "tracks/phonk/phonk_01.mp3",
+      "seconds": 315,
+      "title": "Phonk 01"
+    },
+    {
+      "bytes": 6992919,
+      "category": "urbanRhythm",
+      "genre": "phonk",
+      "id": "bundled:phonk_02",
+      "path": "tracks/phonk/phonk_02.mp3",
+      "seconds": 291,
+      "title": "Phonk 02"
+    },
+    {
+      "bytes": 4406169,
+      "category": "urbanRhythm",
+      "genre": "phonk",
+      "id": "bundled:phonk_03",
+      "path": "tracks/phonk/phonk_03.mp3",
+      "seconds": 184,
+      "title": "Phonk 03"
+    },
+    {
+      "bytes": 6128997,
+      "category": "globalGroove",
+      "genre": "reggaeton",
+      "id": "bundled:reggaeton_01",
+      "path": "tracks/reggaeton/reggaeton_01.mp3",
+      "seconds": 255,
+      "title": "Reggaeton 01"
+    },
+    {
+      "bytes": 5511462,
+      "category": "globalGroove",
+      "genre": "reggaeton",
+      "id": "bundled:reggaeton_02",
+      "path": "tracks/reggaeton/reggaeton_02.mp3",
+      "seconds": 230,
+      "title": "Reggaeton 02"
+    },
+    {
+      "bytes": 4903959,
+      "category": "globalGroove",
+      "genre": "reggaeton",
+      "id": "bundled:reggaeton_03",
+      "path": "tracks/reggaeton/reggaeton_03.mp3",
+      "seconds": 204,
+      "title": "Reggaeton 03"
+    },
+    {
+      "bytes": 6177271,
+      "category": "globalGroove",
+      "genre": "reggaeton",
+      "id": "bundled:reggaeton_04",
+      "path": "tracks/reggaeton/reggaeton_04.mp3",
+      "seconds": 257,
+      "title": "Reggaeton 04"
+    },
+    {
+      "bytes": 5354101,
+      "category": "globalGroove",
+      "genre": "reggaeton",
+      "id": "bundled:reggaeton_05",
+      "path": "tracks/reggaeton/reggaeton_05.mp3",
+      "seconds": 223,
+      "title": "Reggaeton 05"
+    },
+    {
+      "bytes": 4233134,
+      "category": "globalGroove",
+      "genre": "reggaeton",
+      "id": "bundled:reggaeton_06",
+      "path": "tracks/reggaeton/reggaeton_06.mp3",
+      "seconds": 176,
+      "title": "Reggaeton 06"
+    },
+    {
+      "bytes": 4816187,
+      "category": "highVelocity",
+      "genre": "sportrock",
+      "id": "bundled:sportrock_01",
+      "path": "tracks/sportrock/sportrock_01.mp3",
+      "seconds": 201,
+      "title": "Sport Rock 01"
+    },
+    {
+      "bytes": 7741484,
+      "category": "highVelocity",
+      "genre": "sportrock",
+      "id": "bundled:sportrock_02",
+      "path": "tracks/sportrock/sportrock_02.mp3",
+      "seconds": 323,
+      "title": "Sport Rock 02"
+    },
+    {
+      "bytes": 6121474,
+      "category": "highVelocity",
+      "genre": "sportrock",
+      "id": "bundled:sportrock_03",
+      "path": "tracks/sportrock/sportrock_03.mp3",
+      "seconds": 255,
+      "title": "Sport Rock 03"
+    },
+    {
+      "bytes": 6021164,
+      "category": "modernSongs",
+      "genre": "synthwave",
+      "id": "bundled:synthwave_01",
+      "path": "tracks/synthwave/synthwave_01.mp3",
+      "seconds": 251,
+      "title": "Synthwave 01"
+    },
+    {
+      "bytes": 6113951,
+      "category": "modernSongs",
+      "genre": "synthwave",
+      "id": "bundled:synthwave_02",
+      "path": "tracks/synthwave/synthwave_02.mp3",
+      "seconds": 255,
+      "title": "Synthwave 02"
+    },
+    {
+      "bytes": 8259335,
+      "category": "modernSongs",
+      "genre": "synthwave",
+      "id": "bundled:synthwave_03",
+      "path": "tracks/synthwave/synthwave_03.mp3",
+      "seconds": 344,
+      "title": "Synthwave 03"
+    },
+    {
+      "bytes": 8863077,
+      "category": "modernSongs",
+      "genre": "synthwave",
+      "id": "bundled:synthwave_04",
+      "path": "tracks/synthwave/synthwave_04.mp3",
+      "seconds": 369,
+      "title": "Synthwave 04"
+    },
+    {
+      "bytes": 5599861,
+      "category": "modernSongs",
+      "genre": "synthwave",
+      "id": "bundled:synthwave_05",
+      "path": "tracks/synthwave/synthwave_05.mp3",
+      "seconds": 233,
+      "title": "Synthwave 05"
+    },
+    {
+      "bytes": 6869412,
+      "category": "modernSongs",
+      "genre": "synthwave",
+      "id": "bundled:synthwave_06",
+      "path": "tracks/synthwave/synthwave_06.mp3",
+      "seconds": 286,
+      "title": "Synthwave 06"
+    },
+    {
+      "bytes": 6584155,
+      "category": "modernSongs",
+      "genre": "synthwave",
+      "id": "bundled:synthwave_07",
+      "path": "tracks/synthwave/synthwave_07.mp3",
+      "seconds": 274,
+      "title": "Synthwave 07"
+    },
+    {
+      "bytes": 7473781,
+      "category": "modernSongs",
+      "genre": "synthwave",
+      "id": "bundled:synthwave_08",
+      "path": "tracks/synthwave/synthwave_08.mp3",
+      "seconds": 311,
+      "title": "Synthwave 08"
+    },
+    {
+      "bytes": 6873173,
+      "category": "modernSongs",
+      "genre": "synthwave",
+      "id": "bundled:synthwave_09",
+      "path": "tracks/synthwave/synthwave_09.mp3",
+      "seconds": 286,
+      "title": "Synthwave 09"
+    },
+    {
+      "bytes": 8302594,
+      "category": "urbanRhythm",
+      "genre": "trap",
+      "id": "bundled:trap_01",
+      "path": "tracks/trap/trap_01.mp3",
+      "seconds": 346,
+      "title": "Trap 01"
+    },
+    {
+      "bytes": 8182222,
+      "category": "urbanRhythm",
+      "genre": "trap",
+      "id": "bundled:trap_02",
+      "path": "tracks/trap/trap_02.mp3",
+      "seconds": 341,
+      "title": "Trap 02"
+    },
+    {
+      "bytes": 6913297,
+      "category": "urbanRhythm",
+      "genre": "trap",
+      "id": "bundled:trap_03",
+      "path": "tracks/trap/trap_03.mp3",
+      "seconds": 288,
+      "title": "Trap 03"
+    },
+    {
+      "bytes": 7510770,
+      "category": "urbanRhythm",
+      "genre": "trap",
+      "id": "bundled:trap_04",
+      "path": "tracks/trap/trap_04.mp3",
+      "seconds": 313,
+      "title": "Trap 04"
+    },
+    {
+      "bytes": 8171564,
+      "category": "urbanRhythm",
+      "genre": "trap",
+      "id": "bundled:trap_05",
+      "path": "tracks/trap/trap_05.mp3",
+      "seconds": 340,
+      "title": "Trap 05"
+    },
+    {
+      "bytes": 6384161,
+      "category": "urbanRhythm",
+      "genre": "trap",
+      "id": "bundled:trap_06",
+      "path": "tracks/trap/trap_06.mp3",
+      "seconds": 266,
+      "title": "Trap 06"
+    },
+    {
+      "bytes": 5016808,
+      "category": "urbanRhythm",
+      "genre": "trap",
+      "id": "bundled:trap_07",
+      "path": "tracks/trap/trap_07.mp3",
+      "seconds": 209,
+      "title": "Trap 07"
+    },
+    {
+      "bytes": 6270685,
+      "category": "urbanRhythm",
+      "genre": "trap",
+      "id": "bundled:trap_08",
+      "path": "tracks/trap/trap_08.mp3",
+      "seconds": 261,
+      "title": "Trap 08"
+    },
+    {
+      "bytes": 6777879,
+      "category": "urbanRhythm",
+      "genre": "trap",
+      "id": "bundled:trap_09",
+      "path": "tracks/trap/trap_09.mp3",
+      "seconds": 282,
+      "title": "Trap 09"
+    },
+    {
+      "bytes": 5010538,
+      "category": "organicAndWorld",
+      "genre": "triphop",
+      "id": "bundled:triphop_01",
+      "path": "tracks/triphop/triphop_01.mp3",
+      "seconds": 209,
+      "title": "Trip Hop 01"
+    },
+    {
+      "bytes": 8272501,
+      "category": "organicAndWorld",
+      "genre": "triphop",
+      "id": "bundled:triphop_02",
+      "path": "tracks/triphop/triphop_02.mp3",
+      "seconds": 345,
+      "title": "Trip Hop 02"
+    },
+    {
+      "bytes": 5902045,
+      "category": "organicAndWorld",
+      "genre": "triphop",
+      "id": "bundled:triphop_03",
+      "path": "tracks/triphop/triphop_03.mp3",
+      "seconds": 246,
+      "title": "Trip Hop 03"
+    },
+    {
+      "bytes": 4443159,
+      "category": "organicAndWorld",
+      "genre": "triphop",
+      "id": "bundled:triphop_04",
+      "path": "tracks/triphop/triphop_04.mp3",
+      "seconds": 185,
+      "title": "Trip Hop 04"
+    },
+    {
+      "bytes": 5094548,
+      "category": "organicAndWorld",
+      "genre": "worldchill",
+      "id": "bundled:worldchill_01",
+      "path": "tracks/worldchill/worldchill_01.mp3",
+      "seconds": 212,
+      "title": "World Chill 01"
+    },
+    {
+      "bytes": 7955897,
+      "category": "organicAndWorld",
+      "genre": "worldchill",
+      "id": "bundled:worldchill_02",
+      "path": "tracks/worldchill/worldchill_02.mp3",
+      "seconds": 331,
+      "title": "World Chill 02"
+    },
+    {
+      "bytes": 6092635,
+      "category": "organicAndWorld",
+      "genre": "worldchill",
+      "id": "bundled:worldchill_03",
+      "path": "tracks/worldchill/worldchill_03.mp3",
+      "seconds": 254,
+      "title": "World Chill 03"
+    },
+    {
+      "bytes": 7186016,
+      "category": "organicAndWorld",
+      "genre": "worldchill",
+      "id": "bundled:worldchill_04",
+      "path": "tracks/worldchill/worldchill_04.mp3",
+      "seconds": 299,
+      "title": "World Chill 04"
+    },
+    {
+      "bytes": 5828066,
+      "category": "organicAndWorld",
+      "genre": "worldchill",
+      "id": "bundled:worldchill_05",
+      "path": "tracks/worldchill/worldchill_05.mp3",
+      "seconds": 243,
+      "title": "World Chill 05"
+    },
+    {
+      "bytes": 7289461,
+      "category": "organicAndWorld",
+      "genre": "worldchill",
+      "id": "bundled:worldchill_06",
+      "path": "tracks/worldchill/worldchill_06.mp3",
+      "seconds": 304,
+      "title": "World Chill 06"
+    }
+  ]
+}
