@@ -1,6 +1,6 @@
 # NeuraTiM FrameOsu — the music library
 
-46 tracks in 23 genres, 218.0 MB, MP3 at 44.1 and 48.0 kHz, 1:57 to 5:42.
+384 tracks in 47 genres, 1901.6 MB, MP3 at 44.1 and 48.0 kHz, 0:41 to 7:59.
 
 ## Adding new music — this is the whole of it
 
@@ -47,8 +47,8 @@ nothing else could carry it.
 **None of it ships inside the app, and that is the point.** NeuraTiM FrameOsu
 carries music of its own — 22 pieces, 91.2 MB, committed with the app — so a
 reel can be cut with sound before anything is downloaded. This repository is the
-*other* library: everything here is one press away, and pressing play on a track
-downloads it and then plays it. From that moment it is an ordinary track that
+*other* library: everything here can be previewed immediately through one
+replaceable temporary slot. An explicit download makes it an ordinary track that
 can go under a reel with no connection at all.
 
 **And the app reads `catalogue.json` once a day, so this list is the app's
@@ -123,29 +123,53 @@ library. Nothing is deleted off anybody's device.
 
 | Genre | Folder | Tracks | Category in the app |
 | --- | --- | --- | --- |
-| Acoustic Folk | `acousticfolk` | 1 | organicAndWorld |
-| Celtic Folk | `celtic` | 4 | organicAndWorld |
-| Chillout | `chillout` | 1 | brandAndJourney |
-| Cinematic | `cinematic` | 1 | screenAndScore |
-| Dark Ambient | `darkambient` | 6 | calmAndFocus |
-| Dark Folk | `darkfolk` | 1 | organicAndWorld |
-| Drum & Bass | `dnb` | 2 | highVelocity |
-| Dream Pop | `dreampop` | 1 | modernSongs |
+| Acoustic Folk | `acousticfolk` | 11 | organicAndWorld |
+| Ambient | `ambient` | 20 | calmAndFocus |
+| Big Beat | `bigbeat` | 6 | highVelocity |
+| Boom Bap | `boombap` | 4 | urbanRhythm |
+| Celtic Folk | `celtic` | 6 | organicAndWorld |
+| Chillout | `chillout` | 5 | brandAndJourney |
+| Chiptune | `chiptune` | 8 | electronicMotion |
+| Cinematic | `cinematic` | 15 | screenAndScore |
+| Dark Ambient | `darkambient` | 20 | calmAndFocus |
+| Dark Folk | `darkfolk` | 7 | organicAndWorld |
+| Darksynth | `darksynth` | 2 | modernSongs |
+| Dark Techno | `darktechno` | 8 | electronicMotion |
+| Deep House | `deephouse` | 4 | electronicMotion |
+| Drum & Bass | `dnb` | 8 | highVelocity |
+| Dream Pop | `dreampop` | 7 | modernSongs |
+| EDM | `edm` | 6 | electronicMotion |
 | Electro Pulse | `electropulse` | 2 | electronicMotion |
-| Electro Swing | `electroswing` | 1 | globalGroove |
-| Epic | `epic` | 2 | screenAndScore |
+| Electro Swing | `electroswing` | 5 | globalGroove |
+| Epic | `epic` | 8 | screenAndScore |
 | Epic Vocal | `epicvocal` | 1 | modernSongs |
-| Glitch Hop | `glitchhop` | 1 | electronicMotion |
-| Hybrid Trailer | `hybrid` | 3 | screenAndScore |
-| Indie Electronic | `indieelectronic` | 1 | modernSongs |
-| Lo-Fi | `lofi` | 2 | calmAndFocus |
-| Medieval | `medieval` | 2 | screenAndScore |
+| Funk | `funk` | 18 | globalGroove |
+| Future Garage | `futuregarage` | 6 | modernSongs |
+| General | `general` | 19 | screenAndScore |
+| Glitch Hop | `glitchhop` | 3 | electronicMotion |
+| House | `house` | 12 | electronicMotion |
+| Hybrid Trailer | `hybrid` | 7 | screenAndScore |
+| IDM | `idm` | 4 | electronicMotion |
+| Indie Electronic | `indieelectronic` | 11 | modernSongs |
+| Indie Rock | `indierock` | 12 | modernSongs |
+| Jazz | `jazz` | 21 | calmAndFocus |
+| Lo-Fi | `lofi` | 10 | calmAndFocus |
+| Medieval | `medieval` | 4 | screenAndScore |
 | Melodic Techno | `melodictechno` | 2 | electronicMotion |
+| Minimal Techno | `minimaltechno` | 8 | electronicMotion |
 | Mono | `mono` | 4 | electronicMotion |
-| Neoclassical | `neoclassical` | 2 | screenAndScore |
-| Synthwave | `synthwave` | 2 | modernSongs |
+| Neoclassical | `neoclassical` | 18 | screenAndScore |
+| Organic House | `organichouse` | 8 | globalGroove |
+| Phonk | `phonk` | 2 | urbanRhythm |
+| Post-Rock | `postrock` | 10 | screenAndScore |
+| Soul | `soul` | 6 | modernSongs |
+| Sport Rock | `sportrock` | 4 | highVelocity |
+| Synthwave | `synthwave` | 8 | modernSongs |
+| Trance | `trance` | 4 | electronicMotion |
 | Trap | `trap` | 1 | urbanRhythm |
-| World Chill | `worldchill` | 3 | organicAndWorld |
+| Trip Hop | `triphop` | 2 | organicAndWorld |
+| Western | `western` | 10 | organicAndWorld |
+| World Chill | `worldchill` | 17 | organicAndWorld |
 
 ## What the app ships instead
 
