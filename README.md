@@ -1,4 +1,4 @@
-# NeuraTiM FrameOsu — the music library
+# NeuraTiM FrameOSU — the music library
 
 384 tracks in 47 genres, 1901.6 MB, MP3 at 44.1 and 48.0 kHz, 0:41 to 7:59.
 
@@ -44,7 +44,7 @@ nothing else could carry it.
 
 *Doing it without the command: see* **Adding a track by hand** *at the end.*
 
-**None of it ships inside the app, and that is the point.** NeuraTiM FrameOsu
+**None of it ships inside the app, and that is the point.** NeuraTiM FrameOSU
 carries music of its own — 22 pieces, 91.2 MB, committed with the app — so a
 reel can be cut with sound before anything is downloaded. This repository is the
 *other* library: everything here can be previewed immediately through one
@@ -52,7 +52,7 @@ replaceable temporary slot. An explicit download makes it an ordinary track that
 can go under a reel with no connection at all.
 
 **And the app reads `catalogue.json` once a day, so this list is the app's
-list.** Add a track here and every installed copy of FrameOsu offers it within a
+list.** Add a track here and every installed copy of FrameOSU offers it within a
 day; no release, no store review. Remove one and it stops being offered — without
 ever taking away audio somebody has already downloaded. See *The catalogue*
 below.
@@ -175,7 +175,7 @@ library. Nothing is deleted off anybody's device.
 
 The app's own music lives in the app's repository, at
 `packages/frameosu/app/assets/music/`, and is **not** part of this library: it
-is 91.2 MB of pieces cut for FrameOsu's own reels rather than a shelf anybody
+is 91.2 MB of pieces cut for FrameOSU's own reels rather than a shelf anybody
 browses, and putting it here would make every clone of this repository pay for
 it. Its catalogue entries state an `asset` and no `path` — there is nowhere to
 fetch them from, because they are already in the build.
