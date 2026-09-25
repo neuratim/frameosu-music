@@ -45,7 +45,7 @@ nothing else could carry it.
 *Doing it without the command: see* **Adding a track by hand** *at the end.*
 
 **None of it ships inside the app, and that is the point.** NeuraTiM FrameOSU
-carries music of its own — 22 pieces, 91.2 MB, committed with the app — so a
+carries music of its own — 46 pieces, 166.9 MB, committed with the app — so a
 reel can be cut with sound before anything is downloaded. This repository is the
 *other* library: everything here can be previewed immediately through one
 replaceable temporary slot. An explicit download makes it an ordinary track that
@@ -175,7 +175,7 @@ library. Nothing is deleted off anybody's device.
 
 The app's own music lives in the app's repository, at
 `packages/frameosu/app/assets/music/`, and is **not** part of this library: it
-is 91.2 MB of pieces cut for FrameOSU's own reels rather than a shelf anybody
+is 166.9 MB of pieces cut for FrameOSU's own reels rather than a shelf anybody
 browses, and putting it here would make every clone of this repository pay for
 it. Its catalogue entries state an `asset` and no `path` — there is nowhere to
 fetch them from, because they are already in the build.
@@ -188,6 +188,7 @@ fetch them from, because they are already in the build.
 | Electro Pulse | 2 | electronicMotion |
 | Epic | 2 | screenAndScore |
 | Epic Vocal | 1 | modernSongs |
+| General | 24 | screenAndScore |
 | Hybrid Trailer | 4 | screenAndScore |
 | Medieval | 3 | screenAndScore |
 | Neoclassical | 1 | screenAndScore |
