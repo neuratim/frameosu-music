@@ -1,6 +1,6 @@
 {
   "downloadBase": "https://raw.githubusercontent.com/neuratim/frameosu_music/main",
-  "generatedAt": "2026-09-03T19:24:09.744293Z",
+  "generatedAt": "2026-09-26T11:11:37.967107Z",
   "genres": [
     {
       "category": "organicAndWorld",
@@ -239,7 +239,7 @@
     }
   ],
   "licence": "CC0 1.0 Universal (public domain). Composed for NeuraTiM with generative AI. No attribution required.",
-  "revision": 6,
+  "revision": 8,
   "schema": 1,
   "tracks": [
     {
@@ -259,7 +259,7 @@
       "title": "Campfire and Technology"
     },
     {
-      "bytes": 7779237,
+      "bytes": 9807813,
       "genre": "acousticfolk",
       "id": "bundled:acousticfolk__campfire-and-technology-ii",
       "path": "tracks/acousticfolk/acousticfolk__campfire-and-technology-ii.mp3",
@@ -267,7 +267,7 @@
       "title": "Campfire and Technology II"
     },
     {
-      "bytes": 6036261,
+      "bytes": 7613469,
       "genre": "acousticfolk",
       "id": "bundled:acousticfolk__campfire-hum",
       "path": "tracks/acousticfolk/acousticfolk__campfire-hum.mp3",
@@ -403,7 +403,7 @@
       "title": "Exhibits Waking II"
     },
     {
-      "bytes": 7517373,
+      "bytes": 9471597,
       "genre": "ambient",
       "id": "bundled:ambient__ferry-identity",
       "path": "tracks/ambient/ambient__ferry-identity.mp3",
@@ -435,7 +435,7 @@
       "title": "Gallery Exhibit II"
     },
     {
-      "bytes": 5740077,
+      "bytes": 7245285,
       "genre": "ambient",
       "id": "bundled:ambient__morning-pulse",
       "path": "tracks/ambient/ambient__morning-pulse.mp3",
@@ -443,7 +443,7 @@
       "title": "Morning Pulse"
     },
     {
-      "bytes": 7695861,
+      "bytes": 9808725,
       "genre": "ambient",
       "id": "bundled:ambient__orbital-drift",
       "path": "tracks/ambient/ambient__orbital-drift.mp3",
@@ -451,7 +451,7 @@
       "title": "Orbital Drift"
     },
     {
-      "bytes": 7248189,
+      "bytes": 9401613,
       "genre": "ambient",
       "id": "bundled:ambient__orbital-drift-ii",
       "path": "tracks/ambient/ambient__orbital-drift-ii.mp3",
@@ -475,7 +475,7 @@
       "title": "Orbital Tea II"
     },
     {
-      "bytes": 7637037,
+      "bytes": 9643581,
       "genre": "ambient",
       "id": "bundled:ambient__spacious-meditative",
       "path": "tracks/ambient/ambient__spacious-meditative.mp3",
@@ -635,7 +635,7 @@
       "title": "Nocturnal Pulse"
     },
     {
-      "bytes": 11556021,
+      "bytes": 14660013,
       "genre": "chillout",
       "id": "bundled:chillout__northern-night-drive",
       "path": "tracks/chillout/chillout__northern-night-drive.mp3",
@@ -643,7 +643,7 @@
       "title": "Northern Night Drive"
     },
     {
-      "bytes": 3873333,
+      "bytes": 4860213,
       "genre": "chillout",
       "id": "bundled:chillout__parisian-dreamscape",
       "path": "tracks/chillout/chillout__parisian-dreamscape.mp3",
@@ -723,6 +723,38 @@
       "title": "Royal Parade II"
     },
     {
+      "bytes": 3721413,
+      "genre": "cinematic",
+      "id": "bundled:cinematic__ashes-of-valor",
+      "path": "tracks/cinematic/cinematic__ashes-of-valor.mp3",
+      "seconds": 164,
+      "title": "Ashes of Valor"
+    },
+    {
+      "bytes": 4558869,
+      "genre": "cinematic",
+      "id": "bundled:cinematic__ashes-of-valor-ii",
+      "path": "tracks/cinematic/cinematic__ashes-of-valor-ii.mp3",
+      "seconds": 193,
+      "title": "Ashes of Valor II"
+    },
+    {
+      "bytes": 2838213,
+      "genre": "cinematic",
+      "id": "bundled:cinematic__beyond-the-helios-gate",
+      "path": "tracks/cinematic/cinematic__beyond-the-helios-gate.mp3",
+      "seconds": 123,
+      "title": "Beyond the Helios Gate"
+    },
+    {
+      "bytes": 4541637,
+      "genre": "cinematic",
+      "id": "bundled:cinematic__beyond-the-helios-gate-ii",
+      "path": "tracks/cinematic/cinematic__beyond-the-helios-gate-ii.mp3",
+      "seconds": 199,
+      "title": "Beyond the Helios Gate II"
+    },
+    {
       "bytes": 3085557,
       "genre": "cinematic",
       "id": "bundled:cinematic__clockwork-ascent",
@@ -739,7 +771,55 @@
       "title": "Clockwork Ascent II"
     },
     {
-      "bytes": 4899261,
+      "bytes": 3664965,
+      "genre": "cinematic",
+      "id": "bundled:cinematic__crown-of-ashes",
+      "path": "tracks/cinematic/cinematic__crown-of-ashes.mp3",
+      "seconds": 159,
+      "title": "Crown of Ashes"
+    },
+    {
+      "bytes": 3603693,
+      "genre": "cinematic",
+      "id": "bundled:cinematic__crown-of-ashes-ii",
+      "path": "tracks/cinematic/cinematic__crown-of-ashes-ii.mp3",
+      "seconds": 154,
+      "title": "Crown of Ashes II"
+    },
+    {
+      "bytes": 3494709,
+      "genre": "cinematic",
+      "id": "bundled:cinematic__dawn-of-elders",
+      "path": "tracks/cinematic/cinematic__dawn-of-elders.mp3",
+      "seconds": 149,
+      "title": "Dawn of Elders"
+    },
+    {
+      "bytes": 3981957,
+      "genre": "cinematic",
+      "id": "bundled:cinematic__dawn-of-elders-ii",
+      "path": "tracks/cinematic/cinematic__dawn-of-elders-ii.mp3",
+      "seconds": 175,
+      "title": "Dawn of Elders II"
+    },
+    {
+      "bytes": 3297213,
+      "genre": "cinematic",
+      "id": "bundled:cinematic__dawn-of-valoria",
+      "path": "tracks/cinematic/cinematic__dawn-of-valoria.mp3",
+      "seconds": 143,
+      "title": "Dawn of Valoria"
+    },
+    {
+      "bytes": 3434949,
+      "genre": "cinematic",
+      "id": "bundled:cinematic__dawn-of-valoria-ii",
+      "path": "tracks/cinematic/cinematic__dawn-of-valoria-ii.mp3",
+      "seconds": 149,
+      "title": "Dawn of Valoria II"
+    },
+    {
+      "bytes": 6289197,
       "genre": "cinematic",
       "id": "bundled:cinematic__dignified-panoramic",
       "path": "tracks/cinematic/cinematic__dignified-panoramic.mp3",
@@ -769,6 +849,54 @@
       "path": "tracks/cinematic/cinematic__eggshell-wonder-ii.mp3",
       "seconds": 96,
       "title": "Eggshell Wonder II"
+    },
+    {
+      "bytes": 2538213,
+      "genre": "cinematic",
+      "id": "bundled:cinematic__fantasy-orchestral-adventure",
+      "path": "tracks/cinematic/cinematic__fantasy-orchestral-adventure.mp3",
+      "seconds": 108,
+      "title": "Fantasy Orchestral Adventure"
+    },
+    {
+      "bytes": 3805605,
+      "genre": "cinematic",
+      "id": "bundled:cinematic__fantasy-orchestral-adventure-ii",
+      "path": "tracks/cinematic/cinematic__fantasy-orchestral-adventure-ii.mp3",
+      "seconds": 164,
+      "title": "Fantasy Orchestral Adventure II"
+    },
+    {
+      "bytes": 3940629,
+      "genre": "cinematic",
+      "id": "bundled:cinematic__final-stand",
+      "path": "tracks/cinematic/cinematic__final-stand.mp3",
+      "seconds": 168,
+      "title": "Final Stand"
+    },
+    {
+      "bytes": 4101357,
+      "genre": "cinematic",
+      "id": "bundled:cinematic__final-stand-ii",
+      "path": "tracks/cinematic/cinematic__final-stand-ii.mp3",
+      "seconds": 179,
+      "title": "Final Stand II"
+    },
+    {
+      "bytes": 3701373,
+      "genre": "cinematic",
+      "id": "bundled:cinematic__frostline-ascent",
+      "path": "tracks/cinematic/cinematic__frostline-ascent.mp3",
+      "seconds": 158,
+      "title": "Frostline Ascent"
+    },
+    {
+      "bytes": 4394109,
+      "genre": "cinematic",
+      "id": "bundled:cinematic__frostline-ascent-ii",
+      "path": "tracks/cinematic/cinematic__frostline-ascent-ii.mp3",
+      "seconds": 189,
+      "title": "Frostline Ascent II"
     },
     {
       "bytes": 3780261,
@@ -803,6 +931,54 @@
       "title": "High Mountain Search II"
     },
     {
+      "bytes": 2901501,
+      "genre": "cinematic",
+      "id": "bundled:cinematic__iron-will-rising",
+      "path": "tracks/cinematic/cinematic__iron-will-rising.mp3",
+      "seconds": 125,
+      "title": "Iron Will Rising"
+    },
+    {
+      "bytes": 2761773,
+      "genre": "cinematic",
+      "id": "bundled:cinematic__iron-will-rising-ii",
+      "path": "tracks/cinematic/cinematic__iron-will-rising-ii.mp3",
+      "seconds": 117,
+      "title": "Iron Will Rising II"
+    },
+    {
+      "bytes": 3753333,
+      "genre": "cinematic",
+      "id": "bundled:cinematic__last-horizon",
+      "path": "tracks/cinematic/cinematic__last-horizon.mp3",
+      "seconds": 159,
+      "title": "Last Horizon"
+    },
+    {
+      "bytes": 3796077,
+      "genre": "cinematic",
+      "id": "bundled:cinematic__last-horizon-break",
+      "path": "tracks/cinematic/cinematic__last-horizon-break.mp3",
+      "seconds": 162,
+      "title": "Last Horizon Break"
+    },
+    {
+      "bytes": 4178109,
+      "genre": "cinematic",
+      "id": "bundled:cinematic__last-horizon-break-ii",
+      "path": "tracks/cinematic/cinematic__last-horizon-break-ii.mp3",
+      "seconds": 180,
+      "title": "Last Horizon Break II"
+    },
+    {
+      "bytes": 3304845,
+      "genre": "cinematic",
+      "id": "bundled:cinematic__last-horizon-ii",
+      "path": "tracks/cinematic/cinematic__last-horizon-ii.mp3",
+      "seconds": 142,
+      "title": "Last Horizon II"
+    },
+    {
       "bytes": 3122205,
       "genre": "cinematic",
       "id": "bundled:cinematic__miniature-march",
@@ -819,7 +995,7 @@
       "title": "Miniature March II"
     },
     {
-      "bytes": 7472829,
+      "bytes": 9393933,
       "genre": "cinematic",
       "id": "bundled:cinematic__northern-ridge",
       "path": "tracks/cinematic/cinematic__northern-ridge.mp3",
@@ -835,12 +1011,92 @@
       "title": "Northern Ridge II"
     },
     {
+      "bytes": 4393365,
+      "genre": "cinematic",
+      "id": "bundled:cinematic__raven-standard",
+      "path": "tracks/cinematic/cinematic__raven-standard.mp3",
+      "seconds": 188,
+      "title": "Raven Standard"
+    },
+    {
+      "bytes": 6354861,
+      "genre": "cinematic",
+      "id": "bundled:cinematic__raven-standard-ii",
+      "path": "tracks/cinematic/cinematic__raven-standard-ii.mp3",
+      "seconds": 265,
+      "title": "Raven Standard II"
+    },
+    {
       "bytes": 4332987,
       "genre": "cinematic",
       "id": "bundled:cinematic__red-dust-horizon",
       "path": "tracks/cinematic/cinematic__red-dust-horizon.mp3",
       "seconds": 184,
       "title": "Red Dust Horizon"
+    },
+    {
+      "bytes": 4274157,
+      "genre": "cinematic",
+      "id": "bundled:cinematic__river-to-summit",
+      "path": "tracks/cinematic/cinematic__river-to-summit.mp3",
+      "seconds": 184,
+      "title": "River to Summit"
+    },
+    {
+      "bytes": 3901197,
+      "genre": "cinematic",
+      "id": "bundled:cinematic__river-to-summit-ii",
+      "path": "tracks/cinematic/cinematic__river-to-summit-ii.mp3",
+      "seconds": 164,
+      "title": "River to Summit II"
+    },
+    {
+      "bytes": 4332309,
+      "genre": "cinematic",
+      "id": "bundled:cinematic__slow-burn-score",
+      "path": "tracks/cinematic/cinematic__slow-burn-score.mp3",
+      "seconds": 155,
+      "title": "Slow Burn Score"
+    },
+    {
+      "bytes": 3037629,
+      "genre": "cinematic",
+      "id": "bundled:cinematic__slow-burn-score-ii",
+      "path": "tracks/cinematic/cinematic__slow-burn-score-ii.mp3",
+      "seconds": 129,
+      "title": "Slow Burn Score II"
+    },
+    {
+      "bytes": 4125117,
+      "genre": "cinematic",
+      "id": "bundled:cinematic__storm-of-valhalla",
+      "path": "tracks/cinematic/cinematic__storm-of-valhalla.mp3",
+      "seconds": 178,
+      "title": "Storm of Valhalla"
+    },
+    {
+      "bytes": 10369845,
+      "genre": "cinematic",
+      "id": "bundled:cinematic__storm-of-valhalla-ii",
+      "path": "tracks/cinematic/cinematic__storm-of-valhalla-ii.mp3",
+      "seconds": 346,
+      "title": "Storm of Valhalla II"
+    },
+    {
+      "bytes": 4344333,
+      "genre": "cinematic",
+      "id": "bundled:cinematic__sunrise-over-leviathan",
+      "path": "tracks/cinematic/cinematic__sunrise-over-leviathan.mp3",
+      "seconds": 184,
+      "title": "Sunrise Over Leviathan"
+    },
+    {
+      "bytes": 3462669,
+      "genre": "cinematic",
+      "id": "bundled:cinematic__sunrise-over-leviathan-ii",
+      "path": "tracks/cinematic/cinematic__sunrise-over-leviathan-ii.mp3",
+      "seconds": 147,
+      "title": "Sunrise Over Leviathan II"
     },
     {
       "bytes": 5792589,
@@ -875,7 +1131,7 @@
       "title": "Fading Transmission"
     },
     {
-      "bytes": 6664893,
+      "bytes": 8526525,
       "genre": "darkambient",
       "id": "bundled:darkambient__fading-transmission-ii",
       "path": "tracks/darkambient/darkambient__fading-transmission-ii.mp3",
@@ -907,7 +1163,7 @@
       "title": "Frozen Stone"
     },
     {
-      "bytes": 7563228,
+      "bytes": 9583939,
       "genre": "darkambient",
       "id": "bundled:darkambient__frozen-stone-ii",
       "path": "tracks/darkambient/darkambient__frozen-stone-ii.mp3",
@@ -931,7 +1187,7 @@
       "title": "Frozen Stone IV"
     },
     {
-      "bytes": 7839333,
+      "bytes": 9888165,
       "genre": "darkambient",
       "id": "bundled:darkambient__skin-drum-heartbeat",
       "path": "tracks/darkambient/darkambient__skin-drum-heartbeat.mp3",
@@ -971,7 +1227,7 @@
       "title": "Submerged Bloom II"
     },
     {
-      "bytes": 5097525,
+      "bytes": 6465021,
       "genre": "darkambient",
       "id": "bundled:darkambient__suspended-consonance",
       "path": "tracks/darkambient/darkambient__suspended-consonance.mp3",
@@ -1027,7 +1283,7 @@
       "title": "Carry Dusk"
     },
     {
-      "bytes": 7707525,
+      "bytes": 9724869,
       "genre": "darkfolk",
       "id": "bundled:darkfolk__carry-dusk-ii",
       "path": "tracks/darkfolk/darkfolk__carry-dusk-ii.mp3",
@@ -1051,7 +1307,7 @@
       "title": "Forest Tension II"
     },
     {
-      "bytes": 5036382,
+      "bytes": 6267476,
       "genre": "darkfolk",
       "id": "bundled:darkfolk__witch-market-dusk",
       "path": "tracks/darkfolk/darkfolk__witch-market-dusk.mp3",
@@ -1067,7 +1323,7 @@
       "title": "Detained Melody"
     },
     {
-      "bytes": 4375197,
+      "bytes": 5448093,
       "genre": "darksynth",
       "id": "bundled:darksynth__detained-melody-ii",
       "path": "tracks/darksynth/darksynth__detained-melody-ii.mp3",
@@ -1075,7 +1331,7 @@
       "title": "Detained Melody II"
     },
     {
-      "bytes": 8246973,
+      "bytes": 9967677,
       "genre": "darktechno",
       "id": "bundled:darktechno__corroded-resonance",
       "path": "tracks/darktechno/darktechno__corroded-resonance.mp3",
@@ -1083,7 +1339,7 @@
       "title": "Corroded Resonance"
     },
     {
-      "bytes": 11962917,
+      "bytes": 15061821,
       "genre": "darktechno",
       "id": "bundled:darktechno__corroded-resonance-ii",
       "path": "tracks/darktechno/darktechno__corroded-resonance-ii.mp3",
@@ -1131,7 +1387,7 @@
       "title": "Machine Surge"
     },
     {
-      "bytes": 11457357,
+      "bytes": 14435181,
       "genre": "darktechno",
       "id": "bundled:darktechno__machine-surge-ii",
       "path": "tracks/darktechno/darktechno__machine-surge-ii.mp3",
@@ -1139,7 +1395,25 @@
       "title": "Machine Surge II"
     },
     {
-      "bytes": 12723693,
+      "bytes": 4038825,
+      "genre": "deephouse",
+      "id": "bundled:deephouse__breezy-sunlit-groove",
+      "path": "tracks/deephouse/deephouse__breezy-sunlit-groove.mp3",
+      "seconds": 170,
+      "tag": "reel",
+      "title": "Breezy Sunlit Groove"
+    },
+    {
+      "bytes": 5209458,
+      "genre": "deephouse",
+      "id": "bundled:deephouse__breezy-sunlit-groove-ii",
+      "path": "tracks/deephouse/deephouse__breezy-sunlit-groove-ii.mp3",
+      "seconds": 177,
+      "tag": "reel",
+      "title": "Breezy Sunlit Groove II"
+    },
+    {
+      "bytes": 15772605,
       "genre": "deephouse",
       "id": "bundled:deephouse__cave-resonance",
       "path": "tracks/deephouse/deephouse__cave-resonance.mp3",
@@ -1155,7 +1429,7 @@
       "title": "Cave Resonance II"
     },
     {
-      "bytes": 5919885,
+      "bytes": 7451373,
       "genre": "deephouse",
       "id": "bundled:deephouse__ice-shelf-of-neptune",
       "path": "tracks/deephouse/deephouse__ice-shelf-of-neptune.mp3",
@@ -1171,7 +1445,43 @@
       "title": "Ice Shelf of Neptune II"
     },
     {
-      "bytes": 3862461,
+      "bytes": 4907427,
+      "genre": "deephouse",
+      "id": "bundled:deephouse__intimate-pulse",
+      "path": "tracks/deephouse/deephouse__intimate-pulse.mp3",
+      "seconds": 213,
+      "tag": "reel",
+      "title": "Intimate Pulse"
+    },
+    {
+      "bytes": 5078019,
+      "genre": "deephouse",
+      "id": "bundled:deephouse__intimate-pulse-ii",
+      "path": "tracks/deephouse/deephouse__intimate-pulse-ii.mp3",
+      "seconds": 209,
+      "tag": "reel",
+      "title": "Intimate Pulse II"
+    },
+    {
+      "bytes": 2444452,
+      "genre": "deephouse",
+      "id": "bundled:deephouse__palm-muted-tide",
+      "path": "tracks/deephouse/deephouse__palm-muted-tide.mp3",
+      "seconds": 94,
+      "tag": "reel",
+      "title": "Palm Muted Tide"
+    },
+    {
+      "bytes": 3283972,
+      "genre": "deephouse",
+      "id": "bundled:deephouse__palm-muted-tide-ii",
+      "path": "tracks/deephouse/deephouse__palm-muted-tide-ii.mp3",
+      "seconds": 137,
+      "tag": "reel",
+      "title": "Palm Muted Tide II"
+    },
+    {
+      "bytes": 4784171,
       "genre": "dnb",
       "id": "bundled:dnb__chrome-runner",
       "path": "tracks/dnb/dnb__chrome-runner.mp3",
@@ -1211,7 +1521,7 @@
       "title": "Station Confrontation"
     },
     {
-      "bytes": 5474061,
+      "bytes": 6901269,
       "genre": "dnb",
       "id": "bundled:dnb__station-confrontation-ii",
       "path": "tracks/dnb/dnb__station-confrontation-ii.mp3",
@@ -1235,7 +1545,7 @@
       "title": "Winter Palace Chase II"
     },
     {
-      "bytes": 11780277,
+      "bytes": 14849325,
       "genre": "dreampop",
       "id": "bundled:dreampop__city-of-mirrors",
       "path": "tracks/dreampop/dreampop__city-of-mirrors.mp3",
@@ -1243,7 +1553,7 @@
       "title": "City of Mirrors"
     },
     {
-      "bytes": 11872365,
+      "bytes": 15057981,
       "genre": "dreampop",
       "id": "bundled:dreampop__city-of-mirrors-ii",
       "path": "tracks/dreampop/dreampop__city-of-mirrors-ii.mp3",
@@ -1291,7 +1601,7 @@
       "title": "Weightless Release II"
     },
     {
-      "bytes": 3906333,
+      "bytes": 4773813,
       "genre": "edm",
       "id": "bundled:edm__bubblegum-meteor-shower",
       "path": "tracks/edm/edm__bubblegum-meteor-shower.mp3",
@@ -1299,7 +1609,7 @@
       "title": "Bubblegum Meteor Shower"
     },
     {
-      "bytes": 4074381,
+      "bytes": 5102421,
       "genre": "edm",
       "id": "bundled:edm__bubblegum-meteor-shower-ii",
       "path": "tracks/edm/edm__bubblegum-meteor-shower-ii.mp3",
@@ -1323,6 +1633,24 @@
       "title": "Harbor Rhythms II"
     },
     {
+      "bytes": 3091872,
+      "genre": "edm",
+      "id": "bundled:edm__iron-cattle",
+      "path": "tracks/edm/edm__iron-cattle.mp3",
+      "seconds": 132,
+      "tag": "reel",
+      "title": "Iron Cattle"
+    },
+    {
+      "bytes": 4213641,
+      "genre": "edm",
+      "id": "bundled:edm__iron-cattle-ii",
+      "path": "tracks/edm/edm__iron-cattle-ii.mp3",
+      "seconds": 130,
+      "tag": "reel",
+      "title": "Iron Cattle II"
+    },
+    {
       "bytes": 2938797,
       "genre": "edm",
       "id": "bundled:edm__tavern-dance",
@@ -1337,6 +1665,24 @@
       "path": "tracks/edm/edm__tavern-dance-ii.mp3",
       "seconds": 128,
       "title": "Tavern Dance II"
+    },
+    {
+      "bytes": 3205388,
+      "genre": "edm",
+      "id": "bundled:edm__the-reveal-future-bass",
+      "path": "tracks/edm/edm__the-reveal-future-bass.mp3",
+      "seconds": 137,
+      "tag": "reel",
+      "title": "The Reveal Future Bass"
+    },
+    {
+      "bytes": 3740204,
+      "genre": "edm",
+      "id": "bundled:edm__the-reveal-future-bass-ii",
+      "path": "tracks/edm/edm__the-reveal-future-bass-ii.mp3",
+      "seconds": 153,
+      "tag": "reel",
+      "title": "The Reveal Future Bass II"
     },
     {
       "bytes": 4200924,
@@ -1355,7 +1701,7 @@
       "title": "Pulse Shift II"
     },
     {
-      "bytes": 4670301,
+      "bytes": 5860269,
       "genre": "electroswing",
       "id": "bundled:electroswing__clockwork-cabaret",
       "path": "tracks/electroswing/electroswing__clockwork-cabaret.mp3",
@@ -1363,7 +1709,7 @@
       "title": "Clockwork Cabaret"
     },
     {
-      "bytes": 4523565,
+      "bytes": 5628093,
       "genre": "electroswing",
       "id": "bundled:electroswing__clockwork-cabaret-ii",
       "path": "tracks/electroswing/electroswing__clockwork-cabaret-ii.mp3",
@@ -1371,7 +1717,7 @@
       "title": "Clockwork Cabaret II"
     },
     {
-      "bytes": 10793613,
+      "bytes": 13480485,
       "genre": "electroswing",
       "id": "bundled:electroswing__el-robo-de-noche",
       "path": "tracks/electroswing/electroswing__el-robo-de-noche.mp3",
@@ -1387,7 +1733,7 @@
       "title": "El Robo De Noche II"
     },
     {
-      "bytes": 4278246,
+      "bytes": 5388068,
       "genre": "electroswing",
       "id": "bundled:electroswing__velvet-casino",
       "path": "tracks/electroswing/electroswing__velvet-casino.mp3",
@@ -1403,12 +1749,28 @@
       "title": "Ancient Engine Awakens"
     },
     {
-      "bytes": 6287709,
+      "bytes": 7842381,
       "genre": "epic",
       "id": "bundled:epic__ancient-engine-awakens-ii",
       "path": "tracks/epic/epic__ancient-engine-awakens-ii.mp3",
       "seconds": 248,
       "title": "Ancient Engine Awakens II"
+    },
+    {
+      "bytes": 7083741,
+      "genre": "epic",
+      "id": "bundled:epic__crown-of-ash",
+      "path": "tracks/epic/epic__crown-of-ash.mp3",
+      "seconds": 301,
+      "title": "Crown of Ash"
+    },
+    {
+      "bytes": 3903717,
+      "genre": "epic",
+      "id": "bundled:epic__crown-of-ash-ii",
+      "path": "tracks/epic/epic__crown-of-ash-ii.mp3",
+      "seconds": 165,
+      "title": "Crown of Ash II"
     },
     {
       "bytes": 5237575,
@@ -1433,6 +1795,24 @@
       "path": "tracks/epic/epic__rebirth.mp3",
       "seconds": 354,
       "title": "Rebirth"
+    },
+    {
+      "bytes": 3073346,
+      "genre": "epic",
+      "id": "bundled:epic__rising-legato",
+      "path": "tracks/epic/epic__rising-legato.mp3",
+      "seconds": 132,
+      "tag": "reel",
+      "title": "Rising Legato"
+    },
+    {
+      "bytes": 2912642,
+      "genre": "epic",
+      "id": "bundled:epic__rising-legato-ii",
+      "path": "tracks/epic/epic__rising-legato-ii.mp3",
+      "seconds": 124,
+      "tag": "reel",
+      "title": "Rising Legato II"
     },
     {
       "bytes": 5392365,
@@ -1507,7 +1887,7 @@
       "title": "Carnival on the Moon"
     },
     {
-      "bytes": 7940013,
+      "bytes": 9900717,
       "genre": "funk",
       "id": "bundled:funk__deadline-broadcast",
       "path": "tracks/funk/funk__deadline-broadcast.mp3",
@@ -1531,7 +1911,7 @@
       "title": "Kitchen Robot"
     },
     {
-      "bytes": 7011453,
+      "bytes": 8765613,
       "genre": "funk",
       "id": "bundled:funk__kitchen-robot-ii",
       "path": "tracks/funk/funk__kitchen-robot-ii.mp3",
@@ -1587,7 +1967,7 @@
       "title": "Night Market Funk"
     },
     {
-      "bytes": 5145261,
+      "bytes": 6462909,
       "genre": "funk",
       "id": "bundled:funk__night-market-funk-ii",
       "path": "tracks/funk/funk__night-market-funk-ii.mp3",
@@ -1611,7 +1991,7 @@
       "title": "Tokyo Morning Scene II"
     },
     {
-      "bytes": 11399373,
+      "bytes": 14360493,
       "genre": "futuregarage",
       "id": "bundled:futuregarage__concrete-sunset",
       "path": "tracks/futuregarage/futuregarage__concrete-sunset.mp3",
@@ -1731,7 +2111,7 @@
       "title": "Falling Snowlight II"
     },
     {
-      "bytes": 4606125,
+      "bytes": 5723253,
       "genre": "general",
       "id": "bundled:general__glass-cathedral",
       "path": "tracks/general/general__glass-cathedral.mp3",
@@ -1811,7 +2191,7 @@
       "title": "Starforged Procession II"
     },
     {
-      "bytes": 5217645,
+      "bytes": 6536301,
       "genre": "glitchhop",
       "id": "bundled:glitchhop__candy-machine-cut",
       "path": "tracks/glitchhop/glitchhop__candy-machine-cut.mp3",
@@ -1851,6 +2231,24 @@
       "title": "Afterparty on an Asteroid II"
     },
     {
+      "bytes": 1909684,
+      "genre": "house",
+      "id": "bundled:house__bouncing-groove",
+      "path": "tracks/house/house__bouncing-groove.mp3",
+      "seconds": 84,
+      "tag": "reel",
+      "title": "Bouncing Groove"
+    },
+    {
+      "bytes": 2455108,
+      "genre": "house",
+      "id": "bundled:house__bouncing-groove-ii",
+      "path": "tracks/house/house__bouncing-groove-ii.mp3",
+      "seconds": 102,
+      "tag": "reel",
+      "title": "Bouncing Groove II"
+    },
+    {
       "bytes": 4668021,
       "genre": "house",
       "id": "bundled:house__digital-plants",
@@ -1883,7 +2281,7 @@
       "title": "Greenhouse Sunlight II"
     },
     {
-      "bytes": 4529757,
+      "bytes": 5792037,
       "genre": "house",
       "id": "bundled:house__laundromat-cycle",
       "path": "tracks/house/house__laundromat-cycle.mp3",
@@ -1907,7 +2305,7 @@
       "title": "Sunlit Pulse"
     },
     {
-      "bytes": 9027957,
+      "bytes": 11251005,
       "genre": "house",
       "id": "bundled:house__sunlit-pulse-ii",
       "path": "tracks/house/house__sunlit-pulse-ii.mp3",
@@ -1939,6 +2337,22 @@
       "title": "Chrome Ascension II"
     },
     {
+      "bytes": 3969717,
+      "genre": "hybrid",
+      "id": "bundled:hybrid__crown-of-ashes-iii",
+      "path": "tracks/hybrid/hybrid__crown-of-ashes-iii.mp3",
+      "seconds": 168,
+      "title": "Crown of Ashes III"
+    },
+    {
+      "bytes": 3855861,
+      "genre": "hybrid",
+      "id": "bundled:hybrid__crown-of-ashes-iv",
+      "path": "tracks/hybrid/hybrid__crown-of-ashes-iv.mp3",
+      "seconds": 168,
+      "title": "Crown of Ashes IV"
+    },
+    {
       "bytes": 5211189,
       "genre": "hybrid",
       "id": "bundled:hybrid__defiant-motif",
@@ -1947,7 +2361,7 @@
       "title": "Defiant Motif"
     },
     {
-      "bytes": 5136141,
+      "bytes": 6495117,
       "genre": "hybrid",
       "id": "bundled:hybrid__defiant-motif-ii",
       "path": "tracks/hybrid/hybrid__defiant-motif-ii.mp3",
@@ -1979,12 +2393,204 @@
       "title": "Iron Horizon II"
     },
     {
+      "bytes": 3700461,
+      "genre": "hybrid",
+      "id": "bundled:hybrid__iron-longship-march",
+      "path": "tracks/hybrid/hybrid__iron-longship-march.mp3",
+      "seconds": 159,
+      "title": "Iron Longship March"
+    },
+    {
+      "bytes": 7174341,
+      "genre": "hybrid",
+      "id": "bundled:hybrid__iron-longship-march-ii",
+      "path": "tracks/hybrid/hybrid__iron-longship-march-ii.mp3",
+      "seconds": 299,
+      "title": "Iron Longship March II"
+    },
+    {
+      "bytes": 6705621,
+      "genre": "hybrid",
+      "id": "bundled:hybrid__iron-longships-rise",
+      "path": "tracks/hybrid/hybrid__iron-longships-rise.mp3",
+      "seconds": 225,
+      "title": "Iron Longships Rise"
+    },
+    {
+      "bytes": 4454013,
+      "genre": "hybrid",
+      "id": "bundled:hybrid__iron-longships-rise-ii",
+      "path": "tracks/hybrid/hybrid__iron-longships-rise-ii.mp3",
+      "seconds": 148,
+      "title": "Iron Longships Rise II"
+    },
+    {
+      "bytes": 3054501,
+      "genre": "hybrid",
+      "id": "bundled:hybrid__iron-oath-rising",
+      "path": "tracks/hybrid/hybrid__iron-oath-rising.mp3",
+      "seconds": 129,
+      "title": "Iron Oath Rising"
+    },
+    {
+      "bytes": 3987309,
+      "genre": "hybrid",
+      "id": "bundled:hybrid__iron-oath-rising-ii",
+      "path": "tracks/hybrid/hybrid__iron-oath-rising-ii.mp3",
+      "seconds": 170,
+      "title": "Iron Oath Rising II"
+    },
+    {
+      "bytes": 4683309,
+      "genre": "hybrid",
+      "id": "bundled:hybrid__iron-siege-march",
+      "path": "tracks/hybrid/hybrid__iron-siege-march.mp3",
+      "seconds": 203,
+      "title": "Iron Siege March"
+    },
+    {
+      "bytes": 9859125,
+      "genre": "hybrid",
+      "id": "bundled:hybrid__iron-siege-march-ii",
+      "path": "tracks/hybrid/hybrid__iron-siege-march-ii.mp3",
+      "seconds": 331,
+      "title": "Iron Siege March II"
+    },
+    {
+      "bytes": 10343567,
+      "genre": "hybrid",
+      "id": "bundled:hybrid__iron-warlord-breaker",
+      "path": "tracks/hybrid/hybrid__iron-warlord-breaker.mp3",
+      "seconds": 332,
+      "title": "Iron Warlord Breaker"
+    },
+    {
+      "bytes": 4183629,
+      "genre": "hybrid",
+      "id": "bundled:hybrid__iron-warlord-breaker-ii",
+      "path": "tracks/hybrid/hybrid__iron-warlord-breaker-ii.mp3",
+      "seconds": 178,
+      "title": "Iron Warlord Breaker II"
+    },
+    {
+      "bytes": 4029525,
+      "genre": "hybrid",
+      "id": "bundled:hybrid__moonforge-ascendant",
+      "path": "tracks/hybrid/hybrid__moonforge-ascendant.mp3",
+      "seconds": 172,
+      "title": "Moonforge Ascendant"
+    },
+    {
+      "bytes": 3686445,
+      "genre": "hybrid",
+      "id": "bundled:hybrid__moonforge-ascendant-ii",
+      "path": "tracks/hybrid/hybrid__moonforge-ascendant-ii.mp3",
+      "seconds": 158,
+      "title": "Moonforge Ascendant II"
+    },
+    {
+      "bytes": 3373053,
+      "genre": "hybrid",
+      "id": "bundled:hybrid__northbound-longship",
+      "path": "tracks/hybrid/hybrid__northbound-longship.mp3",
+      "seconds": 143,
+      "title": "Northbound Longship"
+    },
+    {
+      "bytes": 7390941,
+      "genre": "hybrid",
+      "id": "bundled:hybrid__northbound-longship-ii",
+      "path": "tracks/hybrid/hybrid__northbound-longship-ii.mp3",
+      "seconds": 255,
+      "title": "Northbound Longship II"
+    },
+    {
+      "bytes": 6617997,
+      "genre": "hybrid",
+      "id": "bundled:hybrid__raven-axe-procession",
+      "path": "tracks/hybrid/hybrid__raven-axe-procession.mp3",
+      "seconds": 270,
+      "title": "Raven Axe Procession"
+    },
+    {
+      "bytes": 4090221,
+      "genre": "hybrid",
+      "id": "bundled:hybrid__raven-axe-procession-ii",
+      "path": "tracks/hybrid/hybrid__raven-axe-procession-ii.mp3",
+      "seconds": 173,
+      "title": "Raven Axe Procession II"
+    },
+    {
+      "bytes": 3787821,
+      "genre": "hybrid",
+      "id": "bundled:hybrid__raven-shield-march",
+      "path": "tracks/hybrid/hybrid__raven-shield-march.mp3",
+      "seconds": 163,
+      "title": "Raven Shield March"
+    },
+    {
+      "bytes": 3930357,
+      "genre": "hybrid",
+      "id": "bundled:hybrid__raven-shield-march-ii",
+      "path": "tracks/hybrid/hybrid__raven-shield-march-ii.mp3",
+      "seconds": 169,
+      "title": "Raven Shield March II"
+    },
+    {
+      "bytes": 4506045,
+      "genre": "hybrid",
+      "id": "bundled:hybrid__ravenfield-oath",
+      "path": "tracks/hybrid/hybrid__ravenfield-oath.mp3",
+      "seconds": 193,
+      "title": "Ravenfield Oath"
+    },
+    {
+      "bytes": 7559181,
+      "genre": "hybrid",
+      "id": "bundled:hybrid__ravenfield-oath-ii",
+      "path": "tracks/hybrid/hybrid__ravenfield-oath-ii.mp3",
+      "seconds": 314,
+      "title": "Ravenfield Oath II"
+    },
+    {
       "bytes": 4962487,
       "genre": "hybrid",
       "id": "bundled:hybrid__reel-ascension-ii",
       "path": "tracks/hybrid/hybrid__reel-ascension-ii.mp3",
       "seconds": 209,
       "title": "Reel Ascension II"
+    },
+    {
+      "bytes": 4004589,
+      "genre": "hybrid",
+      "id": "bundled:hybrid__relentless-pursuit",
+      "path": "tracks/hybrid/hybrid__relentless-pursuit.mp3",
+      "seconds": 169,
+      "title": "Relentless Pursuit"
+    },
+    {
+      "bytes": 2333229,
+      "genre": "hybrid",
+      "id": "bundled:hybrid__relentless-pursuit-ii",
+      "path": "tracks/hybrid/hybrid__relentless-pursuit-ii.mp3",
+      "seconds": 99,
+      "title": "Relentless Pursuit II"
+    },
+    {
+      "bytes": 5708349,
+      "genre": "hybrid",
+      "id": "bundled:hybrid__steel-run-theme",
+      "path": "tracks/hybrid/hybrid__steel-run-theme.mp3",
+      "seconds": 239,
+      "title": "Steel Run Theme"
+    },
+    {
+      "bytes": 2349669,
+      "genre": "hybrid",
+      "id": "bundled:hybrid__steel-run-theme-ii",
+      "path": "tracks/hybrid/hybrid__steel-run-theme-ii.mp3",
+      "seconds": 99,
+      "title": "Steel Run Theme II"
     },
     {
       "bytes": 5580333,
@@ -1995,7 +2601,7 @@
       "title": "Four Note Motif"
     },
     {
-      "bytes": 13025373,
+      "bytes": 16351677,
       "genre": "idm",
       "id": "bundled:idm__four-note-motif-ii",
       "path": "tracks/idm/idm__four-note-motif-ii.mp3",
@@ -2003,7 +2609,7 @@
       "title": "Four Note Motif II"
     },
     {
-      "bytes": 6309069,
+      "bytes": 7920093,
       "genre": "idm",
       "id": "bundled:idm__mechanical-affection",
       "path": "tracks/idm/idm__mechanical-affection.mp3",
@@ -2115,7 +2721,7 @@
       "title": "Horizon Drive"
     },
     {
-      "bytes": 6709797,
+      "bytes": 8482893,
       "genre": "indierock",
       "id": "bundled:indierock__horizon-drive-ii",
       "path": "tracks/indierock/indierock__horizon-drive-ii.mp3",
@@ -2267,6 +2873,24 @@
       "title": "Five Note Motif II"
     },
     {
+      "bytes": 2680610,
+      "genre": "jazz",
+      "id": "bundled:jazz__foxglove-fizz",
+      "path": "tracks/jazz/jazz__foxglove-fizz.mp3",
+      "seconds": 111,
+      "tag": "reel",
+      "title": "Foxglove Fizz"
+    },
+    {
+      "bytes": 2826404,
+      "genre": "jazz",
+      "id": "bundled:jazz__foxglove-fizz-ii",
+      "path": "tracks/jazz/jazz__foxglove-fizz-ii.mp3",
+      "seconds": 120,
+      "tag": "reel",
+      "title": "Foxglove Fizz II"
+    },
+    {
       "bytes": 4449261,
       "genre": "jazz",
       "id": "bundled:jazz__midnight-in-the-market",
@@ -2331,7 +2955,7 @@
       "title": "Rooftop Spring"
     },
     {
-      "bytes": 4748109,
+      "bytes": 5974749,
       "genre": "jazz",
       "id": "bundled:jazz__the-three-note-clue",
       "path": "tracks/jazz/jazz__the-three-note-clue.mp3",
@@ -2355,7 +2979,7 @@
       "title": "Vibraphone Motif II"
     },
     {
-      "bytes": 4831101,
+      "bytes": 5994477,
       "genre": "jazz",
       "id": "bundled:jazz__weightless-lounge",
       "path": "tracks/jazz/jazz__weightless-lounge.mp3",
@@ -2369,6 +2993,24 @@
       "path": "tracks/jazz/jazz__weightless-lounge-ii.mp3",
       "seconds": 188,
       "title": "Weightless Lounge II"
+    },
+    {
+      "bytes": 3968262,
+      "genre": "lofi",
+      "id": "bundled:lofi__late-train-window",
+      "path": "tracks/lofi/lofi__late-train-window.mp3",
+      "seconds": 179,
+      "tag": "reel",
+      "title": "Late Train Window"
+    },
+    {
+      "bytes": 2741814,
+      "genre": "lofi",
+      "id": "bundled:lofi__late-train-window-ii",
+      "path": "tracks/lofi/lofi__late-train-window-ii.mp3",
+      "seconds": 120,
+      "tag": "reel",
+      "title": "Late Train Window II"
     },
     {
       "bytes": 4511997,
@@ -2499,6 +3141,24 @@
       "title": "Distant Ping"
     },
     {
+      "bytes": 3941857,
+      "genre": "melodictechno",
+      "id": "bundled:melodictechno__open-circuit",
+      "path": "tracks/melodictechno/melodictechno__open-circuit.mp3",
+      "seconds": 158,
+      "tag": "reel",
+      "title": "Open Circuit"
+    },
+    {
+      "bytes": 3803929,
+      "genre": "melodictechno",
+      "id": "bundled:melodictechno__open-circuit-ii",
+      "path": "tracks/melodictechno/melodictechno__open-circuit-ii.mp3",
+      "seconds": 158,
+      "tag": "reel",
+      "title": "Open Circuit II"
+    },
+    {
       "bytes": 6262989,
       "genre": "minimaltechno",
       "id": "bundled:minimaltechno__carriage-pulse",
@@ -2507,7 +3167,7 @@
       "title": "Carriage Pulse"
     },
     {
-      "bytes": 6050805,
+      "bytes": 7662597,
       "genre": "minimaltechno",
       "id": "bundled:minimaltechno__carriage-pulse-ii",
       "path": "tracks/minimaltechno/minimaltechno__carriage-pulse-ii.mp3",
@@ -2515,7 +3175,7 @@
       "title": "Carriage Pulse II"
     },
     {
-      "bytes": 7669869,
+      "bytes": 9472365,
       "genre": "minimaltechno",
       "id": "bundled:minimaltechno__power-down-protocol",
       "path": "tracks/minimaltechno/minimaltechno__power-down-protocol.mp3",
@@ -2523,7 +3183,7 @@
       "title": "Power Down Protocol"
     },
     {
-      "bytes": 7513413,
+      "bytes": 9421629,
       "genre": "minimaltechno",
       "id": "bundled:minimaltechno__power-down-protocol-ii",
       "path": "tracks/minimaltechno/minimaltechno__power-down-protocol-ii.mp3",
@@ -2683,7 +3343,7 @@
       "title": "Dawn Motif"
     },
     {
-      "bytes": 7365453,
+      "bytes": 9323853,
       "genre": "neoclassical",
       "id": "bundled:neoclassical__dawn-motif-ii",
       "path": "tracks/neoclassical/neoclassical__dawn-motif-ii.mp3",
@@ -2691,7 +3351,25 @@
       "title": "Dawn Motif II"
     },
     {
-      "bytes": 4204653,
+      "bytes": 3092262,
+      "genre": "neoclassical",
+      "id": "bundled:neoclassical__felt-piano-return",
+      "path": "tracks/neoclassical/neoclassical__felt-piano-return.mp3",
+      "seconds": 133,
+      "tag": "reel",
+      "title": "Felt Piano Return"
+    },
+    {
+      "bytes": 3705975,
+      "genre": "neoclassical",
+      "id": "bundled:neoclassical__felt-piano-return-ii",
+      "path": "tracks/neoclassical/neoclassical__felt-piano-return-ii.mp3",
+      "seconds": 124,
+      "tag": "reel",
+      "title": "Felt Piano Return II"
+    },
+    {
+      "bytes": 5325693,
       "genre": "neoclassical",
       "id": "bundled:neoclassical__observatory-waltz",
       "path": "tracks/neoclassical/neoclassical__observatory-waltz.mp3",
@@ -2699,7 +3377,7 @@
       "title": "Observatory Waltz"
     },
     {
-      "bytes": 7112373,
+      "bytes": 9065853,
       "genre": "neoclassical",
       "id": "bundled:neoclassical__observatory-waltz-ii",
       "path": "tracks/neoclassical/neoclassical__observatory-waltz-ii.mp3",
@@ -2707,7 +3385,7 @@
       "title": "Observatory Waltz II"
     },
     {
-      "bytes": 6799989,
+      "bytes": 8653389,
       "genre": "neoclassical",
       "id": "bundled:neoclassical__sunlit-memory",
       "path": "tracks/neoclassical/neoclassical__sunlit-memory.mp3",
@@ -2721,6 +3399,22 @@
       "path": "tracks/neoclassical/neoclassical__sunlit-memory-ii.mp3",
       "seconds": 173,
       "title": "Sunlit Memory II"
+    },
+    {
+      "bytes": 4877949,
+      "genre": "neoclassical",
+      "id": "bundled:neoclassical__valley-of-dawn",
+      "path": "tracks/neoclassical/neoclassical__valley-of-dawn.mp3",
+      "seconds": 208,
+      "title": "Valley of Dawn"
+    },
+    {
+      "bytes": 2938533,
+      "genre": "neoclassical",
+      "id": "bundled:neoclassical__valley-of-dawn-ii",
+      "path": "tracks/neoclassical/neoclassical__valley-of-dawn-ii.mp3",
+      "seconds": 127,
+      "title": "Valley of Dawn II"
     },
     {
       "bytes": 5029695,
@@ -2819,7 +3513,7 @@
       "title": "Nocturnal Drift"
     },
     {
-      "bytes": 8744109,
+      "bytes": 10882557,
       "genre": "postrock",
       "id": "bundled:postrock__canyon-echoes",
       "path": "tracks/postrock/postrock__canyon-echoes.mp3",
@@ -2827,7 +3521,7 @@
       "title": "Canyon Echoes"
     },
     {
-      "bytes": 11952333,
+      "bytes": 15015885,
       "genre": "postrock",
       "id": "bundled:postrock__canyon-echoes-ii",
       "path": "tracks/postrock/postrock__canyon-echoes-ii.mp3",
@@ -2835,7 +3529,25 @@
       "title": "Canyon Echoes II"
     },
     {
-      "bytes": 7316325,
+      "bytes": 3796476,
+      "genre": "postrock",
+      "id": "bundled:postrock__eight-bar-lift",
+      "path": "tracks/postrock/postrock__eight-bar-lift.mp3",
+      "seconds": 133,
+      "tag": "reel",
+      "title": "Eight Bar Lift"
+    },
+    {
+      "bytes": 3173667,
+      "genre": "postrock",
+      "id": "bundled:postrock__eight-bar-lift-ii",
+      "path": "tracks/postrock/postrock__eight-bar-lift-ii.mp3",
+      "seconds": 141,
+      "tag": "reel",
+      "title": "Eight Bar Lift II"
+    },
+    {
+      "bytes": 9145029,
       "genre": "postrock",
       "id": "bundled:postrock__isolated-beacon",
       "path": "tracks/postrock/postrock__isolated-beacon.mp3",
@@ -2851,7 +3563,7 @@
       "title": "Isolated Beacon II"
     },
     {
-      "bytes": 11890893,
+      "bytes": 14948757,
       "genre": "postrock",
       "id": "bundled:postrock__post-rain-hope",
       "path": "tracks/postrock/postrock__post-rain-hope.mp3",
@@ -2875,7 +3587,7 @@
       "title": "Stadium Silence"
     },
     {
-      "bytes": 6475197,
+      "bytes": 8213373,
       "genre": "postrock",
       "id": "bundled:postrock__stadium-silence-ii",
       "path": "tracks/postrock/postrock__stadium-silence-ii.mp3",
@@ -2883,7 +3595,7 @@
       "title": "Stadium Silence II"
     },
     {
-      "bytes": 6487845,
+      "bytes": 8243949,
       "genre": "postrock",
       "id": "bundled:postrock__wall-of-sound",
       "path": "tracks/postrock/postrock__wall-of-sound.mp3",
@@ -2915,7 +3627,7 @@
       "title": "Eclipse Arrival II"
     },
     {
-      "bytes": 5532813,
+      "bytes": 6933117,
       "genre": "soul",
       "id": "bundled:soul__golden-hour-groove",
       "path": "tracks/soul/soul__golden-hour-groove.mp3",
@@ -2979,6 +3691,22 @@
       "title": "Sunday Sprint II"
     },
     {
+      "bytes": 7017445,
+      "genre": "sportrock",
+      "id": "bundled:sportrock__the-last-command",
+      "path": "tracks/sportrock/sportrock__the-last-command.mp3",
+      "seconds": 306,
+      "title": "The Last Command"
+    },
+    {
+      "bytes": 7198597,
+      "genre": "sportrock",
+      "id": "bundled:sportrock__the-last-command-ii",
+      "path": "tracks/sportrock/sportrock__the-last-command-ii.mp3",
+      "seconds": 320,
+      "title": "The Last Command II"
+    },
+    {
       "bytes": 6023949,
       "genre": "synthwave",
       "id": "bundled:synthwave__electronic-pulse",
@@ -2995,6 +3723,42 @@
       "title": "Electronic Pulse II"
     },
     {
+      "bytes": 3481301,
+      "genre": "synthwave",
+      "id": "bundled:synthwave__glasswater-pulse",
+      "path": "tracks/synthwave/synthwave__glasswater-pulse.mp3",
+      "seconds": 150,
+      "tag": "reel",
+      "title": "Glasswater Pulse"
+    },
+    {
+      "bytes": 4651205,
+      "genre": "synthwave",
+      "id": "bundled:synthwave__glasswater-pulse-ii",
+      "path": "tracks/synthwave/synthwave__glasswater-pulse-ii.mp3",
+      "seconds": 203,
+      "tag": "reel",
+      "title": "Glasswater Pulse II"
+    },
+    {
+      "bytes": 4386441,
+      "genre": "synthwave",
+      "id": "bundled:synthwave__midnight-horizon-run",
+      "path": "tracks/synthwave/synthwave__midnight-horizon-run.mp3",
+      "seconds": 188,
+      "tag": "reel",
+      "title": "Midnight Horizon Run"
+    },
+    {
+      "bytes": 4501353,
+      "genre": "synthwave",
+      "id": "bundled:synthwave__midnight-horizon-run-ii",
+      "path": "tracks/synthwave/synthwave__midnight-horizon-run-ii.mp3",
+      "seconds": 192,
+      "tag": "reel",
+      "title": "Midnight Horizon Run II"
+    },
+    {
       "bytes": 4314093,
       "genre": "synthwave",
       "id": "bundled:synthwave__neon-medieval",
@@ -3003,7 +3767,7 @@
       "title": "Neon Medieval"
     },
     {
-      "bytes": 4371165,
+      "bytes": 5418021,
       "genre": "synthwave",
       "id": "bundled:synthwave__neon-medieval-ii",
       "path": "tracks/synthwave/synthwave__neon-medieval-ii.mp3",
@@ -3043,7 +3807,7 @@
       "title": "Nostalgic Bell Motif II"
     },
     {
-      "bytes": 4308381,
+      "bytes": 5398197,
       "genre": "trance",
       "id": "bundled:trance__pre-dawn-pulse",
       "path": "tracks/trance/trance__pre-dawn-pulse.mp3",
@@ -3075,7 +3839,25 @@
       "title": "Radiant Sustained Harmony II"
     },
     {
-      "bytes": 5650031,
+      "bytes": 2763652,
+      "genre": "trance",
+      "id": "bundled:trance__tight-bass-hook",
+      "path": "tracks/trance/trance__tight-bass-hook.mp3",
+      "seconds": 115,
+      "tag": "reel",
+      "title": "Tight Bass Hook"
+    },
+    {
+      "bytes": 3856429,
+      "genre": "trance",
+      "id": "bundled:trance__tight-bass-hook-ii",
+      "path": "tracks/trance/trance__tight-bass-hook-ii.mp3",
+      "seconds": 126,
+      "tag": "reel",
+      "title": "Tight Bass Hook II"
+    },
+    {
+      "bytes": 7013437,
       "genre": "trap",
       "id": "bundled:trap__clockwork-sovereign",
       "path": "tracks/trap/trap__clockwork-sovereign.mp3",
@@ -3083,7 +3865,7 @@
       "title": "Clockwork Sovereign"
     },
     {
-      "bytes": 7456965,
+      "bytes": 9371229,
       "genre": "triphop",
       "id": "bundled:triphop__floor-by-floor",
       "path": "tracks/triphop/triphop__floor-by-floor.mp3",
@@ -3091,7 +3873,7 @@
       "title": "Floor by Floor"
     },
     {
-      "bytes": 11894829,
+      "bytes": 14905605,
       "genre": "triphop",
       "id": "bundled:triphop__sinister-smooth",
       "path": "tracks/triphop/triphop__sinister-smooth.mp3",
@@ -3115,7 +3897,7 @@
       "title": "Desert Headlights II"
     },
     {
-      "bytes": 5390517,
+      "bytes": 6746277,
       "genre": "western",
       "id": "bundled:western__dust-and-static",
       "path": "tracks/western/western__dust-and-static.mp3",
@@ -3155,7 +3937,7 @@
       "title": "Martian Slide"
     },
     {
-      "bytes": 4834509,
+      "bytes": 5997357,
       "genre": "western",
       "id": "bundled:western__martian-slide-ii",
       "path": "tracks/western/western__martian-slide-ii.mp3",
@@ -3203,7 +3985,7 @@
       "title": "Bamboo Train Through Rain II"
     },
     {
-      "bytes": 6175094,
+      "bytes": 7783858,
       "genre": "worldchill",
       "id": "bundled:worldchill__breath-of-the-desert",
       "path": "tracks/worldchill/worldchill__breath-of-the-desert.mp3",
@@ -3219,12 +4001,48 @@
       "title": "Buried Library"
     },
     {
+      "bytes": 2564068,
+      "genre": "worldchill",
+      "id": "bundled:worldchill__calor-de-verano",
+      "path": "tracks/worldchill/worldchill__calor-de-verano.mp3",
+      "seconds": 102,
+      "tag": "reel",
+      "title": "Calor De Verano"
+    },
+    {
+      "bytes": 1800628,
+      "genre": "worldchill",
+      "id": "bundled:worldchill__calor-de-verano-ii",
+      "path": "tracks/worldchill/worldchill__calor-de-verano-ii.mp3",
+      "seconds": 71,
+      "tag": "reel",
+      "title": "Calor De Verano II"
+    },
+    {
       "bytes": 4284358,
       "genre": "worldchill",
       "id": "bundled:worldchill__desert-breath",
       "path": "tracks/worldchill/worldchill__desert-breath.mp3",
       "seconds": 173,
       "title": "Desert Breath"
+    },
+    {
+      "bytes": 5352288,
+      "genre": "worldchill",
+      "id": "bundled:worldchill__mesa-de-sol",
+      "path": "tracks/worldchill/worldchill__mesa-de-sol.mp3",
+      "seconds": 206,
+      "tag": "reel",
+      "title": "Mesa De Sol"
+    },
+    {
+      "bytes": 4272384,
+      "genre": "worldchill",
+      "id": "bundled:worldchill__mesa-de-sol-ii",
+      "path": "tracks/worldchill/worldchill__mesa-de-sol-ii.mp3",
+      "seconds": 178,
+      "tag": "reel",
+      "title": "Mesa De Sol II"
     },
     {
       "bytes": 4772635,
@@ -3243,6 +4061,24 @@
       "title": "Primordial Rumble"
     },
     {
+      "bytes": 4505935,
+      "genre": "worldchill",
+      "id": "bundled:worldchill__quiet-stone-circle",
+      "path": "tracks/worldchill/worldchill__quiet-stone-circle.mp3",
+      "seconds": 193,
+      "tag": "reel",
+      "title": "Quiet Stone Circle"
+    },
+    {
+      "bytes": 4457623,
+      "genre": "worldchill",
+      "id": "bundled:worldchill__quiet-stone-circle-ii",
+      "path": "tracks/worldchill/worldchill__quiet-stone-circle-ii.mp3",
+      "seconds": 194,
+      "tag": "reel",
+      "title": "Quiet Stone Circle II"
+    },
+    {
       "bytes": 5958333,
       "genre": "worldchill",
       "id": "bundled:worldchill__rainforest-motif",
@@ -3257,6 +4093,24 @@
       "path": "tracks/worldchill/worldchill__rainforest-motif-ii.mp3",
       "seconds": 217,
       "title": "Rainforest Motif II"
+    },
+    {
+      "bytes": 4298644,
+      "genre": "worldchill",
+      "id": "bundled:worldchill__riverbank-steps",
+      "path": "tracks/worldchill/worldchill__riverbank-steps.mp3",
+      "seconds": 173,
+      "tag": "reel",
+      "title": "Riverbank Steps"
+    },
+    {
+      "bytes": 3701572,
+      "genre": "worldchill",
+      "id": "bundled:worldchill__riverbank-steps-ii",
+      "path": "tracks/worldchill/worldchill__riverbank-steps-ii.mp3",
+      "seconds": 153,
+      "tag": "reel",
+      "title": "Riverbank Steps II"
     },
     {
       "bytes": 6419661,
@@ -3275,7 +4129,7 @@
       "title": "Sahara Night Telescope II"
     },
     {
-      "bytes": 12090477,
+      "bytes": 15031125,
       "genre": "worldchill",
       "id": "bundled:worldchill__serenity-in-the-drone",
       "path": "tracks/worldchill/worldchill__serenity-in-the-drone.mp3",
@@ -3307,7 +4161,25 @@
       "title": "The Storm Has Made a Room II"
     },
     {
-      "bytes": 5225397,
+      "bytes": 2041991,
+      "genre": "worldchill",
+      "id": "bundled:worldchill__tiny-clues",
+      "path": "tracks/worldchill/worldchill__tiny-clues.mp3",
+      "seconds": 86,
+      "tag": "reel",
+      "title": "Tiny Clues"
+    },
+    {
+      "bytes": 1385759,
+      "genre": "worldchill",
+      "id": "bundled:worldchill__tiny-clues-ii",
+      "path": "tracks/worldchill/worldchill__tiny-clues-ii.mp3",
+      "seconds": 60,
+      "tag": "reel",
+      "title": "Tiny Clues II"
+    },
+    {
+      "bytes": 6669069,
       "genre": "worldchill",
       "id": "bundled:worldchill__volcanic-dawn",
       "path": "tracks/worldchill/worldchill__volcanic-dawn.mp3",

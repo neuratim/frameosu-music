@@ -1,0 +1,6204 @@
+{
+  "date": "2026-09-25",
+  "sourceScope": "Only files directly in E:/Downloads/Music and directly in E:/Downloads/Music/reel; no other subfolders.",
+  "audioPolicy": "Full, byte-identical tracks copied to the downloadable library; download originals preserved. Only 0-30 seconds decoded for style assessment.",
+  "model": "Xenova/larger_clap_music_and_speech",
+  "modelUrl": "https://huggingface.co/Xenova/larger_clap_music_and_speech",
+  "modelFiles": {
+    "audio_model_quantized.onnx": "021dd4fb962b4ed20cc3a6730b09e0ccf9f9c49931047032118a3b64828513a6",
+    "text_model_quantized.onnx": "8f9f29c5f6adee917553d4b3a70729c731c0d18b88efca0ae67c1a1fc278f3b6"
+  },
+  "method": "Local quantized CLAP embeddings for 0-10, 10-20 and 20-30 seconds at mono 48 kHz. Normalize and average the three audio embeddings, rank by cosine similarity to style descriptions, and average scores across alternate takes for a consistent shelf. Scores are relative similarity, not probabilities. No claim of listening or full-track genre verification.",
+  "limitations": "Opening passages may differ from later sections; style labels are model-assisted estimates. The Last Command and The Last Command II have sung words in their embedded lyrics; stripped metadata cannot establish the absence of vocals elsewhere.",
+  "styleDescriptions": {
+    "acousticfolk": "acoustic folk music with acoustic guitar and gentle organic instruments",
+    "ambient": "peaceful ambient music with soft atmospheric synthesizer pads and no strong drums",
+    "bigbeat": "big beat electronic music with heavy breakbeats and distorted synthesizers",
+    "boombap": "boom bap hip hop instrumental with sampled beats and a head nodding groove",
+    "celtic": "Celtic folk music with fiddle, flute, tin whistle and harp",
+    "chillout": "chillout downtempo music with a relaxed sunny groove",
+    "chiptune": "chiptune video game music with retro eight bit electronic sounds",
+    "cinematic": "cinematic orchestral film score with expressive strings, piano and dramatic orchestration",
+    "darkambient": "dark ambient music with ominous low drones and eerie atmospheric sounds",
+    "darkfolk": "dark Nordic folk music with ritual drums, archaic instruments and tribal chanting",
+    "darksynth": "darksynth music with aggressive distorted retro synthesizers",
+    "darktechno": "dark techno music with industrial repetitive electronic beats",
+    "deephouse": "deep house music with a smooth four on the floor groove and warm chords",
+    "dnb": "drum and bass electronic music with very fast breakbeats and deep bass",
+    "dreampop": "dream pop music with ethereal singing, shimmering guitars and dreamy textures",
+    "dubstep": "dubstep electronic music with wobbling bass and heavy half time drops",
+    "edm": "EDM dance music with bright synthesizers, builds and energetic drops",
+    "electropulse": "minimal electronic pulse underscore with rhythmic synth arpeggios and steady bass",
+    "electroswing": "electro swing music with jazz brass, swing rhythm and electronic dance beats",
+    "epic": "epic orchestral trailer music with heroic brass, soaring strings, choir and powerful battle drums",
+    "epicvocal": "epic cinematic song with sung lyrics, powerful lead vocals, orchestra and dramatic drums",
+    "funk": "funk music with a groovy syncopated bass guitar, rhythmic guitar and punchy drums",
+    "futuregarage": "future garage music with shuffling broken beats, atmospheric pads and deep bass",
+    "glitchhop": "glitch hop electronic music with chopped glitchy sounds and syncopated bass",
+    "hardtechno": "hard techno dance music with very fast pounding distorted kick drums",
+    "house": "house dance music with a steady four on the floor beat and bright repetitive chords",
+    "hybrid": "hybrid cinematic trailer music combining orchestral strings and brass with electronic bass and powerful percussion",
+    "idm": "experimental intelligent dance music with intricate electronic rhythms and unusual synthesized textures",
+    "indieelectronic": "indie electronic music with melodic synthesizers and organic alternative pop instrumentation",
+    "indierock": "indie rock music with electric guitars, bass guitar and live rock drums",
+    "jazz": "instrumental jazz music with improvised piano, upright bass and brushed drums",
+    "lofi": "lo fi hip hop instrumental music with dusty mellow beats and soft jazzy piano",
+    "medieval": "medieval fantasy music with lutes, flutes and old world acoustic instruments",
+    "melodictechno": "melodic techno music with driving four on the floor drums and evolving emotional synth arpeggios",
+    "minimaltechno": "minimal techno music with sparse repetitive electronic percussion and bass",
+    "neoclassical": "contemporary neoclassical instrumental music with delicate piano and expressive chamber strings",
+    "organichouse": "organic house music with an electronic house beat, hand percussion and acoustic world instruments",
+    "phonk": "phonk music with cowbells, distorted bass and aggressive trap beats",
+    "postrock": "instrumental post rock music with atmospheric electric guitars and gradually building live drums",
+    "reggaeton": "reggaeton Latin dance music with a dembow beat and tropical Latin sounds",
+    "soul": "soul and rhythm and blues music with warm expressive singing and a smooth groove",
+    "sportrock": "energetic sports rock music with powerful electric guitar riffs and pounding rock drums",
+    "synthwave": "synthwave retro electronic music with eighties synthesizers, arpeggios and electronic drums",
+    "trance": "trance electronic dance music with fast uplifting synth arpeggios and a steady dance beat",
+    "trap": "trap hip hop instrumental music with booming 808 bass, ticking hi hats and half time drums",
+    "triphop": "trip hop music with slow breakbeats, moody textures and deep bass",
+    "western": "western cowboy soundtrack with twangy guitars, whistles and cinematic desert atmosphere",
+    "worldchill": "world chill music with relaxed ethnic instruments, flute and gentle world percussion",
+    "futurebass": "future bass electronic music with lush modulated synth chords, melodic drops and half time drums",
+    "latin": "Latin acoustic instrumental music with nylon string guitar, congas and a warm bossa nova groove",
+    "orchestral": "classical orchestral music with symphonic strings, woodwinds, brass and percussion"
+  },
+  "tracks": [
+    {
+      "source": "01-Crown of Ashes.mp3",
+      "path": "tracks/cinematic/cinematic__crown-of-ashes.mp3",
+      "title": "Crown of Ashes",
+      "genre": "cinematic",
+      "tag": null,
+      "bytes": 3664965,
+      "sha256": "81958faa5799808a474dc1b2b11e56fb7b8abdd16e0da41d250476bdd79bbee5",
+      "sourceSeconds": 159.192,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "cinematic",
+            "similarity": 0.617436
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.581349
+          },
+          {
+            "style": "neoclassical",
+            "similarity": 0.557735
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.540166
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.486535
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "cinematic",
+            "similarity": 0.633591
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.568898
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.553421
+          },
+          {
+            "style": "neoclassical",
+            "similarity": 0.551483
+          },
+          {
+            "style": "epic",
+            "similarity": 0.505094
+          }
+        ],
+        "windowTopStyles": ["cinematic", "cinematic", "cinematic"]
+      }
+    },
+    {
+      "source": "01b-Crown of Ashes.mp3",
+      "path": "tracks/cinematic/cinematic__crown-of-ashes-ii.mp3",
+      "title": "Crown of Ashes II",
+      "genre": "cinematic",
+      "tag": null,
+      "bytes": 3603693,
+      "sha256": "29e2f5b061efe74d221445397a3e0ae76dd5ffd8c0f612e029a8fac0f73ebfc7",
+      "sourceSeconds": 153.912,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "cinematic",
+            "similarity": 0.617436
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.581349
+          },
+          {
+            "style": "neoclassical",
+            "similarity": 0.557735
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.540166
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.486535
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "cinematic",
+            "similarity": 0.601281
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.593801
+          },
+          {
+            "style": "neoclassical",
+            "similarity": 0.563987
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.526911
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.470091
+          }
+        ],
+        "windowTopStyles": ["cinematic", "orchestral", "cinematic"]
+      }
+    },
+    {
+      "source": "02-Steel Run Theme.mp3",
+      "path": "tracks/hybrid/hybrid__steel-run-theme.mp3",
+      "title": "Steel Run Theme",
+      "genre": "hybrid",
+      "tag": null,
+      "bytes": 5708349,
+      "sha256": "ea4ebd676e74f55148788d28d8620634e8e0d096c27fc2a57ec91621817ddf87",
+      "sourceSeconds": 239.112,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "hybrid",
+            "similarity": 0.618848
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.591845
+          },
+          {
+            "style": "epic",
+            "similarity": 0.591274
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.5625
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.552376
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "epic",
+            "similarity": 0.613881
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.608669
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.603528
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.55236
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.549339
+          }
+        ],
+        "windowTopStyles": ["cinematic", "hybrid", "epic"]
+      }
+    },
+    {
+      "source": "02b-Steel Run Theme.mp3",
+      "path": "tracks/hybrid/hybrid__steel-run-theme-ii.mp3",
+      "title": "Steel Run Theme II",
+      "genre": "hybrid",
+      "tag": null,
+      "bytes": 2349669,
+      "sha256": "b1cb1f66d3eab77b3fbb7f2bdd78f81c246c57f550ec9b6aa94ca0ecfd1b94c2",
+      "sourceSeconds": 99.192,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "hybrid",
+            "similarity": 0.618848
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.591845
+          },
+          {
+            "style": "epic",
+            "similarity": 0.591274
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.5625
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.552376
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "hybrid",
+            "similarity": 0.629027
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.580161
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.575662
+          },
+          {
+            "style": "epic",
+            "similarity": 0.568666
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.552392
+          }
+        ],
+        "windowTopStyles": ["cinematic", "hybrid", "hybrid"]
+      }
+    },
+    {
+      "source": "03-Valley of Dawn.mp3",
+      "path": "tracks/neoclassical/neoclassical__valley-of-dawn.mp3",
+      "title": "Valley of Dawn",
+      "genre": "neoclassical",
+      "tag": null,
+      "bytes": 4877949,
+      "sha256": "79c4664358c88ac65e6febca3809b66598b93bafa8ec4d65105df32f69a0fea1",
+      "sourceSeconds": 208.272,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "neoclassical",
+            "similarity": 0.561157
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.525091
+          },
+          {
+            "style": "worldchill",
+            "similarity": 0.462476
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.426833
+          },
+          {
+            "style": "jazz",
+            "similarity": 0.424111
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "neoclassical",
+            "similarity": 0.537724
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.495368
+          },
+          {
+            "style": "worldchill",
+            "similarity": 0.44877
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.416381
+          },
+          {
+            "style": "jazz",
+            "similarity": 0.408758
+          }
+        ],
+        "windowTopStyles": ["neoclassical", "neoclassical", "neoclassical"]
+      }
+    },
+    {
+      "source": "03b-Valley of Dawn.mp3",
+      "path": "tracks/neoclassical/neoclassical__valley-of-dawn-ii.mp3",
+      "title": "Valley of Dawn II",
+      "genre": "neoclassical",
+      "tag": null,
+      "bytes": 2938533,
+      "sha256": "2b46c3d77ce32ea0b393633f9a91142be41805d602fb0722a782e81ed9987414",
+      "sourceSeconds": 126.72,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "neoclassical",
+            "similarity": 0.561157
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.525091
+          },
+          {
+            "style": "worldchill",
+            "similarity": 0.462476
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.426833
+          },
+          {
+            "style": "jazz",
+            "similarity": 0.424111
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "neoclassical",
+            "similarity": 0.58459
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.554813
+          },
+          {
+            "style": "worldchill",
+            "similarity": 0.476181
+          },
+          {
+            "style": "jazz",
+            "similarity": 0.439464
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.437284
+          }
+        ],
+        "windowTopStyles": ["neoclassical", "neoclassical", "neoclassical"]
+      }
+    },
+    {
+      "source": "04-Iron Oath Rising.mp3",
+      "path": "tracks/hybrid/hybrid__iron-oath-rising.mp3",
+      "title": "Iron Oath Rising",
+      "genre": "hybrid",
+      "tag": null,
+      "bytes": 3054501,
+      "sha256": "fed1686e1e7e3fc8769f9181164a061a8a8f7fa2f0123f779a988b43b5af680a",
+      "sourceSeconds": 129.12,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "hybrid",
+            "similarity": 0.637565
+          },
+          {
+            "style": "epic",
+            "similarity": 0.622095
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.602809
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.586717
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.539432
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "hybrid",
+            "similarity": 0.677337
+          },
+          {
+            "style": "epic",
+            "similarity": 0.646925
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.602863
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.595363
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.537672
+          }
+        ],
+        "windowTopStyles": ["hybrid", "hybrid", "hybrid"]
+      }
+    },
+    {
+      "source": "04b-Iron Oath Rising.mp3",
+      "path": "tracks/hybrid/hybrid__iron-oath-rising-ii.mp3",
+      "title": "Iron Oath Rising II",
+      "genre": "hybrid",
+      "tag": null,
+      "bytes": 3987309,
+      "sha256": "681dd68a5712f052f937078b49029f1d0f5acbc5a3be81de827d1e63bfadf882",
+      "sourceSeconds": 169.608,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "hybrid",
+            "similarity": 0.637565
+          },
+          {
+            "style": "epic",
+            "similarity": 0.622095
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.602809
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.586717
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.539432
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "cinematic",
+            "similarity": 0.602755
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.597793
+          },
+          {
+            "style": "epic",
+            "similarity": 0.597266
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.578071
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.541193
+          }
+        ],
+        "windowTopStyles": ["orchestral", "epic", "epic"]
+      }
+    },
+    {
+      "source": "05-Beyond the Helios Gate.mp3",
+      "path": "tracks/cinematic/cinematic__beyond-the-helios-gate.mp3",
+      "title": "Beyond the Helios Gate",
+      "genre": "cinematic",
+      "tag": null,
+      "bytes": 2838213,
+      "sha256": "378369d1aec8b7ea65f370cbd17670a072fc03e441ed9e0dd074527dee7ab6ad",
+      "sourceSeconds": 122.64,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "cinematic",
+            "similarity": 0.552428
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.540455
+          },
+          {
+            "style": "neoclassical",
+            "similarity": 0.539179
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.435586
+          },
+          {
+            "style": "epic",
+            "similarity": 0.409751
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "cinematic",
+            "similarity": 0.537485
+          },
+          {
+            "style": "neoclassical",
+            "similarity": 0.529635
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.519631
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.420475
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.404478
+          }
+        ],
+        "windowTopStyles": ["neoclassical", "neoclassical", "orchestral"]
+      }
+    },
+    {
+      "source": "05b-Beyond the Helios Gate.mp3",
+      "path": "tracks/cinematic/cinematic__beyond-the-helios-gate-ii.mp3",
+      "title": "Beyond the Helios Gate II",
+      "genre": "cinematic",
+      "tag": null,
+      "bytes": 4541637,
+      "sha256": "9fadf5b73901f7d64fd5b077400b066f10c57dabbe775f77d1a9758515620a0a",
+      "sourceSeconds": 199.032,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "cinematic",
+            "similarity": 0.552428
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.540455
+          },
+          {
+            "style": "neoclassical",
+            "similarity": 0.539179
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.435586
+          },
+          {
+            "style": "epic",
+            "similarity": 0.409751
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "cinematic",
+            "similarity": 0.56737
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.561278
+          },
+          {
+            "style": "neoclassical",
+            "similarity": 0.548724
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.450697
+          },
+          {
+            "style": "jazz",
+            "similarity": 0.446356
+          }
+        ],
+        "windowTopStyles": ["orchestral", "neoclassical", "cinematic"]
+      }
+    },
+    {
+      "source": "05-Crown of Ashes.mp3",
+      "path": "tracks/hybrid/hybrid__crown-of-ashes-iii.mp3",
+      "title": "Crown of Ashes III",
+      "genre": "hybrid",
+      "tag": null,
+      "bytes": 3969717,
+      "sha256": "6525fe6a61c2b8d538548d29081381bb1bd02c7734e14b4972bb8b00a046c2e1",
+      "sourceSeconds": 167.808,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "hybrid",
+            "similarity": 0.632615
+          },
+          {
+            "style": "epic",
+            "similarity": 0.631705
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.602667
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.586403
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.510203
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "epic",
+            "similarity": 0.637167
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.621062
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.602437
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.586791
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.475676
+          }
+        ],
+        "windowTopStyles": ["epic", "hybrid", "epic"]
+      }
+    },
+    {
+      "source": "05b-Crown of Ashes.mp3",
+      "path": "tracks/hybrid/hybrid__crown-of-ashes-iv.mp3",
+      "title": "Crown of Ashes IV",
+      "genre": "hybrid",
+      "tag": null,
+      "bytes": 3855861,
+      "sha256": "ee59c86c99f2f97470e6617c8b4a0142d51aabadd081e36702df7d5be9536f55",
+      "sourceSeconds": 167.832,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "hybrid",
+            "similarity": 0.632615
+          },
+          {
+            "style": "epic",
+            "similarity": 0.631705
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.602667
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.586403
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.510203
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "hybrid",
+            "similarity": 0.644169
+          },
+          {
+            "style": "epic",
+            "similarity": 0.626242
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.618543
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.570368
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.54473
+          }
+        ],
+        "windowTopStyles": ["cinematic", "hybrid", "epic"]
+      }
+    },
+    {
+      "source": "06-Dawn of Elders.mp3",
+      "path": "tracks/cinematic/cinematic__dawn-of-elders.mp3",
+      "title": "Dawn of Elders",
+      "genre": "cinematic",
+      "tag": null,
+      "bytes": 3494709,
+      "sha256": "512cf6287e373bac7ea5b55f25de26105cfe7cc9f7e8781820ac9b8b6300d1c0",
+      "sourceSeconds": 148.608,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file. Orchestral soundtrack material uses the existing Cinematic shelf.",
+        "pairRankings": [
+          {
+            "style": "orchestral",
+            "similarity": 0.624426
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.597022
+          },
+          {
+            "style": "neoclassical",
+            "similarity": 0.544488
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.536629
+          },
+          {
+            "style": "epic",
+            "similarity": 0.533817
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "orchestral",
+            "similarity": 0.639576
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.611127
+          },
+          {
+            "style": "epic",
+            "similarity": 0.578897
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.569364
+          },
+          {
+            "style": "neoclassical",
+            "similarity": 0.538338
+          }
+        ],
+        "windowTopStyles": ["orchestral", "orchestral", "epic"]
+      }
+    },
+    {
+      "source": "06b-Dawn of Elders.mp3",
+      "path": "tracks/cinematic/cinematic__dawn-of-elders-ii.mp3",
+      "title": "Dawn of Elders II",
+      "genre": "cinematic",
+      "tag": null,
+      "bytes": 3981957,
+      "sha256": "8b0085f95b637ab9a746b2e8f9a08e7ba431270713c0148dfd92836c37788050",
+      "sourceSeconds": 174.672,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file. Orchestral soundtrack material uses the existing Cinematic shelf.",
+        "pairRankings": [
+          {
+            "style": "orchestral",
+            "similarity": 0.624426
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.597022
+          },
+          {
+            "style": "neoclassical",
+            "similarity": 0.544488
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.536629
+          },
+          {
+            "style": "epic",
+            "similarity": 0.533817
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "orchestral",
+            "similarity": 0.609275
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.582917
+          },
+          {
+            "style": "neoclassical",
+            "similarity": 0.550638
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.503895
+          },
+          {
+            "style": "epic",
+            "similarity": 0.488738
+          }
+        ],
+        "windowTopStyles": ["worldchill", "orchestral", "orchestral"]
+      }
+    },
+    {
+      "source": "07-Dawn of Valoria.mp3",
+      "path": "tracks/cinematic/cinematic__dawn-of-valoria.mp3",
+      "title": "Dawn of Valoria",
+      "genre": "cinematic",
+      "tag": null,
+      "bytes": 3297213,
+      "sha256": "ac98dc0ec432a09267ffa19924a802f4e52073164e19a2614e127554159d16a9",
+      "sourceSeconds": 142.968,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file. Orchestral soundtrack material uses the existing Cinematic shelf.",
+        "pairRankings": [
+          {
+            "style": "orchestral",
+            "similarity": 0.643861
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.612602
+          },
+          {
+            "style": "epic",
+            "similarity": 0.565787
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.561335
+          },
+          {
+            "style": "neoclassical",
+            "similarity": 0.538376
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "orchestral",
+            "similarity": 0.64689
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.632003
+          },
+          {
+            "style": "epic",
+            "similarity": 0.61971
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.593943
+          },
+          {
+            "style": "neoclassical",
+            "similarity": 0.527113
+          }
+        ],
+        "windowTopStyles": ["orchestral", "orchestral", "epic"]
+      }
+    },
+    {
+      "source": "07b-Dawn of Valoria.mp3",
+      "path": "tracks/cinematic/cinematic__dawn-of-valoria-ii.mp3",
+      "title": "Dawn of Valoria II",
+      "genre": "cinematic",
+      "tag": null,
+      "bytes": 3434949,
+      "sha256": "8d405aaacb10558b927e7e37717dd93dc5d2fd0a83da469cdf119dc5450a5bba",
+      "sourceSeconds": 148.8,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file. Orchestral soundtrack material uses the existing Cinematic shelf.",
+        "pairRankings": [
+          {
+            "style": "orchestral",
+            "similarity": 0.643861
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.612602
+          },
+          {
+            "style": "epic",
+            "similarity": 0.565787
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.561335
+          },
+          {
+            "style": "neoclassical",
+            "similarity": 0.538376
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "orchestral",
+            "similarity": 0.640832
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.593201
+          },
+          {
+            "style": "neoclassical",
+            "similarity": 0.54964
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.528726
+          },
+          {
+            "style": "epic",
+            "similarity": 0.511864
+          }
+        ],
+        "windowTopStyles": ["neoclassical", "orchestral", "orchestral"]
+      }
+    },
+    {
+      "source": "08-Ashes of Valor.mp3",
+      "path": "tracks/cinematic/cinematic__ashes-of-valor.mp3",
+      "title": "Ashes of Valor",
+      "genre": "cinematic",
+      "tag": null,
+      "bytes": 3721413,
+      "sha256": "0c67e2bcb5b4d7a8ffd8e94a8b2a7380c2bd78cd6aece1cd5456bddba2e36ce4",
+      "sourceSeconds": 164.328,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "cinematic",
+            "similarity": 0.603963
+          },
+          {
+            "style": "neoclassical",
+            "similarity": 0.575508
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.521664
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.520321
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.472907
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "cinematic",
+            "similarity": 0.602672
+          },
+          {
+            "style": "neoclassical",
+            "similarity": 0.595109
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.520692
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.492498
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.444768
+          }
+        ],
+        "windowTopStyles": ["neoclassical", "neoclassical", "cinematic"]
+      }
+    },
+    {
+      "source": "08b-Ashes of Valor.mp3",
+      "path": "tracks/cinematic/cinematic__ashes-of-valor-ii.mp3",
+      "title": "Ashes of Valor II",
+      "genre": "cinematic",
+      "tag": null,
+      "bytes": 4558869,
+      "sha256": "917f671e35f744dbd2d8bb8839bdc3e40e13ac8de4ebb3cfb0b47303ad57bb0a",
+      "sourceSeconds": 192.672,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "cinematic",
+            "similarity": 0.603963
+          },
+          {
+            "style": "neoclassical",
+            "similarity": 0.575508
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.521664
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.520321
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.472907
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "cinematic",
+            "similarity": 0.605253
+          },
+          {
+            "style": "neoclassical",
+            "similarity": 0.555908
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.550829
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.519949
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.501046
+          }
+        ],
+        "windowTopStyles": ["neoclassical", "cinematic", "hybrid"]
+      }
+    },
+    {
+      "source": "09-Moonforge Ascendant.mp3",
+      "path": "tracks/hybrid/hybrid__moonforge-ascendant.mp3",
+      "title": "Moonforge Ascendant",
+      "genre": "hybrid",
+      "tag": null,
+      "bytes": 4029525,
+      "sha256": "d9430108cae6816ccbe70435b89d1fc29a5a179a8f20ea9c02397e7195462393",
+      "sourceSeconds": 171.912,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "hybrid",
+            "similarity": 0.65571
+          },
+          {
+            "style": "epic",
+            "similarity": 0.608303
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.599011
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.576468
+          },
+          {
+            "style": "hardtechno",
+            "similarity": 0.492416
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "hybrid",
+            "similarity": 0.65209
+          },
+          {
+            "style": "epic",
+            "similarity": 0.598075
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.591994
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.582038
+          },
+          {
+            "style": "hardtechno",
+            "similarity": 0.502253
+          }
+        ],
+        "windowTopStyles": ["hybrid", "hybrid", "hybrid"]
+      }
+    },
+    {
+      "source": "09b-Moonforge Ascendant.mp3",
+      "path": "tracks/hybrid/hybrid__moonforge-ascendant-ii.mp3",
+      "title": "Moonforge Ascendant II",
+      "genre": "hybrid",
+      "tag": null,
+      "bytes": 3686445,
+      "sha256": "059156468de76219c7aa4a04d9db4e6df0f36fbf3845ef46522768d317281cd6",
+      "sourceSeconds": 157.992,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "hybrid",
+            "similarity": 0.65571
+          },
+          {
+            "style": "epic",
+            "similarity": 0.608303
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.599011
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.576468
+          },
+          {
+            "style": "hardtechno",
+            "similarity": 0.492416
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "hybrid",
+            "similarity": 0.65933
+          },
+          {
+            "style": "epic",
+            "similarity": 0.618532
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.606028
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.570898
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.492745
+          }
+        ],
+        "windowTopStyles": ["hybrid", "hybrid", "hybrid"]
+      }
+    },
+    {
+      "source": "10-Final Stand.mp3",
+      "path": "tracks/cinematic/cinematic__final-stand.mp3",
+      "title": "Final Stand",
+      "genre": "cinematic",
+      "tag": null,
+      "bytes": 3940629,
+      "sha256": "2df53ee71aa8bc41216844434749ddf61b0e9502f60a40752c739553635ac453",
+      "sourceSeconds": 167.568,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "cinematic",
+            "similarity": 0.605617
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.543206
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.537705
+          },
+          {
+            "style": "epic",
+            "similarity": 0.530377
+          },
+          {
+            "style": "neoclassical",
+            "similarity": 0.519071
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "cinematic",
+            "similarity": 0.597508
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.544401
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.543144
+          },
+          {
+            "style": "epic",
+            "similarity": 0.526875
+          },
+          {
+            "style": "neoclassical",
+            "similarity": 0.496967
+          }
+        ],
+        "windowTopStyles": ["cinematic", "orchestral", "epic"]
+      }
+    },
+    {
+      "source": "10b-Final Stand.mp3",
+      "path": "tracks/cinematic/cinematic__final-stand-ii.mp3",
+      "title": "Final Stand II",
+      "genre": "cinematic",
+      "tag": null,
+      "bytes": 4101357,
+      "sha256": "f21d46124959d3dc381bf393ac44597ca9506bc632346ead24a4e3ee15a413b6",
+      "sourceSeconds": 178.632,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "cinematic",
+            "similarity": 0.605617
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.543206
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.537705
+          },
+          {
+            "style": "epic",
+            "similarity": 0.530377
+          },
+          {
+            "style": "neoclassical",
+            "similarity": 0.519071
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "cinematic",
+            "similarity": 0.613726
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.543945
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.543267
+          },
+          {
+            "style": "neoclassical",
+            "similarity": 0.541175
+          },
+          {
+            "style": "epic",
+            "similarity": 0.533878
+          }
+        ],
+        "windowTopStyles": ["cinematic", "cinematic", "cinematic"]
+      }
+    },
+    {
+      "source": "11-Relentless Pursuit.mp3",
+      "path": "tracks/hybrid/hybrid__relentless-pursuit.mp3",
+      "title": "Relentless Pursuit",
+      "genre": "hybrid",
+      "tag": null,
+      "bytes": 4004589,
+      "sha256": "853b86a6ab8ae323bfc8dd3a3387f15f7087d8334d83559ac3a8cd7d88c53e68",
+      "sourceSeconds": 169.08,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "hybrid",
+            "similarity": 0.629407
+          },
+          {
+            "style": "epic",
+            "similarity": 0.59626
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.555811
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.541767
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.522633
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "hybrid",
+            "similarity": 0.638726
+          },
+          {
+            "style": "epic",
+            "similarity": 0.602422
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.572804
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.546645
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.533431
+          }
+        ],
+        "windowTopStyles": ["hybrid", "hybrid", "hybrid"]
+      }
+    },
+    {
+      "source": "11b-Relentless Pursuit.mp3",
+      "path": "tracks/hybrid/hybrid__relentless-pursuit-ii.mp3",
+      "title": "Relentless Pursuit II",
+      "genre": "hybrid",
+      "tag": null,
+      "bytes": 2333229,
+      "sha256": "c2426f7bf4681d59a903432f80832df5ee1af78b2c41148fefe104c43397e2ac",
+      "sourceSeconds": 99.288,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "hybrid",
+            "similarity": 0.629407
+          },
+          {
+            "style": "epic",
+            "similarity": 0.59626
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.555811
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.541767
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.522633
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "hybrid",
+            "similarity": 0.620088
+          },
+          {
+            "style": "epic",
+            "similarity": 0.590098
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.538817
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.53689
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.511834
+          }
+        ],
+        "windowTopStyles": ["hybrid", "hybrid", "hybrid"]
+      }
+    },
+    {
+      "source": "12-Sunrise Over Leviathan.mp3",
+      "path": "tracks/cinematic/cinematic__sunrise-over-leviathan.mp3",
+      "title": "Sunrise Over Leviathan",
+      "genre": "cinematic",
+      "tag": null,
+      "bytes": 4344333,
+      "sha256": "67a0a59074f9e8d1e4d89c3abd021d8a8c1dccf61b19fcbdb003a230ad4988aa",
+      "sourceSeconds": 184.08,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "cinematic",
+            "similarity": 0.606648
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.577004
+          },
+          {
+            "style": "epic",
+            "similarity": 0.549821
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.548084
+          },
+          {
+            "style": "neoclassical",
+            "similarity": 0.514462
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "cinematic",
+            "similarity": 0.607999
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.568548
+          },
+          {
+            "style": "epic",
+            "similarity": 0.563188
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.54183
+          },
+          {
+            "style": "neoclassical",
+            "similarity": 0.518537
+          }
+        ],
+        "windowTopStyles": ["cinematic", "cinematic", "cinematic"]
+      }
+    },
+    {
+      "source": "12b-Sunrise Over Leviathan.mp3",
+      "path": "tracks/cinematic/cinematic__sunrise-over-leviathan-ii.mp3",
+      "title": "Sunrise Over Leviathan II",
+      "genre": "cinematic",
+      "tag": null,
+      "bytes": 3462669,
+      "sha256": "0e9a3d89e4ad3814173632ca2fee1621feb1fbc70d9ba65df790c5072bd39012",
+      "sourceSeconds": 147.432,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "cinematic",
+            "similarity": 0.606648
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.577004
+          },
+          {
+            "style": "epic",
+            "similarity": 0.549821
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.548084
+          },
+          {
+            "style": "neoclassical",
+            "similarity": 0.514462
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "cinematic",
+            "similarity": 0.605297
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.58546
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.554338
+          },
+          {
+            "style": "epic",
+            "similarity": 0.536454
+          },
+          {
+            "style": "neoclassical",
+            "similarity": 0.510387
+          }
+        ],
+        "windowTopStyles": ["cinematic", "cinematic", "hybrid"]
+      }
+    },
+    {
+      "source": "13-Crown of Ash.mp3",
+      "path": "tracks/epic/epic__crown-of-ash.mp3",
+      "title": "Crown of Ash",
+      "genre": "epic",
+      "tag": null,
+      "bytes": 7083741,
+      "sha256": "2e9f3fd2f99e0519caf7b969af96663fc280b52da35fd179981e422f85664718",
+      "sourceSeconds": 300.552,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "epic",
+            "similarity": 0.619197
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.596367
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.596263
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.569112
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.533803
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "epic",
+            "similarity": 0.63377
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.615076
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.605466
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.603686
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.529936
+          }
+        ],
+        "windowTopStyles": ["cinematic", "epic", "epic"]
+      }
+    },
+    {
+      "source": "13a-Crown of Ash.mp3",
+      "path": "tracks/epic/epic__crown-of-ash-ii.mp3",
+      "title": "Crown of Ash II",
+      "genre": "epic",
+      "tag": null,
+      "bytes": 3903717,
+      "sha256": "fc1da0b89808ad2ccd81edb308a3b600b5dc7c4db92aa4e7e50705ba0146a0a0",
+      "sourceSeconds": 164.568,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "epic",
+            "similarity": 0.619197
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.596367
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.596263
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.569112
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.533803
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "epic",
+            "similarity": 0.604623
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.58706
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.577659
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.537671
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.534539
+          }
+        ],
+        "windowTopStyles": ["epic", "epic", "epic"]
+      }
+    },
+    {
+      "source": "14-Cinematic orchestral score, slow-burn and suspenseful with sparse piano, soft low drones, bowed stri.mp3",
+      "path": "tracks/cinematic/cinematic__slow-burn-score.mp3",
+      "title": "Slow Burn Score",
+      "genre": "cinematic",
+      "tag": null,
+      "bytes": 3443421,
+      "sha256": "d7251454743b0ca159280a9b43cf2c92739d5396454a2198782ed7ec0455e616",
+      "sourceSeconds": 154.752,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file. The source filename explicitly describes a cinematic orchestral suspense score; that stated style takes precedence over its piano-led opening.",
+        "pairRankings": [
+          {
+            "style": "neoclassical",
+            "similarity": 0.610088
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.580103
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.510279
+          },
+          {
+            "style": "worldchill",
+            "similarity": 0.466305
+          },
+          {
+            "style": "jazz",
+            "similarity": 0.4404
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "neoclassical",
+            "similarity": 0.627585
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.58193
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.538297
+          },
+          {
+            "style": "worldchill",
+            "similarity": 0.495947
+          },
+          {
+            "style": "chillout",
+            "similarity": 0.460111
+          }
+        ],
+        "windowTopStyles": ["neoclassical", "neoclassical", "cinematic"]
+      }
+    },
+    {
+      "source": "14b-Cinematic orchestral score, slow-burn and suspenseful with sparse piano, soft low drones, bowed stri.mp3",
+      "path": "tracks/cinematic/cinematic__slow-burn-score-ii.mp3",
+      "title": "Slow Burn Score II",
+      "genre": "cinematic",
+      "tag": null,
+      "bytes": 3037629,
+      "sha256": "3a5f8931cd3ae94913475ce92df07f7df94fd6a0dd1ef72f1201b8937797a252",
+      "sourceSeconds": 129.36,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file. The source filename explicitly describes a cinematic orchestral suspense score; that stated style takes precedence over its piano-led opening.",
+        "pairRankings": [
+          {
+            "style": "neoclassical",
+            "similarity": 0.610088
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.580103
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.510279
+          },
+          {
+            "style": "worldchill",
+            "similarity": 0.466305
+          },
+          {
+            "style": "jazz",
+            "similarity": 0.4404
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "neoclassical",
+            "similarity": 0.59259
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.578275
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.482261
+          },
+          {
+            "style": "worldchill",
+            "similarity": 0.436663
+          },
+          {
+            "style": "jazz",
+            "similarity": 0.433527
+          }
+        ],
+        "windowTopStyles": ["neoclassical", "cinematic", "cinematic"]
+      }
+    },
+    {
+      "source": "15-Iron Will Rising.mp3",
+      "path": "tracks/cinematic/cinematic__iron-will-rising.mp3",
+      "title": "Iron Will Rising",
+      "genre": "cinematic",
+      "tag": null,
+      "bytes": 2901501,
+      "sha256": "46261052802c6a63dc0ace46a1f51695c683e4b799af255aae05763be3c22ad0",
+      "sourceSeconds": 124.512,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "cinematic",
+            "similarity": 0.594891
+          },
+          {
+            "style": "epic",
+            "similarity": 0.579225
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.567204
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.55881
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.534964
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "cinematic",
+            "similarity": 0.58463
+          },
+          {
+            "style": "epic",
+            "similarity": 0.579643
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.55202
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.548162
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.530071
+          }
+        ],
+        "windowTopStyles": ["cinematic", "cinematic", "epic"]
+      }
+    },
+    {
+      "source": "15b-Iron Will Rising.mp3",
+      "path": "tracks/cinematic/cinematic__iron-will-rising-ii.mp3",
+      "title": "Iron Will Rising II",
+      "genre": "cinematic",
+      "tag": null,
+      "bytes": 2761773,
+      "sha256": "0134aa120043776ea09737d21adce88cd55ac37b9956f9a67cfcc2206150dc76",
+      "sourceSeconds": 117.072,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "cinematic",
+            "similarity": 0.594891
+          },
+          {
+            "style": "epic",
+            "similarity": 0.579225
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.567204
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.55881
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.534964
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "cinematic",
+            "similarity": 0.605153
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.582387
+          },
+          {
+            "style": "epic",
+            "similarity": 0.578806
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.569457
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.539857
+          }
+        ],
+        "windowTopStyles": ["cinematic", "cinematic", "hybrid"]
+      }
+    },
+    {
+      "source": "16-Frostline Ascent.mp3",
+      "path": "tracks/cinematic/cinematic__frostline-ascent.mp3",
+      "title": "Frostline Ascent",
+      "genre": "cinematic",
+      "tag": null,
+      "bytes": 3701373,
+      "sha256": "2fca5b5e0baf8f714c696769b1d9137ef8a76d6d63d5aeb236af93fa5752ced9",
+      "sourceSeconds": 158.352,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "cinematic",
+            "similarity": 0.625056
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.576586
+          },
+          {
+            "style": "neoclassical",
+            "similarity": 0.5709
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.544951
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.505693
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "cinematic",
+            "similarity": 0.630813
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.615713
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.572808
+          },
+          {
+            "style": "neoclassical",
+            "similarity": 0.569997
+          },
+          {
+            "style": "epic",
+            "similarity": 0.542343
+          }
+        ],
+        "windowTopStyles": ["neoclassical", "hybrid", "cinematic"]
+      }
+    },
+    {
+      "source": "16b-Frostline Ascent.mp3",
+      "path": "tracks/cinematic/cinematic__frostline-ascent-ii.mp3",
+      "title": "Frostline Ascent II",
+      "genre": "cinematic",
+      "tag": null,
+      "bytes": 4394109,
+      "sha256": "654fb2acdb3e1eb5a165e609134a9930afcdbdfc0edd764c97f9b33d9c00f0f4",
+      "sourceSeconds": 188.712,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "cinematic",
+            "similarity": 0.625056
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.576586
+          },
+          {
+            "style": "neoclassical",
+            "similarity": 0.5709
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.544951
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.505693
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "cinematic",
+            "similarity": 0.619299
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.576798
+          },
+          {
+            "style": "neoclassical",
+            "similarity": 0.571802
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.537458
+          },
+          {
+            "style": "epic",
+            "similarity": 0.452531
+          }
+        ],
+        "windowTopStyles": ["cinematic", "orchestral", "cinematic"]
+      }
+    },
+    {
+      "source": "17-Fantasy Orchestral Adventure.mp3",
+      "path": "tracks/cinematic/cinematic__fantasy-orchestral-adventure.mp3",
+      "title": "Fantasy Orchestral Adventure",
+      "genre": "cinematic",
+      "tag": null,
+      "bytes": 2538213,
+      "sha256": "b6b15d65622bdea22ca30401e00cb63639623a5f76a1280c594050bbd3e324f1",
+      "sourceSeconds": 107.568,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "cinematic",
+            "similarity": 0.56002
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.557018
+          },
+          {
+            "style": "epic",
+            "similarity": 0.500493
+          },
+          {
+            "style": "neoclassical",
+            "similarity": 0.494217
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.480998
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "orchestral",
+            "similarity": 0.600821
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.581514
+          },
+          {
+            "style": "epic",
+            "similarity": 0.52916
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.526797
+          },
+          {
+            "style": "neoclassical",
+            "similarity": 0.495683
+          }
+        ],
+        "windowTopStyles": ["orchestral", "epic", "orchestral"]
+      }
+    },
+    {
+      "source": "17b-Fantasy Orchestral Adventure.mp3",
+      "path": "tracks/cinematic/cinematic__fantasy-orchestral-adventure-ii.mp3",
+      "title": "Fantasy Orchestral Adventure II",
+      "genre": "cinematic",
+      "tag": null,
+      "bytes": 3805605,
+      "sha256": "05496b1656917accd1102f2fa853726abaa4b9d7af4ec7b1489ca30be1f21da1",
+      "sourceSeconds": 164.208,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "cinematic",
+            "similarity": 0.56002
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.557018
+          },
+          {
+            "style": "epic",
+            "similarity": 0.500493
+          },
+          {
+            "style": "neoclassical",
+            "similarity": 0.494217
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.480998
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "cinematic",
+            "similarity": 0.538527
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.513215
+          },
+          {
+            "style": "neoclassical",
+            "similarity": 0.492752
+          },
+          {
+            "style": "epic",
+            "similarity": 0.471826
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.444931
+          }
+        ],
+        "windowTopStyles": ["cinematic", "orchestral", "cinematic"]
+      }
+    },
+    {
+      "source": "18-Last Horizon Break.mp3",
+      "path": "tracks/cinematic/cinematic__last-horizon-break.mp3",
+      "title": "Last Horizon Break",
+      "genre": "cinematic",
+      "tag": null,
+      "bytes": 3796077,
+      "sha256": "e6b8f164418362da3e0e8cd3c3cee9e5eb0e91c4698b58fbc0a89b0380e8749c",
+      "sourceSeconds": 162.048,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "cinematic",
+            "similarity": 0.572974
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.539724
+          },
+          {
+            "style": "neoclassical",
+            "similarity": 0.520218
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.501257
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.495977
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "cinematic",
+            "similarity": 0.617757
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.605175
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.573876
+          },
+          {
+            "style": "epic",
+            "similarity": 0.555068
+          },
+          {
+            "style": "neoclassical",
+            "similarity": 0.546621
+          }
+        ],
+        "windowTopStyles": ["epicvocal", "hybrid", "cinematic"]
+      }
+    },
+    {
+      "source": "18b-Last Horizon Break.mp3",
+      "path": "tracks/cinematic/cinematic__last-horizon-break-ii.mp3",
+      "title": "Last Horizon Break II",
+      "genre": "cinematic",
+      "tag": null,
+      "bytes": 4178109,
+      "sha256": "5ce35271c1033b41864975fc344bf1428c358daba880f58eaadc5e8251ea6523",
+      "sourceSeconds": 179.688,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "cinematic",
+            "similarity": 0.572974
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.539724
+          },
+          {
+            "style": "neoclassical",
+            "similarity": 0.520218
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.501257
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.495977
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "cinematic",
+            "similarity": 0.528191
+          },
+          {
+            "style": "neoclassical",
+            "similarity": 0.493815
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.48532
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.474273
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.428639
+          }
+        ],
+        "windowTopStyles": ["neoclassical", "orchestral", "cinematic"]
+      }
+    },
+    {
+      "source": "19-River to Summit.mp3",
+      "path": "tracks/cinematic/cinematic__river-to-summit.mp3",
+      "title": "River to Summit",
+      "genre": "cinematic",
+      "tag": null,
+      "bytes": 4274157,
+      "sha256": "cf5b67e432e97bacd6db57558e3e499e7def9dee45fa3d20f040d95e777d2311",
+      "sourceSeconds": 184.248,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "cinematic",
+            "similarity": 0.569981
+          },
+          {
+            "style": "neoclassical",
+            "similarity": 0.560868
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.491104
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.436916
+          },
+          {
+            "style": "worldchill",
+            "similarity": 0.433981
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "cinematic",
+            "similarity": 0.588765
+          },
+          {
+            "style": "neoclassical",
+            "similarity": 0.577535
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.467809
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.467286
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.445372
+          }
+        ],
+        "windowTopStyles": ["neoclassical", "cinematic", "cinematic"]
+      }
+    },
+    {
+      "source": "19b-River to Summit.mp3",
+      "path": "tracks/cinematic/cinematic__river-to-summit-ii.mp3",
+      "title": "River to Summit II",
+      "genre": "cinematic",
+      "tag": null,
+      "bytes": 3901197,
+      "sha256": "63905615c0a5755a9898da01dca9aaa7fb2aca2445424374fb1d0d4d00532dda",
+      "sourceSeconds": 164.232,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "cinematic",
+            "similarity": 0.569981
+          },
+          {
+            "style": "neoclassical",
+            "similarity": 0.560868
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.491104
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.436916
+          },
+          {
+            "style": "worldchill",
+            "similarity": 0.433981
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "cinematic",
+            "similarity": 0.551197
+          },
+          {
+            "style": "neoclassical",
+            "similarity": 0.544202
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.514399
+          },
+          {
+            "style": "medieval",
+            "similarity": 0.448771
+          },
+          {
+            "style": "worldchill",
+            "similarity": 0.441931
+          }
+        ],
+        "windowTopStyles": ["neoclassical", "cinematic", "cinematic"]
+      }
+    },
+    {
+      "source": "20-Last Horizon.mp3",
+      "path": "tracks/cinematic/cinematic__last-horizon.mp3",
+      "title": "Last Horizon",
+      "genre": "cinematic",
+      "tag": null,
+      "bytes": 3753333,
+      "sha256": "b92dcaa54add00d025b856a33baa841c203da149ef0e0eb66c7371540e47f4fb",
+      "sourceSeconds": 159.432,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "cinematic",
+            "similarity": 0.585059
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.565114
+          },
+          {
+            "style": "epic",
+            "similarity": 0.518123
+          },
+          {
+            "style": "neoclassical",
+            "similarity": 0.516079
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.485178
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "cinematic",
+            "similarity": 0.569071
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.556572
+          },
+          {
+            "style": "neoclassical",
+            "similarity": 0.540022
+          },
+          {
+            "style": "epic",
+            "similarity": 0.457173
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.442842
+          }
+        ],
+        "windowTopStyles": ["neoclassical", "cinematic", "orchestral"]
+      }
+    },
+    {
+      "source": "20b-Last Horizon.mp3",
+      "path": "tracks/cinematic/cinematic__last-horizon-ii.mp3",
+      "title": "Last Horizon II",
+      "genre": "cinematic",
+      "tag": null,
+      "bytes": 3304845,
+      "sha256": "349cb1c58d9c4184ff5e205075ceb8ab1fa71745a3687921118e19f38dfc3c03",
+      "sourceSeconds": 142.2,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "cinematic",
+            "similarity": 0.585059
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.565114
+          },
+          {
+            "style": "epic",
+            "similarity": 0.518123
+          },
+          {
+            "style": "neoclassical",
+            "similarity": 0.516079
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.485178
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "cinematic",
+            "similarity": 0.601047
+          },
+          {
+            "style": "epic",
+            "similarity": 0.579072
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.573656
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.530794
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.527514
+          }
+        ],
+        "windowTopStyles": ["cinematic", "epic", "orchestral"]
+      }
+    },
+    {
+      "source": "21-Raven Axe Procession.mp3",
+      "path": "tracks/hybrid/hybrid__raven-axe-procession.mp3",
+      "title": "Raven Axe Procession",
+      "genre": "hybrid",
+      "tag": null,
+      "bytes": 6617997,
+      "sha256": "84c9cda97ada07ce711bc81ff16b69e55e8738bda40faaa62b784f84eeff8201",
+      "sourceSeconds": 269.52,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "hybrid",
+            "similarity": 0.666773
+          },
+          {
+            "style": "epic",
+            "similarity": 0.613893
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.572656
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.536091
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.523459
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "hybrid",
+            "similarity": 0.665278
+          },
+          {
+            "style": "epic",
+            "similarity": 0.613819
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.568202
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.548769
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.512402
+          }
+        ],
+        "windowTopStyles": ["hybrid", "hybrid", "hybrid"]
+      }
+    },
+    {
+      "source": "21b-Raven Axe Procession.mp3",
+      "path": "tracks/hybrid/hybrid__raven-axe-procession-ii.mp3",
+      "title": "Raven Axe Procession II",
+      "genre": "hybrid",
+      "tag": null,
+      "bytes": 4090221,
+      "sha256": "4124a81304c0f6e8929160f818e3f9552d634157c983db0d0b5673920e684379",
+      "sourceSeconds": 172.8,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "hybrid",
+            "similarity": 0.666773
+          },
+          {
+            "style": "epic",
+            "similarity": 0.613893
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.572656
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.536091
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.523459
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "hybrid",
+            "similarity": 0.668269
+          },
+          {
+            "style": "epic",
+            "similarity": 0.613968
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.57711
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.559781
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.49815
+          }
+        ],
+        "windowTopStyles": ["hybrid", "hybrid", "hybrid"]
+      }
+    },
+    {
+      "source": "22-Iron Longship March.mp3",
+      "path": "tracks/hybrid/hybrid__iron-longship-march.mp3",
+      "title": "Iron Longship March",
+      "genre": "hybrid",
+      "tag": null,
+      "bytes": 3700461,
+      "sha256": "c5d88ad3c97a5de388968d5653052ce5e04d053e292977b804114544907810f8",
+      "sourceSeconds": 158.568,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "hybrid",
+            "similarity": 0.669632
+          },
+          {
+            "style": "epic",
+            "similarity": 0.632589
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.584647
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.543223
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.532927
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "hybrid",
+            "similarity": 0.674704
+          },
+          {
+            "style": "epic",
+            "similarity": 0.62579
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.588429
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.558443
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.519185
+          }
+        ],
+        "windowTopStyles": ["hybrid", "hybrid", "hybrid"]
+      }
+    },
+    {
+      "source": "22b-Iron Longship March.mp3",
+      "path": "tracks/hybrid/hybrid__iron-longship-march-ii.mp3",
+      "title": "Iron Longship March II",
+      "genre": "hybrid",
+      "tag": null,
+      "bytes": 7174341,
+      "sha256": "744f10bb0d6534ae8023a8126eb8f6bcb45928d73ec81520e2d3ba116a2d68f9",
+      "sourceSeconds": 299.448,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "hybrid",
+            "similarity": 0.669632
+          },
+          {
+            "style": "epic",
+            "similarity": 0.632589
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.584647
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.543223
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.532927
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "hybrid",
+            "similarity": 0.66456
+          },
+          {
+            "style": "epic",
+            "similarity": 0.639388
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.580866
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.546669
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.528004
+          }
+        ],
+        "windowTopStyles": ["hybrid", "hybrid", "hybrid"]
+      }
+    },
+    {
+      "source": "23-Iron Longships Rise.mp3",
+      "path": "tracks/hybrid/hybrid__iron-longships-rise.mp3",
+      "title": "Iron Longships Rise",
+      "genre": "hybrid",
+      "tag": null,
+      "bytes": 5320629,
+      "sha256": "8ea86cb15164f09d9e6f4496093374192d4e7dd6120c42a9d65e836aaa8585a1",
+      "sourceSeconds": 225.12,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "hybrid",
+            "similarity": 0.649217
+          },
+          {
+            "style": "epic",
+            "similarity": 0.5998
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.548481
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.533179
+          },
+          {
+            "style": "hardtechno",
+            "similarity": 0.525663
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "hybrid",
+            "similarity": 0.654397
+          },
+          {
+            "style": "epic",
+            "similarity": 0.619388
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.536748
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.536593
+          },
+          {
+            "style": "hardtechno",
+            "similarity": 0.499784
+          }
+        ],
+        "windowTopStyles": ["hybrid", "hybrid", "hybrid"]
+      }
+    },
+    {
+      "source": "23b-Iron Longships Rise.mp3",
+      "path": "tracks/hybrid/hybrid__iron-longships-rise-ii.mp3",
+      "title": "Iron Longships Rise II",
+      "genre": "hybrid",
+      "tag": null,
+      "bytes": 3527685,
+      "sha256": "74940e57d4785fb7a4e857d2ccdeb75724b171d5666819bdb4f24e96136444c3",
+      "sourceSeconds": 148.44,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "hybrid",
+            "similarity": 0.649217
+          },
+          {
+            "style": "epic",
+            "similarity": 0.5998
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.548481
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.533179
+          },
+          {
+            "style": "hardtechno",
+            "similarity": 0.525663
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "hybrid",
+            "similarity": 0.644037
+          },
+          {
+            "style": "epic",
+            "similarity": 0.580213
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.560213
+          },
+          {
+            "style": "hardtechno",
+            "similarity": 0.551542
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.529764
+          }
+        ],
+        "windowTopStyles": ["hybrid", "hybrid", "hybrid"]
+      }
+    },
+    {
+      "source": "24-Iron Siege March.mp3",
+      "path": "tracks/hybrid/hybrid__iron-siege-march.mp3",
+      "title": "Iron Siege March",
+      "genre": "hybrid",
+      "tag": null,
+      "bytes": 4683309,
+      "sha256": "099606d6bb6ec857aa58ac9719ecbfcabe14a64c311ced1425bc13b135cd0c50",
+      "sourceSeconds": 202.872,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "hybrid",
+            "similarity": 0.638624
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.615882
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.599636
+          },
+          {
+            "style": "epic",
+            "similarity": 0.577748
+          },
+          {
+            "style": "neoclassical",
+            "similarity": 0.515141
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "hybrid",
+            "similarity": 0.674292
+          },
+          {
+            "style": "epic",
+            "similarity": 0.645357
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.616376
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.59288
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.543335
+          }
+        ],
+        "windowTopStyles": ["epic", "hybrid", "hybrid"]
+      }
+    },
+    {
+      "source": "24b-Iron Siege March.mp3",
+      "path": "tracks/hybrid/hybrid__iron-siege-march-ii.mp3",
+      "title": "Iron Siege March II",
+      "genre": "hybrid",
+      "tag": null,
+      "bytes": 7966197,
+      "sha256": "35b9c36ebcea2aba32afc4bfe3bacb5f6cdea12369f0d2718156596881cfbbe7",
+      "sourceSeconds": 331.152,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "hybrid",
+            "similarity": 0.638624
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.615882
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.599636
+          },
+          {
+            "style": "epic",
+            "similarity": 0.577748
+          },
+          {
+            "style": "neoclassical",
+            "similarity": 0.515141
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "cinematic",
+            "similarity": 0.615388
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.606391
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.602957
+          },
+          {
+            "style": "neoclassical",
+            "similarity": 0.54182
+          },
+          {
+            "style": "epic",
+            "similarity": 0.510138
+          }
+        ],
+        "windowTopStyles": ["orchestral", "hybrid", "cinematic"]
+      }
+    },
+    {
+      "source": "25-Northbound Longship.mp3",
+      "path": "tracks/hybrid/hybrid__northbound-longship.mp3",
+      "title": "Northbound Longship",
+      "genre": "hybrid",
+      "tag": null,
+      "bytes": 3373053,
+      "sha256": "32332c68522c082afbb77cabba973c9c083cb9b06bd6c28a803855d371f06614",
+      "sourceSeconds": 142.632,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "hybrid",
+            "similarity": 0.638186
+          },
+          {
+            "style": "epic",
+            "similarity": 0.635764
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.579321
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.55885
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.535439
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "hybrid",
+            "similarity": 0.649394
+          },
+          {
+            "style": "epic",
+            "similarity": 0.625144
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.605608
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.585763
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.513847
+          }
+        ],
+        "windowTopStyles": ["hybrid", "hybrid", "hybrid"]
+      }
+    },
+    {
+      "source": "25b-Northbound Longship.mp3",
+      "path": "tracks/hybrid/hybrid__northbound-longship-ii.mp3",
+      "title": "Northbound Longship II",
+      "genre": "hybrid",
+      "tag": null,
+      "bytes": 5932365,
+      "sha256": "4d9c9593a85a023f68f0b81f08ada737d8e90c77210682af297d02df6b397b9b",
+      "sourceSeconds": 254.76,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "hybrid",
+            "similarity": 0.638186
+          },
+          {
+            "style": "epic",
+            "similarity": 0.635764
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.579321
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.55885
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.535439
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "epic",
+            "similarity": 0.646384
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.626977
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.557032
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.553035
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.531937
+          }
+        ],
+        "windowTopStyles": ["epic", "epic", "hybrid"]
+      }
+    },
+    {
+      "source": "26-Raven Standard.mp3",
+      "path": "tracks/cinematic/cinematic__raven-standard.mp3",
+      "title": "Raven Standard",
+      "genre": "cinematic",
+      "tag": null,
+      "bytes": 4393365,
+      "sha256": "2cd5797a9bfe7320a8f61f646bb26c2b3a991cb035bc2cd418187f966606829f",
+      "sourceSeconds": 188.232,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "cinematic",
+            "similarity": 0.615037
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.613899
+          },
+          {
+            "style": "epic",
+            "similarity": 0.562212
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.556061
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.527439
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "cinematic",
+            "similarity": 0.616
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.61417
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.554738
+          },
+          {
+            "style": "epic",
+            "similarity": 0.547255
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.522162
+          }
+        ],
+        "windowTopStyles": ["hybrid", "orchestral", "cinematic"]
+      }
+    },
+    {
+      "source": "26b-Raven Standard.mp3",
+      "path": "tracks/cinematic/cinematic__raven-standard-ii.mp3",
+      "title": "Raven Standard II",
+      "genre": "cinematic",
+      "tag": null,
+      "bytes": 6354861,
+      "sha256": "afbccd309b910deb3ff1c09257f3fbfc3a079e08c448403b9ac55bac85500bf2",
+      "sourceSeconds": 264.648,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "cinematic",
+            "similarity": 0.615037
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.613899
+          },
+          {
+            "style": "epic",
+            "similarity": 0.562212
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.556061
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.527439
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "cinematic",
+            "similarity": 0.614074
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.613628
+          },
+          {
+            "style": "epic",
+            "similarity": 0.57717
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.557385
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.532716
+          }
+        ],
+        "windowTopStyles": ["cinematic", "hybrid", "hybrid"]
+      }
+    },
+    {
+      "source": "27-Iron Warlord Breaker.mp3",
+      "path": "tracks/hybrid/hybrid__iron-warlord-breaker.mp3",
+      "title": "Iron Warlord Breaker",
+      "genre": "hybrid",
+      "tag": null,
+      "bytes": 10343567,
+      "sha256": "e7ff0ae3044c21620513f2ba2c86d2bf2ac2dea554ba908d5cea473b42e36b8c",
+      "sourceSeconds": 331.654833,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "hybrid",
+            "similarity": 0.657234
+          },
+          {
+            "style": "epic",
+            "similarity": 0.641251
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.590167
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.536683
+          },
+          {
+            "style": "hardtechno",
+            "similarity": 0.484477
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "epic",
+            "similarity": 0.659044
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.650677
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.637715
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.512414
+          },
+          {
+            "style": "hardtechno",
+            "similarity": 0.470386
+          }
+        ],
+        "windowTopStyles": ["epic", "epic", "epicvocal"]
+      }
+    },
+    {
+      "source": "27b-Iron Warlord Breaker.mp3",
+      "path": "tracks/hybrid/hybrid__iron-warlord-breaker-ii.mp3",
+      "title": "Iron Warlord Breaker II",
+      "genre": "hybrid",
+      "tag": null,
+      "bytes": 4183629,
+      "sha256": "ce047a91256ff8798e319aec3c34e136ad36e0b10a5eaae0b86774b59032d598",
+      "sourceSeconds": 178.008,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "hybrid",
+            "similarity": 0.657234
+          },
+          {
+            "style": "epic",
+            "similarity": 0.641251
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.590167
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.536683
+          },
+          {
+            "style": "hardtechno",
+            "similarity": 0.484477
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "hybrid",
+            "similarity": 0.66379
+          },
+          {
+            "style": "epic",
+            "similarity": 0.623458
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.560951
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.542619
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.519821
+          }
+        ],
+        "windowTopStyles": ["hybrid", "hybrid", "hybrid"]
+      }
+    },
+    {
+      "source": "28-Raven Shield March.mp3",
+      "path": "tracks/hybrid/hybrid__raven-shield-march.mp3",
+      "title": "Raven Shield March",
+      "genre": "hybrid",
+      "tag": null,
+      "bytes": 3787821,
+      "sha256": "a1c024f2fefc4caefeeb756ad0c656e413681bc2089899df43ee1a1712a3970f",
+      "sourceSeconds": 163.128,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "hybrid",
+            "similarity": 0.612875
+          },
+          {
+            "style": "epic",
+            "similarity": 0.61235
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.554947
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.54909
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.464835
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "hybrid",
+            "similarity": 0.638838
+          },
+          {
+            "style": "epic",
+            "similarity": 0.63545
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.575338
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.53212
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.532051
+          }
+        ],
+        "windowTopStyles": ["epic", "epic", "hybrid"]
+      }
+    },
+    {
+      "source": "28b-Raven Shield March.mp3",
+      "path": "tracks/hybrid/hybrid__raven-shield-march-ii.mp3",
+      "title": "Raven Shield March II",
+      "genre": "hybrid",
+      "tag": null,
+      "bytes": 3930357,
+      "sha256": "eeb79322b60f1af2071eb314a6404d90b87e25cb5fb3e29589dc6ea9984412f2",
+      "sourceSeconds": 169.032,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "hybrid",
+            "similarity": 0.612875
+          },
+          {
+            "style": "epic",
+            "similarity": 0.61235
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.554947
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.54909
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.464835
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "epic",
+            "similarity": 0.589251
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.586912
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.566061
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.534556
+          },
+          {
+            "style": "hardtechno",
+            "similarity": 0.434989
+          }
+        ],
+        "windowTopStyles": ["hybrid", "orchestral", "epic"]
+      }
+    },
+    {
+      "source": "29-Ravenfield Oath.mp3",
+      "path": "tracks/hybrid/hybrid__ravenfield-oath.mp3",
+      "title": "Ravenfield Oath",
+      "genre": "hybrid",
+      "tag": null,
+      "bytes": 4506045,
+      "sha256": "a127ddadce79f564be502c6b70771ea74e621d06f52a1dfe2ee199f230f758cc",
+      "sourceSeconds": 192.792,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "hybrid",
+            "similarity": 0.60232
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.579044
+          },
+          {
+            "style": "epic",
+            "similarity": 0.573044
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.555414
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.491605
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "cinematic",
+            "similarity": 0.570381
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.561099
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.550296
+          },
+          {
+            "style": "epic",
+            "similarity": 0.49283
+          },
+          {
+            "style": "neoclassical",
+            "similarity": 0.464511
+          }
+        ],
+        "windowTopStyles": ["orchestral", "hybrid", "hybrid"]
+      }
+    },
+    {
+      "source": "29b-Ravenfield Oath.mp3",
+      "path": "tracks/hybrid/hybrid__ravenfield-oath-ii.mp3",
+      "title": "Ravenfield Oath II",
+      "genre": "hybrid",
+      "tag": null,
+      "bytes": 7559181,
+      "sha256": "3e6b7a777cf779d6cba0e17804e93791308124704e2d6f709ad4f461c94607c6",
+      "sourceSeconds": 314.28,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "hybrid",
+            "similarity": 0.60232
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.579044
+          },
+          {
+            "style": "epic",
+            "similarity": 0.573044
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.555414
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.491605
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "epic",
+            "similarity": 0.653257
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.643542
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.587708
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.560532
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.542048
+          }
+        ],
+        "windowTopStyles": ["hybrid", "epic", "epic"]
+      }
+    },
+    {
+      "source": "30-Storm of Valhalla.mp3",
+      "path": "tracks/cinematic/cinematic__storm-of-valhalla.mp3",
+      "title": "Storm of Valhalla",
+      "genre": "cinematic",
+      "tag": null,
+      "bytes": 4125117,
+      "sha256": "099f6ee039bfb646a28d0ca6a80db2f5f81f27fc86de1c5bad2fd3bd1c9daf81",
+      "sourceSeconds": 177.768,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file. Orchestral soundtrack material uses the existing Cinematic shelf.",
+        "pairRankings": [
+          {
+            "style": "orchestral",
+            "similarity": 0.600334
+          },
+          {
+            "style": "epic",
+            "similarity": 0.568857
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.548895
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.543289
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.433685
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "orchestral",
+            "similarity": 0.587346
+          },
+          {
+            "style": "epic",
+            "similarity": 0.549453
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.530514
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.529923
+          },
+          {
+            "style": "neoclassical",
+            "similarity": 0.417028
+          }
+        ],
+        "windowTopStyles": ["orchestral", "orchestral", "epic"]
+      }
+    },
+    {
+      "source": "30b-Storm of Valhalla.mp3",
+      "path": "tracks/cinematic/cinematic__storm-of-valhalla-ii.mp3",
+      "title": "Storm of Valhalla II",
+      "genre": "cinematic",
+      "tag": null,
+      "bytes": 8324037,
+      "sha256": "fd01a49f2071dab1bca94f0fd6b8f5536fe18aeb4d1ce70961b2a5cf1a65dc44",
+      "sourceSeconds": 345.528,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file. Orchestral soundtrack material uses the existing Cinematic shelf.",
+        "pairRankings": [
+          {
+            "style": "orchestral",
+            "similarity": 0.600334
+          },
+          {
+            "style": "epic",
+            "similarity": 0.568857
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.548895
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.543289
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.433685
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "orchestral",
+            "similarity": 0.613323
+          },
+          {
+            "style": "epic",
+            "similarity": 0.588261
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.567868
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.556064
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.458335
+          }
+        ],
+        "windowTopStyles": ["orchestral", "orchestral", "epic"]
+      }
+    },
+    {
+      "source": "31-The Last Command.mp3",
+      "path": "tracks/sportrock/sportrock__the-last-command.mp3",
+      "title": "The Last Command",
+      "genre": "sportrock",
+      "tag": null,
+      "bytes": 7017445,
+      "sha256": "8a5bca09da972906f40e47458cd0014f20cb882b50d785658735ba1d9216b7b2",
+      "sourceSeconds": 306.024,
+      "sungLyricsInMetadata": true,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "sportrock",
+            "similarity": 0.521595
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.450075
+          },
+          {
+            "style": "epic",
+            "similarity": 0.420974
+          },
+          {
+            "style": "darksynth",
+            "similarity": 0.41355
+          },
+          {
+            "style": "chiptune",
+            "similarity": 0.391755
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "sportrock",
+            "similarity": 0.509997
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.421985
+          },
+          {
+            "style": "epic",
+            "similarity": 0.414478
+          },
+          {
+            "style": "darksynth",
+            "similarity": 0.407388
+          },
+          {
+            "style": "chiptune",
+            "similarity": 0.403241
+          }
+        ],
+        "windowTopStyles": ["epic", "sportrock", "sportrock"]
+      }
+    },
+    {
+      "source": "31b-The Last Command.mp3",
+      "path": "tracks/sportrock/sportrock__the-last-command-ii.mp3",
+      "title": "The Last Command II",
+      "genre": "sportrock",
+      "tag": null,
+      "bytes": 7198597,
+      "sha256": "bc2cf3493df86bff812adf05923112b6fa1a7d2bd6ba6aaeb38f5dbe2d29cbf0",
+      "sourceSeconds": 319.992,
+      "sungLyricsInMetadata": true,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "sportrock",
+            "similarity": 0.521595
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.450075
+          },
+          {
+            "style": "epic",
+            "similarity": 0.420974
+          },
+          {
+            "style": "darksynth",
+            "similarity": 0.41355
+          },
+          {
+            "style": "chiptune",
+            "similarity": 0.391755
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "sportrock",
+            "similarity": 0.533193
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.478164
+          },
+          {
+            "style": "epic",
+            "similarity": 0.42747
+          },
+          {
+            "style": "darksynth",
+            "similarity": 0.419712
+          },
+          {
+            "style": "hardtechno",
+            "similarity": 0.380921
+          }
+        ],
+        "windowTopStyles": ["epic", "sportrock", "sportrock"]
+      }
+    },
+    {
+      "source": "reel/Bouncing Groove.mp3",
+      "path": "tracks/house/house__bouncing-groove.mp3",
+      "title": "Bouncing Groove",
+      "genre": "house",
+      "tag": "reel",
+      "bytes": 1909684,
+      "sha256": "f366d7f6617a853b660a19779acd4d216aaf5965440b3c02dd5db3cdc49a1ce2",
+      "sourceSeconds": 84.36,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "house",
+            "similarity": 0.467686
+          },
+          {
+            "style": "dreampop",
+            "similarity": 0.45591
+          },
+          {
+            "style": "synthwave",
+            "similarity": 0.455568
+          },
+          {
+            "style": "trance",
+            "similarity": 0.449343
+          },
+          {
+            "style": "indieelectronic",
+            "similarity": 0.447815
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "synthwave",
+            "similarity": 0.460335
+          },
+          {
+            "style": "dreampop",
+            "similarity": 0.450995
+          },
+          {
+            "style": "indieelectronic",
+            "similarity": 0.448653
+          },
+          {
+            "style": "funk",
+            "similarity": 0.428088
+          },
+          {
+            "style": "postrock",
+            "similarity": 0.423899
+          }
+        ],
+        "windowTopStyles": ["funk", "dreampop", "trance"]
+      }
+    },
+    {
+      "source": "reel/Bouncing Groove (1).mp3",
+      "path": "tracks/house/house__bouncing-groove-ii.mp3",
+      "title": "Bouncing Groove II",
+      "genre": "house",
+      "tag": "reel",
+      "bytes": 2455108,
+      "sha256": "aabe9ce1b401a7da771b299b50a5c6e25c1768297ddebe45a3cda4eda644c41e",
+      "sourceSeconds": 101.592,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "house",
+            "similarity": 0.467686
+          },
+          {
+            "style": "dreampop",
+            "similarity": 0.45591
+          },
+          {
+            "style": "synthwave",
+            "similarity": 0.455568
+          },
+          {
+            "style": "trance",
+            "similarity": 0.449343
+          },
+          {
+            "style": "indieelectronic",
+            "similarity": 0.447815
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "house",
+            "similarity": 0.513496
+          },
+          {
+            "style": "trance",
+            "similarity": 0.489889
+          },
+          {
+            "style": "edm",
+            "similarity": 0.471372
+          },
+          {
+            "style": "dreampop",
+            "similarity": 0.460826
+          },
+          {
+            "style": "deephouse",
+            "similarity": 0.452655
+          }
+        ],
+        "windowTopStyles": ["house", "house", "house"]
+      }
+    },
+    {
+      "source": "reel/Breezy Sunlit Groove.mp3",
+      "path": "tracks/deephouse/deephouse__breezy-sunlit-groove.mp3",
+      "title": "Breezy Sunlit Groove",
+      "genre": "deephouse",
+      "tag": "reel",
+      "bytes": 4038825,
+      "sha256": "e20bb2f76eaec203f0b8bd4bfbc124a23142974436570f155300663877365fb2",
+      "sourceSeconds": 169.992,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "deephouse",
+            "similarity": 0.532432
+          },
+          {
+            "style": "dreampop",
+            "similarity": 0.502177
+          },
+          {
+            "style": "house",
+            "similarity": 0.493718
+          },
+          {
+            "style": "organichouse",
+            "similarity": 0.487476
+          },
+          {
+            "style": "indieelectronic",
+            "similarity": 0.48208
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "deephouse",
+            "similarity": 0.546506
+          },
+          {
+            "style": "house",
+            "similarity": 0.50785
+          },
+          {
+            "style": "organichouse",
+            "similarity": 0.50374
+          },
+          {
+            "style": "dreampop",
+            "similarity": 0.495664
+          },
+          {
+            "style": "trance",
+            "similarity": 0.488258
+          }
+        ],
+        "windowTopStyles": ["deephouse", "deephouse", "deephouse"]
+      }
+    },
+    {
+      "source": "reel/Breezy Sunlit Groove (1).mp3",
+      "path": "tracks/deephouse/deephouse__breezy-sunlit-groove-ii.mp3",
+      "title": "Breezy Sunlit Groove II",
+      "genre": "deephouse",
+      "tag": "reel",
+      "bytes": 4034025,
+      "sha256": "5a2d4abeebabc8a495b63a8bd8293e064bc68a31f8565b04f30659dbe730d272",
+      "sourceSeconds": 177.192,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "deephouse",
+            "similarity": 0.532432
+          },
+          {
+            "style": "dreampop",
+            "similarity": 0.502177
+          },
+          {
+            "style": "house",
+            "similarity": 0.493718
+          },
+          {
+            "style": "organichouse",
+            "similarity": 0.487476
+          },
+          {
+            "style": "indieelectronic",
+            "similarity": 0.48208
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "deephouse",
+            "similarity": 0.518359
+          },
+          {
+            "style": "dreampop",
+            "similarity": 0.508689
+          },
+          {
+            "style": "indieelectronic",
+            "similarity": 0.48683
+          },
+          {
+            "style": "worldchill",
+            "similarity": 0.479791
+          },
+          {
+            "style": "house",
+            "similarity": 0.479585
+          }
+        ],
+        "windowTopStyles": ["dreampop", "indieelectronic", "deephouse"]
+      }
+    },
+    {
+      "source": "reel/Calor de Verano.mp3",
+      "path": "tracks/worldchill/worldchill__calor-de-verano.mp3",
+      "title": "Calor De Verano",
+      "genre": "worldchill",
+      "tag": "reel",
+      "bytes": 2564068,
+      "sha256": "3c14ae9a1161cb5aa08968ba970be6336b25adf83527ecf8f2ffd0b03ae7abf3",
+      "sourceSeconds": 102.432,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "worldchill",
+            "similarity": 0.497102
+          },
+          {
+            "style": "house",
+            "similarity": 0.484543
+          },
+          {
+            "style": "organichouse",
+            "similarity": 0.477752
+          },
+          {
+            "style": "electroswing",
+            "similarity": 0.451938
+          },
+          {
+            "style": "dreampop",
+            "similarity": 0.450027
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "house",
+            "similarity": 0.501071
+          },
+          {
+            "style": "worldchill",
+            "similarity": 0.484666
+          },
+          {
+            "style": "organichouse",
+            "similarity": 0.480371
+          },
+          {
+            "style": "electroswing",
+            "similarity": 0.453066
+          },
+          {
+            "style": "dreampop",
+            "similarity": 0.451571
+          }
+        ],
+        "windowTopStyles": ["worldchill", "organichouse", "house"]
+      }
+    },
+    {
+      "source": "reel/Calor de Verano (1).mp3",
+      "path": "tracks/worldchill/worldchill__calor-de-verano-ii.mp3",
+      "title": "Calor De Verano II",
+      "genre": "worldchill",
+      "tag": "reel",
+      "bytes": 1800628,
+      "sha256": "98b1d32d77374f93ddb2b593e6499f0a3648bb5f19cb231443fdc70cf782b6dd",
+      "sourceSeconds": 70.68,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "worldchill",
+            "similarity": 0.497102
+          },
+          {
+            "style": "house",
+            "similarity": 0.484543
+          },
+          {
+            "style": "organichouse",
+            "similarity": 0.477752
+          },
+          {
+            "style": "electroswing",
+            "similarity": 0.451938
+          },
+          {
+            "style": "dreampop",
+            "similarity": 0.450027
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "worldchill",
+            "similarity": 0.509538
+          },
+          {
+            "style": "organichouse",
+            "similarity": 0.475134
+          },
+          {
+            "style": "house",
+            "similarity": 0.468016
+          },
+          {
+            "style": "electroswing",
+            "similarity": 0.45081
+          },
+          {
+            "style": "dreampop",
+            "similarity": 0.448483
+          }
+        ],
+        "windowTopStyles": ["worldchill", "worldchill", "house"]
+      }
+    },
+    {
+      "source": "reel/Eight-Bar Lift.mp3",
+      "path": "tracks/postrock/postrock__eight-bar-lift.mp3",
+      "title": "Eight Bar Lift",
+      "genre": "postrock",
+      "tag": "reel",
+      "bytes": 2991747,
+      "sha256": "8b6dd85b6c508dfb096698b25eb2befcd5c70daf0823bdbd7f7afe6c725fb585",
+      "sourceSeconds": 132.84,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "postrock",
+            "similarity": 0.523161
+          },
+          {
+            "style": "sportrock",
+            "similarity": 0.491694
+          },
+          {
+            "style": "synthwave",
+            "similarity": 0.486675
+          },
+          {
+            "style": "indierock",
+            "similarity": 0.427672
+          },
+          {
+            "style": "indieelectronic",
+            "similarity": 0.399126
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "sportrock",
+            "similarity": 0.518398
+          },
+          {
+            "style": "postrock",
+            "similarity": 0.511093
+          },
+          {
+            "style": "synthwave",
+            "similarity": 0.490461
+          },
+          {
+            "style": "indierock",
+            "similarity": 0.413735
+          },
+          {
+            "style": "indieelectronic",
+            "similarity": 0.387467
+          }
+        ],
+        "windowTopStyles": ["postrock", "sportrock", "sportrock"]
+      }
+    },
+    {
+      "source": "reel/Eight-Bar Lift (1).mp3",
+      "path": "tracks/postrock/postrock__eight-bar-lift-ii.mp3",
+      "title": "Eight Bar Lift II",
+      "genre": "postrock",
+      "tag": "reel",
+      "bytes": 3173667,
+      "sha256": "c2b9cadae31d6920e47881e1717130ab7e884f0dfb9263c907b701506234b1f5",
+      "sourceSeconds": 141.024,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "postrock",
+            "similarity": 0.523161
+          },
+          {
+            "style": "sportrock",
+            "similarity": 0.491694
+          },
+          {
+            "style": "synthwave",
+            "similarity": 0.486675
+          },
+          {
+            "style": "indierock",
+            "similarity": 0.427672
+          },
+          {
+            "style": "indieelectronic",
+            "similarity": 0.399126
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "postrock",
+            "similarity": 0.535229
+          },
+          {
+            "style": "synthwave",
+            "similarity": 0.48289
+          },
+          {
+            "style": "sportrock",
+            "similarity": 0.46499
+          },
+          {
+            "style": "indierock",
+            "similarity": 0.441608
+          },
+          {
+            "style": "indieelectronic",
+            "similarity": 0.410785
+          }
+        ],
+        "windowTopStyles": ["postrock", "postrock", "postrock"]
+      }
+    },
+    {
+      "source": "reel/Felt Piano Return.mp3",
+      "path": "tracks/neoclassical/neoclassical__felt-piano-return.mp3",
+      "title": "Felt Piano Return",
+      "genre": "neoclassical",
+      "tag": "reel",
+      "bytes": 3092262,
+      "sha256": "9473971b0b773ed48eee772c49d6b059f8c29ab3024fb89a77e794a9ffa62647",
+      "sourceSeconds": 132.624,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "neoclassical",
+            "similarity": 0.44735
+          },
+          {
+            "style": "worldchill",
+            "similarity": 0.402091
+          },
+          {
+            "style": "chillout",
+            "similarity": 0.391607
+          },
+          {
+            "style": "jazz",
+            "similarity": 0.391494
+          },
+          {
+            "style": "ambient",
+            "similarity": 0.386503
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "neoclassical",
+            "similarity": 0.447389
+          },
+          {
+            "style": "worldchill",
+            "similarity": 0.412929
+          },
+          {
+            "style": "ambient",
+            "similarity": 0.39984
+          },
+          {
+            "style": "chillout",
+            "similarity": 0.398784
+          },
+          {
+            "style": "indieelectronic",
+            "similarity": 0.391389
+          }
+        ],
+        "windowTopStyles": ["chillout", "neoclassical", "neoclassical"]
+      }
+    },
+    {
+      "source": "reel/Felt Piano Return (1).mp3",
+      "path": "tracks/neoclassical/neoclassical__felt-piano-return-ii.mp3",
+      "title": "Felt Piano Return II",
+      "genre": "neoclassical",
+      "tag": "reel",
+      "bytes": 2784966,
+      "sha256": "c7ea2aa1333a914a588fb104590926095c7ced4881d0c93a2d442fb81469e43e",
+      "sourceSeconds": 123.624,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "neoclassical",
+            "similarity": 0.44735
+          },
+          {
+            "style": "worldchill",
+            "similarity": 0.402091
+          },
+          {
+            "style": "chillout",
+            "similarity": 0.391607
+          },
+          {
+            "style": "jazz",
+            "similarity": 0.391494
+          },
+          {
+            "style": "ambient",
+            "similarity": 0.386503
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "neoclassical",
+            "similarity": 0.447311
+          },
+          {
+            "style": "jazz",
+            "similarity": 0.410854
+          },
+          {
+            "style": "worldchill",
+            "similarity": 0.391253
+          },
+          {
+            "style": "chillout",
+            "similarity": 0.384429
+          },
+          {
+            "style": "ambient",
+            "similarity": 0.373165
+          }
+        ],
+        "windowTopStyles": ["jazz", "neoclassical", "neoclassical"]
+      }
+    },
+    {
+      "source": "reel/Foxglove Fizz.mp3",
+      "path": "tracks/jazz/jazz__foxglove-fizz.mp3",
+      "title": "Foxglove Fizz",
+      "genre": "jazz",
+      "tag": "reel",
+      "bytes": 2680610,
+      "sha256": "a2d41295ef80546d3bd5b9a51c7b4b6df9afe2ce11fb0a6086945a1304f6d8f5",
+      "sourceSeconds": 111.024,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "jazz",
+            "similarity": 0.505681
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.502141
+          },
+          {
+            "style": "celtic",
+            "similarity": 0.476796
+          },
+          {
+            "style": "worldchill",
+            "similarity": 0.4528
+          },
+          {
+            "style": "medieval",
+            "similarity": 0.450933
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "celtic",
+            "similarity": 0.485543
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.485478
+          },
+          {
+            "style": "jazz",
+            "similarity": 0.484186
+          },
+          {
+            "style": "medieval",
+            "similarity": 0.442546
+          },
+          {
+            "style": "worldchill",
+            "similarity": 0.43082
+          }
+        ],
+        "windowTopStyles": ["orchestral", "celtic", "celtic"]
+      }
+    },
+    {
+      "source": "reel/Foxglove Fizz (1).mp3",
+      "path": "tracks/jazz/jazz__foxglove-fizz-ii.mp3",
+      "title": "Foxglove Fizz II",
+      "genre": "jazz",
+      "tag": "reel",
+      "bytes": 2826404,
+      "sha256": "f2cd9a75df420ac8b868ca7861219435585fb04cce1efd8a5298e3059cf538bd",
+      "sourceSeconds": 119.64,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "jazz",
+            "similarity": 0.505681
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.502141
+          },
+          {
+            "style": "celtic",
+            "similarity": 0.476796
+          },
+          {
+            "style": "worldchill",
+            "similarity": 0.4528
+          },
+          {
+            "style": "medieval",
+            "similarity": 0.450933
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "jazz",
+            "similarity": 0.527176
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.518804
+          },
+          {
+            "style": "worldchill",
+            "similarity": 0.474781
+          },
+          {
+            "style": "celtic",
+            "similarity": 0.468049
+          },
+          {
+            "style": "neoclassical",
+            "similarity": 0.462893
+          }
+        ],
+        "windowTopStyles": ["jazz", "orchestral", "orchestral"]
+      }
+    },
+    {
+      "source": "reel/Glasswater Pulse.mp3",
+      "path": "tracks/synthwave/synthwave__glasswater-pulse.mp3",
+      "title": "Glasswater Pulse",
+      "genre": "synthwave",
+      "tag": "reel",
+      "bytes": 3481301,
+      "sha256": "38801887d0a3333d1ef86bb1eb3e1f20e8395dc3c989a72e7348d13dcca63eeb",
+      "sourceSeconds": 150.0,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "synthwave",
+            "similarity": 0.537323
+          },
+          {
+            "style": "indieelectronic",
+            "similarity": 0.520782
+          },
+          {
+            "style": "dreampop",
+            "similarity": 0.487212
+          },
+          {
+            "style": "futurebass",
+            "similarity": 0.456768
+          },
+          {
+            "style": "edm",
+            "similarity": 0.447162
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "synthwave",
+            "similarity": 0.541388
+          },
+          {
+            "style": "indieelectronic",
+            "similarity": 0.508208
+          },
+          {
+            "style": "dreampop",
+            "similarity": 0.474756
+          },
+          {
+            "style": "postrock",
+            "similarity": 0.445247
+          },
+          {
+            "style": "melodictechno",
+            "similarity": 0.44086
+          }
+        ],
+        "windowTopStyles": ["synthwave", "synthwave", "dreampop"]
+      }
+    },
+    {
+      "source": "reel/Glasswater Pulse (1).mp3",
+      "path": "tracks/synthwave/synthwave__glasswater-pulse-ii.mp3",
+      "title": "Glasswater Pulse II",
+      "genre": "synthwave",
+      "tag": "reel",
+      "bytes": 4651205,
+      "sha256": "5854af10d111b31f10c8c657a932f889b63e330ab67cf80264c680c88c6ca06f",
+      "sourceSeconds": 202.992,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "synthwave",
+            "similarity": 0.537323
+          },
+          {
+            "style": "indieelectronic",
+            "similarity": 0.520782
+          },
+          {
+            "style": "dreampop",
+            "similarity": 0.487212
+          },
+          {
+            "style": "futurebass",
+            "similarity": 0.456768
+          },
+          {
+            "style": "edm",
+            "similarity": 0.447162
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "indieelectronic",
+            "similarity": 0.533357
+          },
+          {
+            "style": "synthwave",
+            "similarity": 0.533259
+          },
+          {
+            "style": "dreampop",
+            "similarity": 0.499669
+          },
+          {
+            "style": "futurebass",
+            "similarity": 0.473925
+          },
+          {
+            "style": "edm",
+            "similarity": 0.468691
+          }
+        ],
+        "windowTopStyles": ["indieelectronic", "synthwave", "futurebass"]
+      }
+    },
+    {
+      "source": "reel/Intimate Pulse.mp3",
+      "path": "tracks/deephouse/deephouse__intimate-pulse.mp3",
+      "title": "Intimate Pulse",
+      "genre": "deephouse",
+      "tag": "reel",
+      "bytes": 4907427,
+      "sha256": "fd730ffe64428ef698464db36f6d945c42b043236922270f5d73f085bb172065",
+      "sourceSeconds": 212.832,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "deephouse",
+            "similarity": 0.518309
+          },
+          {
+            "style": "chillout",
+            "similarity": 0.513366
+          },
+          {
+            "style": "dreampop",
+            "similarity": 0.506283
+          },
+          {
+            "style": "futurebass",
+            "similarity": 0.496308
+          },
+          {
+            "style": "electropulse",
+            "similarity": 0.488792
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "deephouse",
+            "similarity": 0.526307
+          },
+          {
+            "style": "chillout",
+            "similarity": 0.4986
+          },
+          {
+            "style": "dreampop",
+            "similarity": 0.498287
+          },
+          {
+            "style": "futurebass",
+            "similarity": 0.487964
+          },
+          {
+            "style": "electropulse",
+            "similarity": 0.487939
+          }
+        ],
+        "windowTopStyles": ["chillout", "deephouse", "deephouse"]
+      }
+    },
+    {
+      "source": "reel/Intimate Pulse (1).mp3",
+      "path": "tracks/deephouse/deephouse__intimate-pulse-ii.mp3",
+      "title": "Intimate Pulse II",
+      "genre": "deephouse",
+      "tag": "reel",
+      "bytes": 5078019,
+      "sha256": "4fd19546bdbf46d2fa27f7049b3a1854793e41f131c08930e1f2daa4a43ccefa",
+      "sourceSeconds": 208.8,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "deephouse",
+            "similarity": 0.518309
+          },
+          {
+            "style": "chillout",
+            "similarity": 0.513366
+          },
+          {
+            "style": "dreampop",
+            "similarity": 0.506283
+          },
+          {
+            "style": "futurebass",
+            "similarity": 0.496308
+          },
+          {
+            "style": "electropulse",
+            "similarity": 0.488792
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "chillout",
+            "similarity": 0.528133
+          },
+          {
+            "style": "dreampop",
+            "similarity": 0.514278
+          },
+          {
+            "style": "deephouse",
+            "similarity": 0.510311
+          },
+          {
+            "style": "futurebass",
+            "similarity": 0.504651
+          },
+          {
+            "style": "worldchill",
+            "similarity": 0.501801
+          }
+        ],
+        "windowTopStyles": ["worldchill", "deephouse", "deephouse"]
+      }
+    },
+    {
+      "source": "reel/Iron Cattle.mp3",
+      "path": "tracks/edm/edm__iron-cattle.mp3",
+      "title": "Iron Cattle",
+      "genre": "edm",
+      "tag": "reel",
+      "bytes": 3091872,
+      "sha256": "85db620e85d6e2c00ae3f88205448c6efca24c6566834acca1935489f77b863a",
+      "sourceSeconds": 132.024,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "edm",
+            "similarity": 0.574773
+          },
+          {
+            "style": "indieelectronic",
+            "similarity": 0.513747
+          },
+          {
+            "style": "dreampop",
+            "similarity": 0.496319
+          },
+          {
+            "style": "synthwave",
+            "similarity": 0.488094
+          },
+          {
+            "style": "house",
+            "similarity": 0.474388
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "edm",
+            "similarity": 0.578232
+          },
+          {
+            "style": "dreampop",
+            "similarity": 0.510267
+          },
+          {
+            "style": "indieelectronic",
+            "similarity": 0.506667
+          },
+          {
+            "style": "synthwave",
+            "similarity": 0.493397
+          },
+          {
+            "style": "house",
+            "similarity": 0.488991
+          }
+        ],
+        "windowTopStyles": ["synthwave", "edm", "edm"]
+      }
+    },
+    {
+      "source": "reel/Iron Cattle (1).mp3",
+      "path": "tracks/edm/edm__iron-cattle-ii.mp3",
+      "title": "Iron Cattle II",
+      "genre": "edm",
+      "tag": "reel",
+      "bytes": 3243048,
+      "sha256": "9fabd9efcef8d71e2e61710af4b0779cb0d3b120deb01bb3fbfda2e89d91763c",
+      "sourceSeconds": 130.032,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "edm",
+            "similarity": 0.574773
+          },
+          {
+            "style": "indieelectronic",
+            "similarity": 0.513747
+          },
+          {
+            "style": "dreampop",
+            "similarity": 0.496319
+          },
+          {
+            "style": "synthwave",
+            "similarity": 0.488094
+          },
+          {
+            "style": "house",
+            "similarity": 0.474388
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "edm",
+            "similarity": 0.571314
+          },
+          {
+            "style": "indieelectronic",
+            "similarity": 0.520828
+          },
+          {
+            "style": "synthwave",
+            "similarity": 0.482792
+          },
+          {
+            "style": "dreampop",
+            "similarity": 0.48237
+          },
+          {
+            "style": "electroswing",
+            "similarity": 0.475445
+          }
+        ],
+        "windowTopStyles": ["synthwave", "edm", "edm"]
+      }
+    },
+    {
+      "source": "reel/Late Train Window.mp3",
+      "path": "tracks/lofi/lofi__late-train-window.mp3",
+      "title": "Late Train Window",
+      "genre": "lofi",
+      "tag": "reel",
+      "bytes": 3968262,
+      "sha256": "3ebac8b2089e6da59e63cb3479ef6fc8369f002b877aa732c9bd4c0e7e7a7716",
+      "sourceSeconds": 178.824,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "lofi",
+            "similarity": 0.579485
+          },
+          {
+            "style": "chillout",
+            "similarity": 0.549096
+          },
+          {
+            "style": "dreampop",
+            "similarity": 0.451473
+          },
+          {
+            "style": "triphop",
+            "similarity": 0.434154
+          },
+          {
+            "style": "worldchill",
+            "similarity": 0.433157
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "lofi",
+            "similarity": 0.5898
+          },
+          {
+            "style": "chillout",
+            "similarity": 0.548285
+          },
+          {
+            "style": "dreampop",
+            "similarity": 0.450272
+          },
+          {
+            "style": "triphop",
+            "similarity": 0.440926
+          },
+          {
+            "style": "worldchill",
+            "similarity": 0.428829
+          }
+        ],
+        "windowTopStyles": ["lofi", "lofi", "lofi"]
+      }
+    },
+    {
+      "source": "reel/Late Train Window (1).mp3",
+      "path": "tracks/lofi/lofi__late-train-window-ii.mp3",
+      "title": "Late Train Window II",
+      "genre": "lofi",
+      "tag": "reel",
+      "bytes": 2741814,
+      "sha256": "2466436312c3155b520aa4b7d65dc30bd08131e0ac01e413c88f7f23d7a7e499",
+      "sourceSeconds": 119.904,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "lofi",
+            "similarity": 0.579485
+          },
+          {
+            "style": "chillout",
+            "similarity": 0.549096
+          },
+          {
+            "style": "dreampop",
+            "similarity": 0.451473
+          },
+          {
+            "style": "triphop",
+            "similarity": 0.434154
+          },
+          {
+            "style": "worldchill",
+            "similarity": 0.433157
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "lofi",
+            "similarity": 0.569171
+          },
+          {
+            "style": "chillout",
+            "similarity": 0.549906
+          },
+          {
+            "style": "dreampop",
+            "similarity": 0.452674
+          },
+          {
+            "style": "worldchill",
+            "similarity": 0.437486
+          },
+          {
+            "style": "soul",
+            "similarity": 0.434343
+          }
+        ],
+        "windowTopStyles": ["lofi", "lofi", "lofi"]
+      }
+    },
+    {
+      "source": "reel/Mesa de Sol.mp3",
+      "path": "tracks/worldchill/worldchill__mesa-de-sol.mp3",
+      "title": "Mesa De Sol",
+      "genre": "worldchill",
+      "tag": "reel",
+      "bytes": 5352288,
+      "sha256": "af4b244af6a3c0712daa9cf51ed2d19155c46740f89c44e8b5b96d441f4d59c8",
+      "sourceSeconds": 206.424,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "worldchill",
+            "similarity": 0.488866
+          },
+          {
+            "style": "jazz",
+            "similarity": 0.485419
+          },
+          {
+            "style": "soul",
+            "similarity": 0.450753
+          },
+          {
+            "style": "postrock",
+            "similarity": 0.439565
+          },
+          {
+            "style": "latin",
+            "similarity": 0.419953
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "jazz",
+            "similarity": 0.500132
+          },
+          {
+            "style": "worldchill",
+            "similarity": 0.464224
+          },
+          {
+            "style": "lofi",
+            "similarity": 0.430882
+          },
+          {
+            "style": "soul",
+            "similarity": 0.422797
+          },
+          {
+            "style": "postrock",
+            "similarity": 0.413053
+          }
+        ],
+        "windowTopStyles": ["jazz", "jazz", "jazz"]
+      }
+    },
+    {
+      "source": "reel/Mesa de Sol (1).mp3",
+      "path": "tracks/worldchill/worldchill__mesa-de-sol-ii.mp3",
+      "title": "Mesa De Sol II",
+      "genre": "worldchill",
+      "tag": "reel",
+      "bytes": 4272384,
+      "sha256": "c12331f607c982e9e7bcdb2405418ec402eaf65361a72df495a8edb3d8d56bd5",
+      "sourceSeconds": 177.624,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "worldchill",
+            "similarity": 0.488866
+          },
+          {
+            "style": "jazz",
+            "similarity": 0.485419
+          },
+          {
+            "style": "soul",
+            "similarity": 0.450753
+          },
+          {
+            "style": "postrock",
+            "similarity": 0.439565
+          },
+          {
+            "style": "latin",
+            "similarity": 0.419953
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "worldchill",
+            "similarity": 0.513508
+          },
+          {
+            "style": "soul",
+            "similarity": 0.478709
+          },
+          {
+            "style": "jazz",
+            "similarity": 0.470705
+          },
+          {
+            "style": "latin",
+            "similarity": 0.466117
+          },
+          {
+            "style": "postrock",
+            "similarity": 0.466077
+          }
+        ],
+        "windowTopStyles": ["worldchill", "worldchill", "postrock"]
+      }
+    },
+    {
+      "source": "reel/Midnight Horizon Run.mp3",
+      "path": "tracks/synthwave/synthwave__midnight-horizon-run.mp3",
+      "title": "Midnight Horizon Run",
+      "genre": "synthwave",
+      "tag": "reel",
+      "bytes": 4386441,
+      "sha256": "bc961d2f153044909aaadfbe3651b728bd8749b71c566093ea2393898f939b62",
+      "sourceSeconds": 188.424,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "synthwave",
+            "similarity": 0.587883
+          },
+          {
+            "style": "melodictechno",
+            "similarity": 0.455745
+          },
+          {
+            "style": "trance",
+            "similarity": 0.451289
+          },
+          {
+            "style": "postrock",
+            "similarity": 0.42059
+          },
+          {
+            "style": "edm",
+            "similarity": 0.405599
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "synthwave",
+            "similarity": 0.585905
+          },
+          {
+            "style": "melodictechno",
+            "similarity": 0.440709
+          },
+          {
+            "style": "trance",
+            "similarity": 0.429437
+          },
+          {
+            "style": "postrock",
+            "similarity": 0.426703
+          },
+          {
+            "style": "indieelectronic",
+            "similarity": 0.40239
+          }
+        ],
+        "windowTopStyles": ["synthwave", "synthwave", "synthwave"]
+      }
+    },
+    {
+      "source": "reel/Midnight Horizon Run (1).mp3",
+      "path": "tracks/synthwave/synthwave__midnight-horizon-run-ii.mp3",
+      "title": "Midnight Horizon Run II",
+      "genre": "synthwave",
+      "tag": "reel",
+      "bytes": 4501353,
+      "sha256": "f6a0d1e3d14e7fd2971d51584fd5fc6ec7cbd43247553173c0be87c53fac743b",
+      "sourceSeconds": 192.24,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "synthwave",
+            "similarity": 0.587883
+          },
+          {
+            "style": "melodictechno",
+            "similarity": 0.455745
+          },
+          {
+            "style": "trance",
+            "similarity": 0.451289
+          },
+          {
+            "style": "postrock",
+            "similarity": 0.42059
+          },
+          {
+            "style": "edm",
+            "similarity": 0.405599
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "synthwave",
+            "similarity": 0.589861
+          },
+          {
+            "style": "trance",
+            "similarity": 0.473141
+          },
+          {
+            "style": "melodictechno",
+            "similarity": 0.470781
+          },
+          {
+            "style": "edm",
+            "similarity": 0.419828
+          },
+          {
+            "style": "postrock",
+            "similarity": 0.414478
+          }
+        ],
+        "windowTopStyles": ["synthwave", "synthwave", "synthwave"]
+      }
+    },
+    {
+      "source": "reel/Open Circuit.mp3",
+      "path": "tracks/melodictechno/melodictechno__open-circuit.mp3",
+      "title": "Open Circuit",
+      "genre": "melodictechno",
+      "tag": "reel",
+      "bytes": 3941857,
+      "sha256": "1c835944e0c0088e6ebf6db3a44876ea284a474833c0b92f88fefc73509197ff",
+      "sourceSeconds": 158.304,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "melodictechno",
+            "similarity": 0.528684
+          },
+          {
+            "style": "trance",
+            "similarity": 0.509227
+          },
+          {
+            "style": "futurebass",
+            "similarity": 0.505132
+          },
+          {
+            "style": "deephouse",
+            "similarity": 0.49057
+          },
+          {
+            "style": "electropulse",
+            "similarity": 0.48467
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "melodictechno",
+            "similarity": 0.57273
+          },
+          {
+            "style": "trance",
+            "similarity": 0.555813
+          },
+          {
+            "style": "futurebass",
+            "similarity": 0.523267
+          },
+          {
+            "style": "house",
+            "similarity": 0.505815
+          },
+          {
+            "style": "deephouse",
+            "similarity": 0.500519
+          }
+        ],
+        "windowTopStyles": ["melodictechno", "melodictechno", "melodictechno"]
+      }
+    },
+    {
+      "source": "reel/Open Circuit (1).mp3",
+      "path": "tracks/melodictechno/melodictechno__open-circuit-ii.mp3",
+      "title": "Open Circuit II",
+      "genre": "melodictechno",
+      "tag": "reel",
+      "bytes": 3803929,
+      "sha256": "0eee42333f0ede5e5166ff52fba9997c7de2ca47781c9927c1565e13fefac4c2",
+      "sourceSeconds": 157.92,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "melodictechno",
+            "similarity": 0.528684
+          },
+          {
+            "style": "trance",
+            "similarity": 0.509227
+          },
+          {
+            "style": "futurebass",
+            "similarity": 0.505132
+          },
+          {
+            "style": "deephouse",
+            "similarity": 0.49057
+          },
+          {
+            "style": "electropulse",
+            "similarity": 0.48467
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "dreampop",
+            "similarity": 0.487222
+          },
+          {
+            "style": "futurebass",
+            "similarity": 0.486998
+          },
+          {
+            "style": "melodictechno",
+            "similarity": 0.484638
+          },
+          {
+            "style": "deephouse",
+            "similarity": 0.48062
+          },
+          {
+            "style": "electropulse",
+            "similarity": 0.4721
+          }
+        ],
+        "windowTopStyles": ["dreampop", "deephouse", "dreampop"]
+      }
+    },
+    {
+      "source": "reel/Palm-Muted Tide.mp3",
+      "path": "tracks/deephouse/deephouse__palm-muted-tide.mp3",
+      "title": "Palm Muted Tide",
+      "genre": "deephouse",
+      "tag": "reel",
+      "bytes": 2444452,
+      "sha256": "9ab429ca72a00de975b9ea79ceddd957b17ae0d0272c7f53bc09e442ef125cc1",
+      "sourceSeconds": 93.6,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "deephouse",
+            "similarity": 0.534149
+          },
+          {
+            "style": "worldchill",
+            "similarity": 0.527674
+          },
+          {
+            "style": "dreampop",
+            "similarity": 0.500346
+          },
+          {
+            "style": "organichouse",
+            "similarity": 0.497225
+          },
+          {
+            "style": "house",
+            "similarity": 0.490551
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "deephouse",
+            "similarity": 0.557313
+          },
+          {
+            "style": "worldchill",
+            "similarity": 0.540936
+          },
+          {
+            "style": "dreampop",
+            "similarity": 0.521414
+          },
+          {
+            "style": "organichouse",
+            "similarity": 0.513031
+          },
+          {
+            "style": "chillout",
+            "similarity": 0.507639
+          }
+        ],
+        "windowTopStyles": ["worldchill", "worldchill", "deephouse"]
+      }
+    },
+    {
+      "source": "reel/Palm-Muted Tide (1).mp3",
+      "path": "tracks/deephouse/deephouse__palm-muted-tide-ii.mp3",
+      "title": "Palm Muted Tide II",
+      "genre": "deephouse",
+      "tag": "reel",
+      "bytes": 3283972,
+      "sha256": "8bffc1dbf05dc7564bcfab272eb6522303756326ff2c6ba6a8f7685d8cfe8dcd",
+      "sourceSeconds": 136.824,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "deephouse",
+            "similarity": 0.534149
+          },
+          {
+            "style": "worldchill",
+            "similarity": 0.527674
+          },
+          {
+            "style": "dreampop",
+            "similarity": 0.500346
+          },
+          {
+            "style": "organichouse",
+            "similarity": 0.497225
+          },
+          {
+            "style": "house",
+            "similarity": 0.490551
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "worldchill",
+            "similarity": 0.514412
+          },
+          {
+            "style": "deephouse",
+            "similarity": 0.510984
+          },
+          {
+            "style": "house",
+            "similarity": 0.49002
+          },
+          {
+            "style": "organichouse",
+            "similarity": 0.481419
+          },
+          {
+            "style": "dreampop",
+            "similarity": 0.479278
+          }
+        ],
+        "windowTopStyles": ["worldchill", "worldchill", "deephouse"]
+      }
+    },
+    {
+      "source": "reel/Quiet Stone Circle.mp3",
+      "path": "tracks/worldchill/worldchill__quiet-stone-circle.mp3",
+      "title": "Quiet Stone Circle",
+      "genre": "worldchill",
+      "tag": "reel",
+      "bytes": 4505935,
+      "sha256": "f9942d2a27a6796de90c5a5401ce7490d7278b292baea9ef6ad107de70cb686f",
+      "sourceSeconds": 193.32,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "worldchill",
+            "similarity": 0.4921
+          },
+          {
+            "style": "medieval",
+            "similarity": 0.447243
+          },
+          {
+            "style": "postrock",
+            "similarity": 0.436838
+          },
+          {
+            "style": "chillout",
+            "similarity": 0.430411
+          },
+          {
+            "style": "neoclassical",
+            "similarity": 0.406506
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "worldchill",
+            "similarity": 0.472335
+          },
+          {
+            "style": "ambient",
+            "similarity": 0.458365
+          },
+          {
+            "style": "chillout",
+            "similarity": 0.439124
+          },
+          {
+            "style": "postrock",
+            "similarity": 0.403769
+          },
+          {
+            "style": "indieelectronic",
+            "similarity": 0.402328
+          }
+        ],
+        "windowTopStyles": ["ambient", "ambient", "worldchill"]
+      }
+    },
+    {
+      "source": "reel/Quiet Stone Circle (1).mp3",
+      "path": "tracks/worldchill/worldchill__quiet-stone-circle-ii.mp3",
+      "title": "Quiet Stone Circle II",
+      "genre": "worldchill",
+      "tag": "reel",
+      "bytes": 4457623,
+      "sha256": "50afb0641606be821e806658caf8612d7e9572579f09309996d967c7429bd9ed",
+      "sourceSeconds": 193.56,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "worldchill",
+            "similarity": 0.4921
+          },
+          {
+            "style": "medieval",
+            "similarity": 0.447243
+          },
+          {
+            "style": "postrock",
+            "similarity": 0.436838
+          },
+          {
+            "style": "chillout",
+            "similarity": 0.430411
+          },
+          {
+            "style": "neoclassical",
+            "similarity": 0.406506
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "worldchill",
+            "similarity": 0.511865
+          },
+          {
+            "style": "medieval",
+            "similarity": 0.497359
+          },
+          {
+            "style": "postrock",
+            "similarity": 0.469907
+          },
+          {
+            "style": "neoclassical",
+            "similarity": 0.452329
+          },
+          {
+            "style": "chillout",
+            "similarity": 0.421698
+          }
+        ],
+        "windowTopStyles": ["worldchill", "medieval", "postrock"]
+      }
+    },
+    {
+      "source": "reel/Rising Legato.mp3",
+      "path": "tracks/epic/epic__rising-legato.mp3",
+      "title": "Rising Legato",
+      "genre": "epic",
+      "tag": "reel",
+      "bytes": 3073346,
+      "sha256": "3b61f2cf866b0f8b4b88948c220b3e9a7c17d48e176f391d7488d8102b555e2c",
+      "sourceSeconds": 132.072,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "epic",
+            "similarity": 0.599659
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.585937
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.578278
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.576578
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.506035
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "epic",
+            "similarity": 0.603285
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.586514
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.570309
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.552438
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.529656
+          }
+        ],
+        "windowTopStyles": ["epic", "epic", "epic"]
+      }
+    },
+    {
+      "source": "reel/Rising Legato (1).mp3",
+      "path": "tracks/epic/epic__rising-legato-ii.mp3",
+      "title": "Rising Legato II",
+      "genre": "epic",
+      "tag": "reel",
+      "bytes": 2912642,
+      "sha256": "5d9d66df9b3f57a8fc5133e9102fb7f6b2251c16a425f5b3ebcfc67c3d69e3c8",
+      "sourceSeconds": 124.032,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "epic",
+            "similarity": 0.599659
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.585937
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.578278
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.576578
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.506035
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "orchestral",
+            "similarity": 0.619436
+          },
+          {
+            "style": "epic",
+            "similarity": 0.596032
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.582847
+          },
+          {
+            "style": "hybrid",
+            "similarity": 0.570043
+          },
+          {
+            "style": "epicvocal",
+            "similarity": 0.482413
+          }
+        ],
+        "windowTopStyles": ["cinematic", "orchestral", "epic"]
+      }
+    },
+    {
+      "source": "reel/Riverbank Steps.mp3",
+      "path": "tracks/worldchill/worldchill__riverbank-steps.mp3",
+      "title": "Riverbank Steps",
+      "genre": "worldchill",
+      "tag": "reel",
+      "bytes": 4298644,
+      "sha256": "047155177e8845c7acec26e20864daadb693ea6deb66075ada506bbaf1cdcab7",
+      "sourceSeconds": 173.352,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "worldchill",
+            "similarity": 0.532809
+          },
+          {
+            "style": "acousticfolk",
+            "similarity": 0.516215
+          },
+          {
+            "style": "postrock",
+            "similarity": 0.504524
+          },
+          {
+            "style": "latin",
+            "similarity": 0.486414
+          },
+          {
+            "style": "soul",
+            "similarity": 0.482478
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "acousticfolk",
+            "similarity": 0.542348
+          },
+          {
+            "style": "worldchill",
+            "similarity": 0.540101
+          },
+          {
+            "style": "latin",
+            "similarity": 0.495822
+          },
+          {
+            "style": "soul",
+            "similarity": 0.492478
+          },
+          {
+            "style": "postrock",
+            "similarity": 0.4799
+          }
+        ],
+        "windowTopStyles": ["acousticfolk", "worldchill", "worldchill"]
+      }
+    },
+    {
+      "source": "reel/Riverbank Steps (1).mp3",
+      "path": "tracks/worldchill/worldchill__riverbank-steps-ii.mp3",
+      "title": "Riverbank Steps II",
+      "genre": "worldchill",
+      "tag": "reel",
+      "bytes": 3701572,
+      "sha256": "272749f2bae08da7992d5182a855cc086f36dcadaf52bf39be3a6fd3082066c7",
+      "sourceSeconds": 152.784,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "worldchill",
+            "similarity": 0.532809
+          },
+          {
+            "style": "acousticfolk",
+            "similarity": 0.516215
+          },
+          {
+            "style": "postrock",
+            "similarity": 0.504524
+          },
+          {
+            "style": "latin",
+            "similarity": 0.486414
+          },
+          {
+            "style": "soul",
+            "similarity": 0.482478
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "postrock",
+            "similarity": 0.529148
+          },
+          {
+            "style": "worldchill",
+            "similarity": 0.525518
+          },
+          {
+            "style": "acousticfolk",
+            "similarity": 0.490083
+          },
+          {
+            "style": "latin",
+            "similarity": 0.477007
+          },
+          {
+            "style": "soul",
+            "similarity": 0.472477
+          }
+        ],
+        "windowTopStyles": ["worldchill", "postrock", "postrock"]
+      }
+    },
+    {
+      "source": "reel/The Reveal — Future Bass.mp3",
+      "path": "tracks/edm/edm__the-reveal-future-bass.mp3",
+      "title": "The Reveal Future Bass",
+      "genre": "edm",
+      "tag": "reel",
+      "bytes": 3205388,
+      "sha256": "9d6d1c3f4f119ce4f4aa8ff83c6ce8eaf413c230322db8326239c54f9aae2aa9",
+      "sourceSeconds": 136.824,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file. The source filename explicitly states Future Bass, filed under the existing broader EDM shelf.",
+        "pairRankings": [
+          {
+            "style": "indieelectronic",
+            "similarity": 0.543541
+          },
+          {
+            "style": "dreampop",
+            "similarity": 0.539875
+          },
+          {
+            "style": "edm",
+            "similarity": 0.537075
+          },
+          {
+            "style": "synthwave",
+            "similarity": 0.526604
+          },
+          {
+            "style": "trance",
+            "similarity": 0.488517
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "edm",
+            "similarity": 0.576522
+          },
+          {
+            "style": "synthwave",
+            "similarity": 0.53444
+          },
+          {
+            "style": "indieelectronic",
+            "similarity": 0.534184
+          },
+          {
+            "style": "dreampop",
+            "similarity": 0.518742
+          },
+          {
+            "style": "trance",
+            "similarity": 0.508945
+          }
+        ],
+        "windowTopStyles": ["edm", "edm", "edm"]
+      }
+    },
+    {
+      "source": "reel/The Reveal — Future Bass (1).mp3",
+      "path": "tracks/edm/edm__the-reveal-future-bass-ii.mp3",
+      "title": "The Reveal Future Bass II",
+      "genre": "edm",
+      "tag": "reel",
+      "bytes": 3740204,
+      "sha256": "ec0112b0ae0009230bac2ba38054f07b31440a1bf4eb4f91d82b9cf97c422e13",
+      "sourceSeconds": 152.832,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file. The source filename explicitly states Future Bass, filed under the existing broader EDM shelf.",
+        "pairRankings": [
+          {
+            "style": "indieelectronic",
+            "similarity": 0.543541
+          },
+          {
+            "style": "dreampop",
+            "similarity": 0.539875
+          },
+          {
+            "style": "edm",
+            "similarity": 0.537075
+          },
+          {
+            "style": "synthwave",
+            "similarity": 0.526604
+          },
+          {
+            "style": "trance",
+            "similarity": 0.488517
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "dreampop",
+            "similarity": 0.561007
+          },
+          {
+            "style": "indieelectronic",
+            "similarity": 0.552898
+          },
+          {
+            "style": "synthwave",
+            "similarity": 0.518768
+          },
+          {
+            "style": "edm",
+            "similarity": 0.497629
+          },
+          {
+            "style": "chillout",
+            "similarity": 0.492375
+          }
+        ],
+        "windowTopStyles": ["indieelectronic", "dreampop", "dreampop"]
+      }
+    },
+    {
+      "source": "reel/Tight Bass Hook.mp3",
+      "path": "tracks/trance/trance__tight-bass-hook.mp3",
+      "title": "Tight Bass Hook",
+      "genre": "trance",
+      "tag": "reel",
+      "bytes": 2763652,
+      "sha256": "ccfa92fc851d1c44037281124987706e80a4b8bc065a52292fa1206e22536ace",
+      "sourceSeconds": 115.2,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "trance",
+            "similarity": 0.56574
+          },
+          {
+            "style": "house",
+            "similarity": 0.539661
+          },
+          {
+            "style": "edm",
+            "similarity": 0.531987
+          },
+          {
+            "style": "melodictechno",
+            "similarity": 0.53009
+          },
+          {
+            "style": "synthwave",
+            "similarity": 0.464107
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "trance",
+            "similarity": 0.567509
+          },
+          {
+            "style": "house",
+            "similarity": 0.541746
+          },
+          {
+            "style": "melodictechno",
+            "similarity": 0.531441
+          },
+          {
+            "style": "edm",
+            "similarity": 0.527487
+          },
+          {
+            "style": "synthwave",
+            "similarity": 0.465419
+          }
+        ],
+        "windowTopStyles": ["house", "trance", "trance"]
+      }
+    },
+    {
+      "source": "reel/Tight Bass Hook (1).mp3",
+      "path": "tracks/trance/trance__tight-bass-hook-ii.mp3",
+      "title": "Tight Bass Hook II",
+      "genre": "trance",
+      "tag": "reel",
+      "bytes": 2964868,
+      "sha256": "26f2be82d8c7a808f78bbdcd2e481a23199f93e22c6c00d40e1ca1b4bcb911c4",
+      "sourceSeconds": 126.384,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "trance",
+            "similarity": 0.56574
+          },
+          {
+            "style": "house",
+            "similarity": 0.539661
+          },
+          {
+            "style": "edm",
+            "similarity": 0.531987
+          },
+          {
+            "style": "melodictechno",
+            "similarity": 0.53009
+          },
+          {
+            "style": "synthwave",
+            "similarity": 0.464107
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "trance",
+            "similarity": 0.56397
+          },
+          {
+            "style": "house",
+            "similarity": 0.537575
+          },
+          {
+            "style": "edm",
+            "similarity": 0.536487
+          },
+          {
+            "style": "melodictechno",
+            "similarity": 0.528739
+          },
+          {
+            "style": "synthwave",
+            "similarity": 0.462794
+          }
+        ],
+        "windowTopStyles": ["edm", "trance", "trance"]
+      }
+    },
+    {
+      "source": "reel/Tiny Clues.mp3",
+      "path": "tracks/worldchill/worldchill__tiny-clues.mp3",
+      "title": "Tiny Clues",
+      "genre": "worldchill",
+      "tag": "reel",
+      "bytes": 2041991,
+      "sha256": "4ccc0ff79b5d5cb1b1179b5676efbb376cc8497ce895a734eaf1294ef2146c40",
+      "sourceSeconds": 85.8,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "worldchill",
+            "similarity": 0.458323
+          },
+          {
+            "style": "neoclassical",
+            "similarity": 0.446398
+          },
+          {
+            "style": "medieval",
+            "similarity": 0.445682
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.430033
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.427028
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "neoclassical",
+            "similarity": 0.477172
+          },
+          {
+            "style": "worldchill",
+            "similarity": 0.476604
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.468209
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.449106
+          },
+          {
+            "style": "medieval",
+            "similarity": 0.447277
+          }
+        ],
+        "windowTopStyles": ["neoclassical", "worldchill", "worldchill"]
+      }
+    },
+    {
+      "source": "reel/Tiny Clues (1).mp3",
+      "path": "tracks/worldchill/worldchill__tiny-clues-ii.mp3",
+      "title": "Tiny Clues II",
+      "genre": "worldchill",
+      "tag": "reel",
+      "bytes": 1385759,
+      "sha256": "4d447ba80a079499cdf91f56d96ae6e86999162a443eb597f6d810c1b6ff2bb4",
+      "sourceSeconds": 60.024,
+      "sungLyricsInMetadata": false,
+      "assessment": {
+        "rationale": "Highest mean audio-text similarity across both takes; assessed three consecutive 10-second windows per file.",
+        "pairRankings": [
+          {
+            "style": "worldchill",
+            "similarity": 0.458323
+          },
+          {
+            "style": "neoclassical",
+            "similarity": 0.446398
+          },
+          {
+            "style": "medieval",
+            "similarity": 0.445682
+          },
+          {
+            "style": "cinematic",
+            "similarity": 0.430033
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.427028
+          }
+        ],
+        "trackRankings": [
+          {
+            "style": "medieval",
+            "similarity": 0.444087
+          },
+          {
+            "style": "worldchill",
+            "similarity": 0.440042
+          },
+          {
+            "style": "neoclassical",
+            "similarity": 0.415625
+          },
+          {
+            "style": "orchestral",
+            "similarity": 0.404949
+          },
+          {
+            "style": "indieelectronic",
+            "similarity": 0.392815
+          }
+        ],
+        "windowTopStyles": ["medieval", "medieval", "worldchill"]
+      }
+    }
+  ]
+}
