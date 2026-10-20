@@ -81,7 +81,7 @@ generator (`app/tool/prepare_music.dart`).
 `tags.json` optionally assigns a collection tag (`reel` or `special`) to a
 published filename, including its `.mp3` extension. The generator carries it
 into both catalogues as `tag`. Collection tags do not change the genre or make
-downloadable audio part of the app bundle. The Reel section includes tagged
+downloadable audio part of the app bundle. The Reel ready section includes tagged
 downloads as well as the app's existing offline Reel tracks.
 
 ```jsonc
